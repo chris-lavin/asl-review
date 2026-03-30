@@ -255,9 +255,21 @@ function applyVideoResult(videoUrl) {
     return;
   }
 
+  const autoplayUrl = buildAutoplayLoopUrl(videoUrl);
   els.videoStatus.textContent = 'Embedded sign video';
-  els.signVideo.src = videoUrl;
+  els.signVideo.src = autoplayUrl;
   els.signVideo.classList.remove('hidden');
+}
+
+function buildAutoplayLoopUrl(videoUrl) {
+  const url = new URL(videoUrl);
+  const videoId = url.pathname.split('/').filter(Boolean).pop();
+  url.searchParams.set('autoplay', '1');
+  url.searchParams.set('mute', '1');
+  url.searchParams.set('loop', '1');
+  url.searchParams.set('playlist', videoId);
+  url.searchParams.set('playsinline', '1');
+  return url.toString();
 }
 
 function loadProgress() {
