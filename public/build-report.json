@@ -1,20 +1,16 @@
 {
   "missingMedia": [
     {
-      "term": "HE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/he.htm"
-    },
-    {
-      "term": "LEFT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/left.htm"
-    },
-    {
       "term": "DIG",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dig.htm"
     },
     {
       "term": "LAUGH",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/laugh.htm"
+    },
+    {
+      "term": "LIGHT-WEIGHT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/heavy.htm"
     },
     {
       "term": "DELICIOUS",
@@ -39,6 +35,10 @@
     {
       "term": "FLOOR",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/floor.htm"
+    },
+    {
+      "term": "PUSH",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/push.htm"
     },
     {
       "term": "Holiday",
@@ -88,61 +88,6 @@
       }
     },
     {
-      "term": "FOOL",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-fool-people.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "ARMY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/army.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-dad-military-before.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/army.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "DENTIST",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dentist.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-go-dentist-how-often.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dentist.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "FISHING",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-fishing.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "LAWYER",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lawyer.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-lawyer.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lawyer.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "PAINT > PAINTER",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/paint.htm",
       "media": {
@@ -165,28 +110,6 @@
       }
     },
     {
-      "term": "RESUME",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-resume-how-many-pages.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "SEND",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/send.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-church-send-missionaries.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/send.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "SUPERVISOR",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/supervisor.htm",
       "media": {
@@ -194,28 +117,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/supervisor.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "#BANK",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bank.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bank.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "DORM",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-live-dorm.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm",
         "selectedFrom": "direct"
       }
     },
@@ -238,28 +139,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/j/junior.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "SENIOR",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/senior.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/senior-girls-stuck-up-why.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/senior.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "IMPROVE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/improve.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-sign-improve-how.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/improve.htm",
         "selectedFrom": "direct"
       }
     },
@@ -330,17 +209,6 @@
       }
     },
     {
-      "term": "too-much",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-think-asl-teacher-earn-too-much.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "RIGHT",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/right.htm",
       "media": {
@@ -348,17 +216,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/right.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "LOW",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/low.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/low-your-house-payment-low.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/low.htm",
         "selectedFrom": "direct"
       }
     },
@@ -660,17 +517,6 @@
       }
     },
     {
-      "term": "COCHLEAR-IMPLANT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cochlear.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cochlear.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "SUSPECT",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/suspect.htm",
       "media": {
@@ -726,17 +572,6 @@
       }
     },
     {
-      "term": "STRONG",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/strong.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/most-farmer-strong.mp4",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/strong.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "TEND-TO",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tend.htm",
       "media": {
@@ -744,17 +579,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tend.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "PERCENT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/percent.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/percent.htm",
         "selectedFrom": "direct"
       }
     },
@@ -792,6 +616,17 @@
       }
     },
     {
+      "term": "HIT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hit.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hit.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "SMOKE",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/smoke.htm",
       "media": {
@@ -799,17 +634,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/smoke.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "CHRISTMAS",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/christmas.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/christmas.htm",
         "selectedFrom": "direct"
       }
     },
@@ -990,17 +814,6 @@
       }
     },
     {
-      "term": "PREGNANT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pregnant.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pregnant.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "SKIN",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/skin.htm",
       "media": {
@@ -1017,7 +830,7 @@
     "lessonCount": 45,
     "wordCount": 847,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 87,
+    "fallbackMediaCount": 70,
     "duplicateTermCount": 0
   }
 }

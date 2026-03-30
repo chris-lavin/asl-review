@@ -73,7 +73,7 @@ session = requests.Session()
 session.headers.update(HEADERS)
 html_cache: dict[str, str] = {}
 binary_cache: dict[str, bytes] = {}
-media_cache: dict[str, dict[str, Any] | None] = {}
+media_cache: dict[tuple[str, str], dict[str, Any] | None] = {}
 
 
 def fetch_text(url: str) -> str:
@@ -180,7 +180,7 @@ def extract_lessons() -> list[dict[str, Any]]:
     return all_lessons
 
 
-def extract_image_sequence(term_label_pattern: re.Pattern[str], html: str, base_url: str) -> list[str]:
+def extract_image_sequence(term: str, html: str, base_url: str) -> list[str]:
     sequence = []
     for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.(?:jpg|jpeg|png)[^"\']*)["\'][^>]*>', html, re.I):
         src = urljoin(base_url, match.group(1))
@@ -192,14 +192,39 @@ def extract_image_sequence(term_label_pattern: re.Pattern[str], html: str, base_
         if sequence:
             sequence.append(src)
             continue
-        if term_label_pattern.search(recent_before_context):
+        if has_term_label_near_end(recent_before_context, term):
             sequence.append(src)
     return sequence if len(sequence) >= 2 else []
 
 
+def normalize_label_text(text: str) -> str:
+    text = re.sub(r"[’']", '', text.lower())
+    text = re.sub(r'[^a-z0-9]+', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def has_term_label_near_end(before_context: str, term: str) -> bool:
+    normalized_context = normalize_label_text(before_context[-180:])
+    normalized_term = normalize_label_text(term)
+    return normalized_context.endswith(normalized_term)
+
+
+def label_match_score(before_context: str, term: str) -> int:
+    normalized_context = normalize_label_text(before_context[-220:])
+    normalized_term = normalize_label_text(term)
+    if normalized_context.endswith(normalized_term):
+        return 3
+    term_words = normalized_term.split()
+    context_words = normalized_context.split()
+    if term_words and context_words[-len(term_words):] == term_words:
+        return 2
+    if normalized_term in normalized_context:
+        return 1
+    return 0
+
+
 def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, Any] | None:
     normalized_term = re.sub(r'\s+', ' ', term).strip()
-    term_label_pattern = re.compile(rf'\b{re.escape(normalized_term)}\s*[:.]?\s*$', re.I)
 
     gif_matches = []
     for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.gif[^"\']*)["\'][^>]*>', html, re.I):
@@ -211,7 +236,7 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         gif_matches.append({'src': src, 'beforeContext': before_context})
 
     animated_gif_matches = [item for item in gif_matches if gif_frame_count(item['src']) > 1]
-    labeled_animated_gif = next((item['src'] for item in animated_gif_matches if term_label_pattern.search(item['beforeContext'][-80:])), None)
+    labeled_animated_gif = next((item['src'] for item in animated_gif_matches if has_term_label_near_end(item['beforeContext'], normalized_term)), None)
     preferred_gif = labeled_animated_gif
     if not preferred_gif:
         preferred_gif = next((item['src'] for item in animated_gif_matches if re.search(r'/gifs(?:-animated)?/', item['src'], re.I)), None)
@@ -237,23 +262,22 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         before_context = clean_text(html[before_start:match.start()]).lower()
         video_matches.append({'src': src, 'beforeContext': before_context, 'kind': 'html5'})
 
-    labeled_demo_video = None
+    labeled_demo_candidates = []
     demo_video = None
     fallback_video = None
     contextual_video = None
     for item in video_matches:
         src = item['src']
         before_context = item['beforeContext']
-        recent_before_context = before_context[-80:]
         if item['kind'] == 'youtube':
             vid = src.split('/embed/')[-1].split('?')[0]
             if vid in GENERIC_CONTEXT_VIDEO_IDS:
                 if fallback_video is None:
                     fallback_video = src
                 continue
-        if term_label_pattern.search(recent_before_context):
-            if labeled_demo_video is None:
-                labeled_demo_video = src
+        score = label_match_score(before_context, normalized_term)
+        if score > 0:
+            labeled_demo_candidates.append((score, src))
             continue
         if any(re.search(pattern, before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
             if contextual_video is None:
@@ -262,7 +286,12 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         if demo_video is None:
             demo_video = src
 
-    image_sequence = extract_image_sequence(term_label_pattern, html, base_url)
+    labeled_demo_video = None
+    if labeled_demo_candidates:
+        labeled_demo_candidates.sort(key=lambda item: item[0], reverse=True)
+        labeled_demo_video = labeled_demo_candidates[0][1]
+
+    image_sequence = extract_image_sequence(normalized_term, html, base_url)
 
     if labeled_demo_video:
         return {'type': 'video', 'url': labeled_demo_video, 'quality': 'demo'}
@@ -304,17 +333,18 @@ def get_override(term: str, url: str) -> dict[str, Any] | None:
 
 def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = None) -> dict[str, Any] | None:
     seen = seen or set()
+    cache_key = (term, url)
     if url in seen or depth > 2:
         return None
-    if depth == 0 and url in media_cache:
-        return media_cache[url]
+    if depth == 0 and cache_key in media_cache:
+        return media_cache[cache_key]
     seen.add(url)
 
     override = get_override(term, url)
     if override:
         result = {**override, 'sourceUrl': url, 'selectedFrom': 'override'}
         if depth == 0:
-            media_cache[url] = result
+            media_cache[cache_key] = result
         return result
 
     try:
@@ -325,13 +355,13 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
     if direct and direct.get('quality') == 'demo':
         result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
         if depth == 0:
-            media_cache[url] = result
+            media_cache[cache_key] = result
         return result
 
     if direct and direct.get('quality') == 'gif':
         result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
         if depth == 0:
-            media_cache[url] = result
+            media_cache[cache_key] = result
         return result
 
     for related_url in related_sign_links(html, url):
@@ -347,11 +377,11 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
     if direct:
         result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
         if depth == 0:
-            media_cache[url] = result
+            media_cache[cache_key] = result
         return result
 
     if depth == 0:
-        media_cache[url] = None
+        media_cache[cache_key] = None
     return None
 
 
