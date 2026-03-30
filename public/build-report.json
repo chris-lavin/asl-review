@@ -55,6 +55,17 @@
   ],
   "fallbackMedia": [
     {
+      "term": "YOU",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/y/you.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/JyB2t9Gkzos?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/y/you.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "TOOTHPASTE",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/toothpaste.htm",
       "media": {
@@ -62,6 +73,61 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/toothpaste.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "BECOME",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/become.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/moCca94sHsU?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/become.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "SOMETIMES",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sometimes.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/u6cQNKM4Dbs?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sometimes.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "AUTUMN",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/g_DZl3jIAbY?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "DEODORANT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deodorant.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/WImRv1IKl0U?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deodorant.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "AUTUMN, fall",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/g_DZl3jIAbY?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
         "selectedFrom": "direct"
       }
     },
@@ -627,6 +693,28 @@
       }
     },
     {
+      "term": "SIDE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/locations.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/locations.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "SKI",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/ski.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/kdrMcGYNjPs?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/ski.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "BALL",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/ball.htm",
       "media": {
@@ -887,6 +975,17 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/scissors.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "ARRIVE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/arrive.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/kgsXlwRNM6c?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/arrive.htm",
         "selectedFrom": "direct"
       }
     },
@@ -1204,7 +1303,7 @@
     "lessonCount": 45,
     "wordCount": 847,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 104,
+    "fallbackMediaCount": 113,
     "duplicateTermCount": 0
   }
 }

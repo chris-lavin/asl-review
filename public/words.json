@@ -143,10 +143,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/FC1R9kyegJY?rel=0",
+      "url": "https://www.youtube.com/embed/TcNFBcWtaC0?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/meet.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/reunion.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -216,7 +216,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/z5AF2vmiquw?rel=0",
+      "url": "https://www.youtube.com/embed/TRLHLtgHyzo?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sign.htm",
       "selectedFrom": "direct"
@@ -888,8 +888,8 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/QVPcK3bcFo0?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/something.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/single.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -1106,10 +1106,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/GtzG1RpF_E4?rel=0",
+      "url": "https://www.youtube.com/embed/Eo-vEE1gFxM?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/ask.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/need.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -1198,10 +1198,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/L2KfrlugnC4?rel=0",
+      "url": "https://www.youtube.com/embed/SxrxUgeTt00?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/class.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/family.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -1406,7 +1406,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fVkzBbQ-whs?rel=0",
+      "url": "https://www.youtube.com/embed/ijqIBiWCcNw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/more.htm",
       "selectedFrom": "direct"
@@ -1833,10 +1833,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ZXHHO_DY6_A?rel=0",
+      "url": "https://www.youtube.com/embed/-Yqw89wx7TE?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/happy.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mad.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -1850,9 +1850,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/help.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/n8n93SQj5u8?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/help.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/help.htm",
       "selectedFrom": "direct"
     }
@@ -1942,9 +1942,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/sad.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/zfkQYQhrZ6Q?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/sad.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sad.htm",
       "selectedFrom": "direct"
     }
@@ -2362,9 +2362,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/g/give.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/PkJpgPxNhwE?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/g/give-o-one-handed.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/give.htm",
       "selectedFrom": "direct"
     }
@@ -2380,9 +2380,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/g/give.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/PkJpgPxNhwE?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/g/give-o-one-handed.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/give.htm",
       "selectedFrom": "direct"
     }
@@ -2528,7 +2528,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/wSj0zfdppNc?rel=0",
+      "url": "https://www.youtube.com/embed/4RrLQxKFJx8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/play.htm",
       "selectedFrom": "direct"
@@ -2638,9 +2638,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/-Jp--G6K7wA?=0",
+      "url": "https://www.youtube.com/embed/wTNv94AY-yE?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/practice.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/again.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -2711,10 +2711,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/c6fmhkAnpnA?rel=0",
+      "url": "https://www.youtube.com/embed/ApBX0hnLN6E?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/webcam.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/www.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -2790,7 +2790,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/JyB2t9Gkzos?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/y/you.htm",
       "selectedFrom": "direct"
     }
@@ -2861,7 +2861,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Wzio7B5VT_I?rel=0",
+      "url": "https://www.youtube.com/embed/-kKuV4iM_NQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/color.htm",
       "selectedFrom": "direct"
@@ -3007,9 +3007,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/orange.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/SDnFN2Bsc-w?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/o/orange.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/orange.htm",
       "selectedFrom": "direct"
     }
@@ -3046,7 +3046,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/j7rjBay5FIE?rel=0",
+      "url": "https://www.youtube.com/embed/E6Qd4bc9l9A?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/past.htm",
       "selectedFrom": "direct"
@@ -3392,10 +3392,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/IIt5fF-D6d0?rel=0",
+      "url": "https://www.youtube.com/embed/bf9535mCBDI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hamburger.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/thai-food.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -3630,7 +3630,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/lT0E7jGHIKY?rel=0",
+      "url": "https://www.youtube.com/embed/CSNZP20KgoU?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/change.htm",
       "selectedFrom": "direct"
@@ -3793,9 +3793,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/find.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/2O5wVw-rlIs?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/f/find-pick.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/find.htm",
       "selectedFrom": "direct"
     }
@@ -3885,10 +3885,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/3UmDXnQkUTY?rel=0",
+      "url": "https://www.youtube.com/embed/m8FIqLT7DcI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/washingmachine.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/laundry-room.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -3977,9 +3977,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/basement.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/MmCDRM8ttXE?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/basement.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/basement.htm",
       "selectedFrom": "direct"
     }
@@ -4014,10 +4014,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ZcJGws8g8uE?rel=0",
+      "url": "https://www.youtube.com/embed/xNrwgoCz9SU",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/couch.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/chair.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -4049,9 +4049,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dresser.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/VfGs2yY1nEw?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/d/dresser-drawer.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dresser.htm",
       "selectedFrom": "direct"
     }
@@ -4086,9 +4086,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/g/garbage.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/sHFqJ68Ev8o?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/g/garbage.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/garbage.htm",
       "selectedFrom": "direct"
     }
@@ -4105,7 +4105,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/JC_rj5vboN0?rel=0",
+      "url": "https://www.youtube.com/embed/UCVlTV4FF9g?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/k/kitchen.htm",
       "selectedFrom": "direct"
@@ -4123,7 +4123,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RNuTu8c5IX8?rel=0",
+      "url": "https://www.youtube.com/embed/dTjopMLqGIQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/light.htm",
       "selectedFrom": "direct"
@@ -4214,7 +4214,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/iZJAZYXj-Gw?rel=0",
+      "url": "https://www.youtube.com/embed/kqEGAX1IlJQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sink.htm",
       "selectedFrom": "direct"
@@ -4233,7 +4233,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/c75leThE9AQ?rel=0",
+      "url": "https://www.youtube.com/embed/bf1X67Lhu6A?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stove.htm",
       "selectedFrom": "direct"
@@ -4286,9 +4286,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/w/what-kind.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/cAB-HL1ODZQ?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/w/what-kind.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/what-kind.htm",
       "selectedFrom": "direct"
     }
@@ -4364,7 +4364,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/moCca94sHsU?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/become.htm",
       "selectedFrom": "direct"
     }
@@ -4399,10 +4399,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/SUlKivg4SDg?rel=0",
+      "url": "https://www.youtube.com/embed/CPp1UOM-olA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/book.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/store.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -4418,9 +4418,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/SUlKivg4SDg?rel=0",
+      "url": "https://www.youtube.com/embed/CPp1UOM-olA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/book.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/store.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -4472,7 +4472,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/I2_nB2cXP58?rel=0",
+      "url": "https://www.youtube.com/embed/FHAfv57aXAc",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cow.htm",
       "selectedFrom": "direct"
@@ -4502,7 +4502,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/IbpJtH_QssM?rel=0",
+      "url": "https://www.youtube.com/embed/oRfxCPbYwrY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dog.htm",
       "selectedFrom": "direct"
@@ -4521,7 +4521,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/3xKLhk4NgCs?rel=0",
+      "url": "https://www.youtube.com/embed/w1_BBOZWwPY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fish.htm",
       "selectedFrom": "direct"
@@ -4539,7 +4539,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/mZRz-Uyj2fo?rel=0&amp;autoplay=1",
+      "url": "https://www.youtube.com/embed/AbShTNdghBY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/get.htm",
       "selectedFrom": "direct"
@@ -4557,7 +4557,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/xCJGQseQ3Fw?rel=0",
+      "url": "https://www.youtube.com/embed/OTaYxoigN2U?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/horse.htm",
       "selectedFrom": "direct"
@@ -4575,9 +4575,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/k/know.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/Ht2B0VzHFwQ?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/k/know-casual-2.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/k/know.htm",
       "selectedFrom": "direct"
     }
@@ -4613,9 +4613,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/pet.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/asVj742-wyA?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/p/pet.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pet.htm",
       "selectedFrom": "direct"
     }
@@ -4631,9 +4631,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/read.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/XfZkO61GcqI?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/r/read.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/read.htm",
       "selectedFrom": "direct"
     }
@@ -4650,7 +4650,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/cnX45VWbjmc?rel=0",
+      "url": "https://www.youtube.com/embed/d2OqKBVyVLA?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/same.htm",
       "selectedFrom": "direct"
@@ -4686,7 +4686,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Nk8Duvf44Hs",
+      "url": "https://www.youtube.com/embed/YkvPYEE027Q?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/second.htm",
       "selectedFrom": "related-demo"
@@ -4704,10 +4704,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/adSNJuxLPtI?rel=0",
+      "url": "https://www.youtube.com/embed/fka6bGd2TX8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tell.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/say.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -4722,9 +4722,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/QCuc-PwehGA?rel=0",
+      "url": "https://www.youtube.com/embed/vSLhPOSAUZ4?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/false.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/foster.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -4758,9 +4758,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/a/always.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/byJAh12NbRM?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/always2.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/always.htm",
       "selectedFrom": "direct"
     }
@@ -4776,9 +4776,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/a/any.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/jI-T63VNnNg?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/any.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/any.htm",
       "selectedFrom": "direct"
     }
@@ -4831,10 +4831,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/WOeqv48tuXU?rel=0",
+      "url": "https://www.youtube.com/embed/vh01cF7QsUw?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/for.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/instead.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -4849,10 +4849,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/p6rl9JZSYXw?rel=0",
+      "url": "https://www.youtube.com/embed/ZEyH-t5ALCs?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/make.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/go.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -4922,9 +4922,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/oh-i-see.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/zi9T8_Xm2v0?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/ah-oh-I-see-2.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh-i-see.htm",
       "selectedFrom": "direct"
     }
@@ -4940,9 +4940,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/or.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ennG1UnqhjM?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/o/or-bodyshift.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/or.htm",
       "selectedFrom": "direct"
     }
@@ -4960,7 +4960,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5lhQHdin_5g?rel=0",
+      "url": "https://www.youtube.com/embed/RXX7T4-saPs?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/people.htm",
       "selectedFrom": "direct"
@@ -5000,7 +5000,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/u6cQNKM4Dbs?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sometimes.htm",
       "selectedFrom": "direct"
     }
@@ -5017,10 +5017,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/7cLtSnoRv1E?rel=0",
+      "url": "https://www.youtube.com/embed/QVPcK3bcFo0?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/thing.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/single.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5143,9 +5143,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/37PZEddIVlA?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hour-1-hour.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm",
       "selectedFrom": "direct"
     }
@@ -5162,7 +5162,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Nk8Duvf44Hs",
+      "url": "https://www.youtube.com/embed/YkvPYEE027Q?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/second.htm",
       "selectedFrom": "related-demo"
@@ -5181,7 +5181,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/4fl8v8iYKX4?rel=0",
+      "url": "https://www.youtube.com/embed/lXVIBinAmQ8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/monday.htm",
       "selectedFrom": "direct"
@@ -5200,9 +5200,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -5218,7 +5218,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/iH8N44QMh7c?rel=0",
+      "url": "https://www.youtube.com/embed/PKrGMspKng4?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/morning.htm",
       "selectedFrom": "direct"
@@ -5254,10 +5254,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/h8l5uj_t_i8?rel=0",
+      "url": "https://www.youtube.com/embed/HAKN3e77ud8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/noon.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lunch.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5292,7 +5292,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Nk8Duvf44Hs",
+      "url": "https://www.youtube.com/embed/YkvPYEE027Q?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/second.htm",
       "selectedFrom": "direct"
@@ -5349,10 +5349,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/hdeJ0vWGAwI?rel=0",
+      "url": "https://www.youtube.com/embed/Gh5pD88Vgw0?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tuesday.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sunday.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5386,10 +5386,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5423,7 +5423,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/iH8N44QMh7c?rel=0",
+      "url": "https://www.youtube.com/embed/PKrGMspKng4?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/morning.htm",
       "selectedFrom": "direct"
@@ -5477,7 +5477,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/iH8N44QMh7c?rel=0",
+      "url": "https://www.youtube.com/embed/PKrGMspKng4?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/morning.htm",
       "selectedFrom": "direct"
@@ -5513,9 +5513,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -5531,9 +5531,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -5549,10 +5549,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5567,9 +5567,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/N6giWOcMj2U?rel=0",
+      "url": "https://www.youtube.com/embed/mCeATJ3-gKA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/week.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weekadvanced.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -5623,10 +5623,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/QCuc-PwehGA?rel=0",
+      "url": "https://www.youtube.com/embed/vSLhPOSAUZ4?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/false.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/foster.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5641,7 +5641,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RNuTu8c5IX8?rel=0",
+      "url": "https://www.youtube.com/embed/dTjopMLqGIQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/light.htm#flashthelights",
       "selectedFrom": "direct"
@@ -5660,10 +5660,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Z7mTRgU_Xqs?rel=0",
+      "url": "https://www.youtube.com/embed/OoQMbKbdvpU?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/gallaudet.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/glasses.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5678,9 +5678,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/g/graduate.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/hoSlRUAK9n0?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/g/graduate.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/graduate.htm",
       "selectedFrom": "direct"
     }
@@ -5732,9 +5732,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/high-school.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/YUvtORMFccQ?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/high-school.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/high-school.htm",
       "selectedFrom": "direct"
     }
@@ -5750,9 +5750,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/i/interpreter.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ah6sbCwgk0w?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/i/interpreter.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/interpreter.htm",
       "selectedFrom": "direct"
     }
@@ -5787,10 +5787,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/NP1H8l-V-iE?rel=0",
+      "url": "https://www.youtube.com/embed/RXX7T4-saPs?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/note.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/person.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5804,9 +5804,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/research.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/puR1m49pgzI?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/r/research-non-initialized.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/research.htm",
       "selectedFrom": "direct"
     }
@@ -5823,9 +5823,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/w/write.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/puR1m49pgzI?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/w/write.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/write.htm",
       "selectedFrom": "direct"
     }
@@ -5843,7 +5843,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/g_DZl3jIAbY?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
       "selectedFrom": "direct"
     }
@@ -5860,7 +5860,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/vHgjYI-ig2s?rel=0",
+      "url": "https://www.youtube.com/embed/LOW8ZIaAJ-c?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cold.htm",
       "selectedFrom": "direct"
@@ -5878,10 +5878,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/2dMLLV2JWXE?rel=0",
+      "url": "https://www.youtube.com/embed/kw0oKO7nNfk?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cool.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cool2.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5897,7 +5897,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/WImRv1IKl0U?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deodorant.htm",
       "selectedFrom": "direct"
     }
@@ -5933,10 +5933,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/mA15ML-vAd0?rel=0",
+      "url": "https://www.youtube.com/embed/glF8fDZPiOc?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freeze.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/snow.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5952,10 +5952,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/86UjqJCApqo?rel=0",
+      "url": "https://www.youtube.com/embed/12eeoE4uG_k?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/go-to-bed.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bed.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5970,10 +5970,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/00cPyUsrC6M?rel=0",
+      "url": "https://www.youtube.com/embed/ivKp9p_0InQ?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hot.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/spicy.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -5988,7 +5988,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fnYd3XHdEPI?rel=0",
+      "url": "https://www.youtube.com/embed/_zPeOLUL8GY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sun.htm",
       "selectedFrom": "related-demo"
@@ -6005,9 +6005,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/rain.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/utTSQeTEDxk?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/r/rain.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/rain.htm",
       "selectedFrom": "direct"
     }
@@ -6023,9 +6023,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/sick.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/oe9All9w7Ng?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/sick.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sick.htm",
       "selectedFrom": "direct"
     }
@@ -6097,10 +6097,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/CGwlXPoELnk?rel=0",
+      "url": "https://www.youtube.com/embed/O5_4x8p5t4U?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/summer.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/black.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6115,7 +6115,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fnYd3XHdEPI?rel=0",
+      "url": "https://www.youtube.com/embed/_zPeOLUL8GY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sun.htm",
       "selectedFrom": "direct"
@@ -6188,10 +6188,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/CGwlXPoELnk?rel=0",
+      "url": "https://www.youtube.com/embed/0n0eQSCS3Ow?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/wake.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/wake-up.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6206,7 +6206,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/rSgVWUc1J0w?rel=0",
+      "url": "https://www.youtube.com/embed/1XSPru7x0G4?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/warm.htm",
       "selectedFrom": "direct"
@@ -6314,10 +6314,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/wlhbw8q_5yU?rel=0",
+      "url": "https://www.youtube.com/embed/Mxmxdu1SpZM?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/boss.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fireman.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6405,7 +6405,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/z-BwDb6w7ws?rel=0",
+      "url": "https://www.youtube.com/embed/SdIhlXzWo5U?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/how-much.htm",
       "selectedFrom": "direct"
@@ -6568,9 +6568,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/37PZEddIVlA?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hour-1-hour.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm",
       "selectedFrom": "direct"
     }
@@ -6624,7 +6624,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/g_DZl3jIAbY?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/autumn.htm",
       "selectedFrom": "direct"
     }
@@ -6695,10 +6695,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/9xbR8Yk9vXg?rel=0",
+      "url": "https://www.youtube.com/embed/IIO1R8DMjfs?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/center.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/average.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6911,10 +6911,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/dV6jdKRJTvc?rel=0",
+      "url": "https://www.youtube.com/embed/IIO1R8DMjfs?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/middle.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/average.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6929,10 +6929,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/p7CPi7lDY3c?rel=0",
+      "url": "https://www.youtube.com/embed/g2j70neQ_lI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/midnight.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/now.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -6947,10 +6947,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/nPntlOgjAxo?rel=0",
+      "url": "https://www.youtube.com/embed/ZyuJALfNGU8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/most.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/good.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7019,10 +7019,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/4dtwTr_w12I?rel=0",
+      "url": "https://www.youtube.com/embed/7O2mS0Kz4CA?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/often.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/many.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7039,10 +7039,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/PBpeJcpk7t8?rel=0",
+      "url": "https://www.youtube.com/embed/9ul_1z23KLI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/recent.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/late.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7057,7 +7057,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/7XQiv-PxecU?rel=0",
+      "url": "https://www.youtube.com/embed/kAYwOdQpzgg?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/see.htm",
       "selectedFrom": "direct"
@@ -7075,7 +7075,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ty0cXz3tYlM?rel=0",
+      "url": "https://www.youtube.com/embed/pkNaLLQKuUU?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/soon.htm",
       "selectedFrom": "direct"
@@ -7093,10 +7093,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5JFv_lqcNNQ?rel=0",
+      "url": "https://www.youtube.com/embed/Z24DQnf-GDk?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/spring.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/raised.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7110,9 +7110,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/or.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ennG1UnqhjM?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/o/or-bodyshift.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/or.htm",
       "selectedFrom": "direct"
     }
@@ -7129,7 +7129,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Wzio7B5VT_I?rel=0",
+      "url": "https://www.youtube.com/embed/-kKuV4iM_NQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/color.htm",
       "selectedFrom": "direct"
@@ -7165,7 +7165,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/rdIxbPqmlOQ?rel=0",
+      "url": "https://www.youtube.com/embed/4yKyCDC-Tdc?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/banana.htm",
       "selectedFrom": "direct"
@@ -7201,7 +7201,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/MoiessLRht4?rel=0",
+      "url": "https://www.youtube.com/embed/VXLG6ft7kno?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakfast.htm",
       "selectedFrom": "direct"
@@ -7237,7 +7237,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ggo7f9YBkwY?rel=0",
+      "url": "https://www.youtube.com/embed/ZEpqnX7zdhw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frenchfries.htm",
       "selectedFrom": "direct"
@@ -7255,10 +7255,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5XlyPWXbWlU?rel=0",
+      "url": "https://www.youtube.com/embed/PmkGVSVin6Y?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frenchtoast.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/french.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7273,10 +7273,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/NZ68mfHiZa8",
+      "url": "https://www.youtube.com/embed/zil5qRXhcrg?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/grapes.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/j/jelly.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7309,7 +7309,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/KCRdHBabpUw?rel=0",
+      "url": "https://www.youtube.com/embed/HAKN3e77ud8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lunch.htm",
       "selectedFrom": "direct"
@@ -7327,10 +7327,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/-8DfTPM5lqM?rel=0",
+      "url": "https://www.youtube.com/embed/v8h6mw4zGys?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mayonnaise.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/white.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7363,10 +7363,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/U6Q2Ck683KE?rel=0",
+      "url": "https://www.youtube.com/embed/VXLG6ft7kno?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pancake.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakfast.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7417,10 +7417,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/UZgQNIxw2m8?rel=0",
+      "url": "https://www.youtube.com/embed/bf9535mCBDI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/salad.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/thai-food.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7525,7 +7525,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/G3z4RviEFLs?=0",
+      "url": "https://www.youtube.com/embed/D6AuqgDmdYY?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/crash.htm",
       "selectedFrom": "direct"
@@ -7544,7 +7544,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ztBZaV2yoxs?=0",
+      "url": "https://www.youtube.com/embed/JdQtf0sl5KI?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/elevator.htm",
       "selectedFrom": "direct"
@@ -7563,7 +7563,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/u1pDng38AxE?=0",
+      "url": "https://www.youtube.com/embed/eD5BTz7lR-o?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fly.htm",
       "selectedFrom": "direct"
@@ -7582,7 +7582,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/hDYLTkXTSx4?rel=0",
+      "url": "https://www.youtube.com/embed/P4vVkngSqwc?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fun.htm",
       "selectedFrom": "direct"
@@ -7618,7 +7618,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/hdiSoTueeN0?=0",
+      "url": "https://www.youtube.com/embed/2WBXjTIMk4c?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/helicopter.htm",
       "selectedFrom": "direct"
@@ -7655,10 +7655,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/suzyI59Ryh0?rel=0",
+      "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/motorcycle.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/car.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7710,10 +7710,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/94f1aywB0h8?=0",
+      "url": "https://www.youtube.com/embed/6i1516QNfaY?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/subway.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/garage.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7763,9 +7763,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/brave.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/DAk2uwVR21I?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/brave.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/brave.htm",
       "selectedFrom": "direct"
     }
@@ -7800,9 +7800,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/embarrassed.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/k8D2AzVJlVI?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/e/embarrassed.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/embarrassed.htm",
       "selectedFrom": "direct"
     }
@@ -7818,9 +7818,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/frustrated.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/VMa7HT0xoXo?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/f/frustrated.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frustrated.htm",
       "selectedFrom": "direct"
     }
@@ -7836,9 +7836,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/i/insult.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/_xPghCaGRyA?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/i/insult.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/insult.htm",
       "selectedFrom": "direct"
     }
@@ -7855,7 +7855,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/sTtHlQeVESg",
+      "url": "https://www.youtube.com/embed/WHgt_Jnn0Bc?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/interesting.htm",
       "selectedFrom": "direct"
@@ -7873,9 +7873,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/j/jealous.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/Kniz_YHJxp4?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/j/jealous.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/j/jealous.htm",
       "selectedFrom": "direct"
     }
@@ -7892,10 +7892,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/UGsvP5DvT8Q?rel=0",
+      "url": "https://www.youtube.com/embed/HaB-QtL36VY?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lonely.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/empty.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7910,10 +7910,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/FH4vSmX7SfU?rel=0",
+      "url": "https://www.youtube.com/embed/nVDFsl5hR44?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/nervous.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/anxious.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7929,10 +7929,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0",
+      "url": "https://www.youtube.com/embed/EUoby_wzGzY?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/proud.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/wonderful.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -7964,9 +7964,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/stuck-up.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/GaKZX5KvQq4?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/stuck-up.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stuck-up.htm",
       "selectedFrom": "direct"
     }
@@ -7983,10 +7983,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/iZ6EeQqzZl0?rel=0",
+      "url": "https://www.youtube.com/embed/PvFguNv1zIk?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tired.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/and.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -8001,7 +8001,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/BmeMoY2MLYo?rel=0",
+      "url": "https://www.youtube.com/embed/k4oPeY8_utk?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/buzz.htm",
       "selectedFrom": "direct"
@@ -8037,7 +8037,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/Wzio7B5VT_I?rel=0",
+      "url": "https://www.youtube.com/embed/-kKuV4iM_NQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/color.htm",
       "selectedFrom": "direct"
@@ -8073,10 +8073,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RSoPZkncEKw?rel=0",
+      "url": "https://www.youtube.com/embed/8_GCUYb19w0?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/eyes.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/face.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -8217,9 +8217,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/DAk2uwVR21I?rel=0",
+      "url": "https://www.youtube.com/embed/3gjen_aN79M?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/brave.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pizza.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -8505,7 +8505,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/3xKLhk4NgCs?rel=0",
+      "url": "https://www.youtube.com/embed/w1_BBOZWwPY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fish.htm",
       "selectedFrom": "related-demo"
@@ -8697,7 +8697,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/u1pDng38AxE?=0",
+      "url": "https://www.youtube.com/embed/eD5BTz7lR-o?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fly.htm",
       "selectedFrom": "related-demo"
@@ -8949,10 +8949,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/vXwOVhnMVAo?rel=0",
+      "url": "https://www.youtube.com/embed/JfpXG0yxIsU?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cost.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/money.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -9002,9 +9002,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/earn.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/cTmJgQT5O7c?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/signjpegs/e/earn.h34.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/earn.htm",
       "selectedFrom": "direct"
     }
@@ -9412,9 +9412,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/nPntlOgjAxo?rel=0",
+      "url": "https://www.youtube.com/embed/rFf-WYLmkmw?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/most.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/negation.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -9575,9 +9575,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dontmind.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/VNNYUYl_vwY?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/d/dont-mind-1.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dontmind.htm",
       "selectedFrom": "direct"
     }
@@ -9666,7 +9666,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/xCJGQseQ3Fw?rel=0",
+      "url": "https://www.youtube.com/embed/OTaYxoigN2U?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/horse.htm",
       "selectedFrom": "related-demo"
@@ -9704,8 +9704,8 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/SrzPozIawec?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/succeed.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/accomplish.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -9739,10 +9739,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/QCuc-PwehGA?rel=0",
+      "url": "https://www.youtube.com/embed/4KztOcRrw2g?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/test.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/investigate.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -9967,7 +9967,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fn1PTkU1fGI?=0",
+      "url": "https://www.youtube.com/embed/ji9JOLaIj9I?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/leave.htm",
       "selectedFrom": "related-demo"
@@ -10129,7 +10129,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RNuTu8c5IX8?rel=0",
+      "url": "https://www.youtube.com/embed/dTjopMLqGIQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/light.htm",
       "selectedFrom": "related-demo"
@@ -10176,11 +10176,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dont-care.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/VNNYUYl_vwY?rel=0",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dontmind.htm",
-      "selectedFrom": "related-demo"
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/dontcare.gif",
+      "quality": "gif",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dont-care.htm",
+      "selectedFrom": "direct"
     }
   },
   {
@@ -10225,7 +10225,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RNuTu8c5IX8?rel=0",
+      "url": "https://www.youtube.com/embed/dTjopMLqGIQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/light.htm",
       "selectedFrom": "related-demo"
@@ -10255,7 +10255,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/RNuTu8c5IX8?rel=0",
+      "url": "https://www.youtube.com/embed/dTjopMLqGIQ?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/light.htm",
       "selectedFrom": "related-demo"
@@ -10291,7 +10291,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/VZFEhhX0FOk?rel=0",
+      "url": "https://www.youtube.com/embed/WgkneJStL54?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/metal.htm",
       "selectedFrom": "related-demo"
@@ -10309,7 +10309,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fn1PTkU1fGI?=0",
+      "url": "https://www.youtube.com/embed/ji9JOLaIj9I?=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/leave.htm",
       "selectedFrom": "related-demo"
@@ -10327,9 +10327,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5JFv_lqcNNQ?rel=0",
+      "url": "https://www.youtube.com/embed/Z24DQnf-GDk?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/spring.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/raised.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -10526,7 +10526,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/IbpJtH_QssM?rel=0",
+      "url": "https://www.youtube.com/embed/oRfxCPbYwrY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dog.htm",
       "selectedFrom": "related-demo"
@@ -10868,10 +10868,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/HPSGvj3-kwA?rel=0",
+      "url": "https://www.youtube.com/embed/15czV0-SagI?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/skirt.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/clothes.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -10904,7 +10904,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5KkAKN27ygg",
+      "url": "https://www.youtube.com/embed/dTU33gNSIbY",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tie.htm",
       "selectedFrom": "direct"
@@ -11090,10 +11090,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/S0388ARjqm0?=0",
+      "url": "https://www.youtube.com/embed/4KztOcRrw2g?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/search.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/investigate.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -11301,7 +11301,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/evlOvHVPgMc?rel=0",
+      "url": "https://www.youtube.com/embed/0RPmhAGfwjs?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/blame.htm",
       "selectedFrom": "related-demo"
@@ -11553,7 +11553,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/1JySi0OYMcc?rel=0",
+      "url": "https://www.youtube.com/embed/0t0nPPnXHjc?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pen-writing.htm",
       "selectedFrom": "direct"
@@ -11788,7 +11788,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/2icFerNdwcA?rel=0&amp;autoplay=1",
+      "url": "https://www.youtube.com/embed/k6CKj7r4Rwk?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/waiter.htm",
       "selectedFrom": "direct"
@@ -11842,7 +11842,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/2icFerNdwcA?rel=0&amp;autoplay=1",
+      "url": "https://www.youtube.com/embed/k6CKj7r4Rwk?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/waiter.htm",
       "selectedFrom": "direct"
@@ -11915,7 +11915,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ggo7f9YBkwY?rel=0",
+      "url": "https://www.youtube.com/embed/ZEpqnX7zdhw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frenchfries.htm",
       "selectedFrom": "related-demo"
@@ -11933,10 +11933,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/qjtC9okyyGk?rel=0",
+      "url": "https://www.youtube.com/embed/qjtC9okyyGk",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/coke.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pepsi.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -12095,7 +12095,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ggo7f9YBkwY?rel=0",
+      "url": "https://www.youtube.com/embed/ZEpqnX7zdhw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frenchfries.htm",
       "selectedFrom": "related-demo"
@@ -12149,9 +12149,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/94f1aywB0h8?=0",
+      "url": "https://www.youtube.com/embed/6i1516QNfaY?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/subway.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/garage.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -12257,10 +12257,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/8t9-34ZHDAE?rel=0",
+      "url": "https://www.youtube.com/embed/SrzPozIawec?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/goal.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/accomplish.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -12401,7 +12401,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/VZFEhhX0FOk?rel=0",
+      "url": "https://www.youtube.com/embed/WgkneJStL54?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/metal.htm",
       "selectedFrom": "related-demo"
@@ -12419,7 +12419,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/cnX45VWbjmc?rel=0",
+      "url": "https://www.youtube.com/embed/d2OqKBVyVLA?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/same.htm",
       "selectedFrom": "direct"
@@ -12437,10 +12437,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/MmCDRM8ttXE?rel=0",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/basement.htm",
-      "selectedFrom": "related-demo"
+      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+      "quality": "fallback",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/locations.htm",
+      "selectedFrom": "direct"
     }
   },
   {
@@ -12456,7 +12456,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/kdrMcGYNjPs?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/ski.htm",
       "selectedFrom": "direct"
     }
@@ -12473,7 +12473,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/vdR-bbV1az0?rel=0",
+      "url": "https://www.youtube.com/embed/0Nf8rl_IBXU?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/talk.htm",
       "selectedFrom": "direct"
@@ -12580,11 +12580,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/basketball.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/UZgQNIxw2m8?rel=0",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/salad.htm",
-      "selectedFrom": "related-demo"
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/basketball.gif",
+      "quality": "gif",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/basketball.htm",
+      "selectedFrom": "direct"
     }
   },
   {
@@ -12706,9 +12706,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/football.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/jgfU7uDgV0k?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/signjpegs/f/footba16.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/football.htm",
       "selectedFrom": "direct"
     }
@@ -12941,10 +12941,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5gTq_ttM6Qo?rel=0",
+      "url": "https://www.youtube.com/embed/SxrxUgeTt00?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/team.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/family.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -13032,10 +13032,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/ZdmmD6ZsQrw?rel=0",
+      "url": "https://www.youtube.com/embed/JfpXG0yxIsU?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/expensive.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/money.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -13482,7 +13482,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/evlOvHVPgMc?rel=0",
+      "url": "https://www.youtube.com/embed/0RPmhAGfwjs?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/blame.htm",
       "selectedFrom": "direct"
@@ -13680,10 +13680,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/vv9qeQnPzn8?rel=0",
+      "url": "https://www.youtube.com/embed/Txc84neZsh8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drill.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hammer.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -13716,7 +13716,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/VZFEhhX0FOk?rel=0",
+      "url": "https://www.youtube.com/embed/WgkneJStL54?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/metal.htm",
       "selectedFrom": "direct"
@@ -13752,10 +13752,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/zB0Pu-ws_cU?rel=0",
+      "url": "https://www.youtube.com/embed/Txc84neZsh8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pliers.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hammer.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -13788,7 +13788,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/7XQiv-PxecU?rel=0",
+      "url": "https://www.youtube.com/embed/kAYwOdQpzgg?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/see.htm",
       "selectedFrom": "related-demo"
@@ -13824,10 +13824,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/nBzc8dMJqnQ?rel=0",
+      "url": "https://www.youtube.com/embed/Txc84neZsh8?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/screwdriver.htm",
-      "selectedFrom": "direct"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hammer.htm",
+      "selectedFrom": "related-demo"
     }
   },
   {
@@ -13879,7 +13879,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/kgsXlwRNM6c?rel=0",
-      "quality": "demo",
+      "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/arrive.htm",
       "selectedFrom": "direct"
     }
@@ -14364,9 +14364,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/5JFv_lqcNNQ?rel=0",
+      "url": "https://www.youtube.com/embed/Z24DQnf-GDk?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/spring.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/raised.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -14454,9 +14454,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/OMEUC9FKU_k?rel=0&amp;autoplay=1",
+      "url": "https://www.youtube.com/embed/1ZEAGpAH284?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/afraid.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bird.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -14526,9 +14526,9 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/wlhbw8q_5yU?rel=0",
+      "url": "https://www.youtube.com/embed/mJrUYRjvrew?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/boss.htm",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/work.htm",
       "selectedFrom": "related-demo"
     }
   },
@@ -14634,7 +14634,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/kzuiLQ-ZCxI?rel=0",
+      "url": "https://www.youtube.com/embed/ZQsxcjnXOdk?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dish.htm",
       "selectedFrom": "related-demo"
@@ -14994,7 +14994,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/upxc0OPGAkY?rel=0",
+      "url": "https://www.youtube.com/embed/JaLvpaOrpjc?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hand.htm",
       "selectedFrom": "direct"

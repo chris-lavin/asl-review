@@ -40,6 +40,21 @@ STOP_PATTERNS = [
     r'Response Vocabulary',
 ]
 GENERIC_CONTEXT_VIDEO_IDS = {'q6LuW4Sp_XM'}
+VIDEO_CONTEXT_WINDOW = 260
+EXAMPLE_VIDEO_PATTERNS = [
+    r'sample sentence',
+    r'\bexample\s*:',
+    r'\bgloss\b',
+    r'\byou-[a-z]',
+    r'\bhe-[a-z]',
+    r'\bshe-[a-z]',
+    r'\bthey-[a-z]',
+    r'\bi-[a-z]',
+    r'\bme-[a-z]',
+    r'\bhim-[a-z]',
+    r'\bher-[a-z]',
+    r'\bdirectional\b',
+]
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -156,18 +171,28 @@ def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
     if not preferred_gif and gif_matches:
         preferred_gif = gif_matches[0]
 
-    iframe_matches = [
-        match.group(1).replace('/embed//', '/embed/')
-        for match in re.finditer(r'<iframe[^>]+src=["\'](https://www\.youtube\.com/embed/[^"\']+)["\'][^>]*>', html, re.I)
-    ]
+    iframe_matches = []
+    for match in re.finditer(r'<iframe[^>]+src=["\'](https://www\.youtube\.com/embed/[^"\']+)["\'][^>]*>', html, re.I):
+        src = match.group(1).replace('/embed//', '/embed/')
+        start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        end = min(len(html), match.end() + VIDEO_CONTEXT_WINDOW)
+        context = clean_text(html[start:end]).lower()
+        iframe_matches.append({'src': src, 'context': context})
 
     demo_video = None
     fallback_video = None
-    for src in iframe_matches:
+    contextual_video = None
+    for item in iframe_matches:
+        src = item['src']
+        context = item['context']
         vid = src.split('/embed/')[-1].split('?')[0]
         if vid in GENERIC_CONTEXT_VIDEO_IDS:
             if fallback_video is None:
                 fallback_video = src
+            continue
+        if any(re.search(pattern, context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
+            if contextual_video is None:
+                contextual_video = src
             continue
         if demo_video is None:
             demo_video = src
@@ -176,6 +201,8 @@ def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
         return {'type': 'video', 'url': demo_video, 'quality': 'demo'}
     if preferred_gif:
         return {'type': 'gif', 'url': preferred_gif, 'quality': 'gif'}
+    if contextual_video:
+        return {'type': 'video', 'url': contextual_video, 'quality': 'fallback'}
     if fallback_video:
         return {'type': 'video', 'url': fallback_video, 'quality': 'fallback'}
     return None
