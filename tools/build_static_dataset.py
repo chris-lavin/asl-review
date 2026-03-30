@@ -254,6 +254,30 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
     return None
 
 
+def media_score(media: dict[str, Any] | None) -> tuple[int, int]:
+    if not media:
+        return (0, 0)
+    quality = media.get('quality')
+    type_score = 1 if media.get('type') == 'video' else 0
+    if quality == 'demo':
+        return (4, type_score)
+    if quality == 'gif':
+        return (3, type_score)
+    if quality == 'fallback':
+        return (2, type_score)
+    return (1, type_score)
+
+
+def choose_best_source(term: str, source_urls: list[str]) -> tuple[str, dict[str, Any] | None]:
+    candidates = []
+    for url in source_urls:
+        media = resolve_media(term, url)
+        candidates.append((media_score(media), url, media))
+    candidates.sort(key=lambda item: (item[0][0], item[0][1], -len(item[1])), reverse=True)
+    _, best_url, best_media = candidates[0]
+    return best_url, best_media
+
+
 def build_words(lessons: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     grouped: dict[str, dict[str, Any]] = {}
     report: dict[str, Any] = {
@@ -273,9 +297,12 @@ def build_words(lessons: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], di
                 {
                     'term': item['term'],
                     'sourceUrl': item['url'],
+                    'sourceUrls': [],
                     'lessons': [],
                 },
             )
+            if item['url'] not in entry['sourceUrls']:
+                entry['sourceUrls'].append(item['url'])
             if lesson['lesson'] not in entry['lessons']:
                 entry['lessons'].append(lesson['lesson'])
 
@@ -287,12 +314,13 @@ def build_words(lessons: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], di
     for idx, (key, entry) in enumerate(sorted(grouped.items(), key=lambda kv: (min(kv[1]['lessons']), kv[1]['term'])), start=1):
         if idx % 100 == 0:
             print(f'Processed {idx}/{len(grouped)} words...')
-        media = resolve_media(entry['term'], entry['sourceUrl'])
+        best_url, media = choose_best_source(entry['term'], entry['sourceUrls'])
         record = {
             'id': key,
             'term': entry['term'],
             'lessons': sorted(entry['lessons']),
-            'sourceUrl': entry['sourceUrl'],
+            'sourceUrl': best_url,
+            'sourceUrls': sorted(entry['sourceUrls']),
             'media': media,
         }
         if media is None:
