@@ -1199,49 +1199,12 @@
       }
     }
   ],
-  "duplicateTerms": [
-    {
-      "term": "WHAT",
-      "urls": [
-        "https://www.lifeprint.com/asl101/pages-signs/h/huh.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/w/what.htm"
-      ]
-    },
-    {
-      "term": "WHAT-DO",
-      "urls": [
-        "https://www.lifeprint.com/asl101/pages-signs/d/do-do.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/d/do.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/w/what-do.htm"
-      ]
-    },
-    {
-      "term": "PERSON",
-      "urls": [
-        "https://www.lifeprint.com/asl101/pages-signs/a/agent.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/p/person.htm"
-      ]
-    },
-    {
-      "term": "today",
-      "urls": [
-        "https://www.lifeprint.com/asl101/pages-signs/d/day.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/t/today.htm"
-      ]
-    },
-    {
-      "term": "R",
-      "urls": [
-        "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm",
-        "https://www.lifeprint.com/asl101/pages-signs/l/law.htm"
-      ]
-    }
-  ],
+  "duplicateTerms": [],
   "buildStats": {
     "lessonCount": 45,
-    "wordCount": 848,
+    "wordCount": 847,
     "missingMediaCount": 13,
     "fallbackMediaCount": 104,
-    "duplicateTermCount": 5
+    "duplicateTermCount": 0
   }
 }

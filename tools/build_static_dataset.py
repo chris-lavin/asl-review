@@ -50,6 +50,7 @@ def load_json(path: Path, default: Any) -> Any:
 
 MEDIA_OVERRIDES = load_json(CONFIG_DIR / 'media-overrides.json', {'byUrl': {}, 'byTerm': {}})
 TERM_ALIASES = load_json(CONFIG_DIR / 'term-aliases.json', {})
+SOURCE_PREFERENCES = load_json(CONFIG_DIR / 'source-preferences.json', {})
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -125,6 +126,8 @@ def extract_lessons() -> list[dict[str, Any]]:
                 continue
 
             normalized = canonicalize_term(term)
+            if SOURCE_PREFERENCES.get(normalized, '__missing__') is None:
+                continue
             key = normalized.lower()
             if key in seen_terms:
                 continue
@@ -269,6 +272,12 @@ def media_score(media: dict[str, Any] | None) -> tuple[int, int]:
 
 
 def choose_best_source(term: str, source_urls: list[str]) -> tuple[str, dict[str, Any] | None]:
+    preferred = SOURCE_PREFERENCES.get(term)
+    if preferred:
+        media = resolve_media(term, preferred)
+        if media is not None or preferred in source_urls:
+            return preferred, media
+
     candidates = []
     for url in source_urls:
         media = resolve_media(term, url)
@@ -307,8 +316,9 @@ def build_words(lessons: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], di
                 entry['lessons'].append(lesson['lesson'])
 
     for key, urls in duplicates.items():
-        if len(urls) > 1:
-            report['duplicateTerms'].append({'term': grouped[key]['term'], 'urls': sorted(urls)})
+        term = grouped[key]['term']
+        if len(urls) > 1 and term not in SOURCE_PREFERENCES:
+            report['duplicateTerms'].append({'term': term, 'urls': sorted(urls)})
 
     words = []
     for idx, (key, entry) in enumerate(sorted(grouped.items(), key=lambda kv: (min(kv[1]['lessons']), kv[1]['term'])), start=1):
