@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASL Review</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Lifeprint vocabulary review</p>
+          <h1>ASL Review</h1>
+          <p class="subtitle">Study vocabulary from Lifeprint lessons 1–18 with flashcards, lesson filters, and quick review tracking.</p>
+        </div>
+        <button id="shuffleAllBtn" class="secondary">Shuffle deck</button>
+      </header>
+
+      <section class="panel controls">
+        <div>
+          <label for="lessonSelect">Lesson</label>
+          <select id="lessonSelect"></select>
+        </div>
+        <div>
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Find a word..." />
+        </div>
+        <div class="toggle-row">
+          <label><input id="hideKnownInput" type="checkbox" /> Hide known words</label>
+          <label><input id="randomizeInput" type="checkbox" checked /> Random order</label>
+        </div>
+      </section>
+
+      <section class="grid">
+        <section class="panel card-panel">
+          <div class="card-meta">
+            <span id="deckLabel">Loading…</span>
+            <span id="progressLabel"></span>
+          </div>
+          <article id="flashcard" class="flashcard" tabindex="0" aria-live="polite">
+            <p class="card-hint">Tap card to reveal</p>
+            <h2 id="termText">Loading…</h2>
+            <div id="answerArea" class="answer hidden">
+              <p id="lessonText"></p>
+              <p><a id="sourceLink" href="#" target="_blank" rel="noreferrer">Open Lifeprint reference ↗</a></p>
+            </div>
+          </article>
+          <div class="actions">
+            <button id="prevBtn" class="secondary">← Previous</button>
+            <button id="flipBtn">Flip</button>
+            <button id="nextBtn" class="secondary">Next →</button>
+          </div>
+          <div class="rating-row">
+            <button id="unknownBtn" class="danger">Still learning</button>
+            <button id="knownBtn" class="success">I know this</button>
+          </div>
+        </section>
+
+        <section class="panel list-panel">
+          <div class="list-header">
+            <h2>Deck</h2>
+            <span id="deckCount"></span>
+          </div>
+          <ul id="wordList" class="word-list"></ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
