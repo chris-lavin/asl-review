@@ -54,6 +54,8 @@ EXAMPLE_VIDEO_PATTERNS = [
     r'\bhim-[a-z]',
     r'\bher-[a-z]',
     r'\bdirectional\b',
+    r'\b(?:are|do|does|did|will|would|can|could|should|is|was|were|why|what|when|where|who|how)\b[^.]{0,100}\?',
+    r'=\s*["“][^"”]{0,100}\?',
 ]
 
 
