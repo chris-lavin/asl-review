@@ -112,6 +112,21 @@
         "type": "video"
       },
       "note": "Should use demo video, not animated gif."
+    },
+    {
+      "term": "OFTEN-(frequently)",
+      "expect": {
+        "type": "video"
+      },
+      "note": "Should use demo video, not animated gif."
+    },
+    {
+      "term": "PLAY",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/p/play.gif"
+      },
+      "note": "Use PLAY animated gif, not PLAYER video or sentence clip."
     }
   ]
 }

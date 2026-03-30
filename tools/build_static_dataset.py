@@ -203,21 +203,27 @@ def normalize_label_text(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def build_loose_label_pattern(term: str) -> re.Pattern[str]:
+    normalized = re.sub(r"[’']", '', term.lower())
+    parts = [re.escape(part) for part in re.split(r'[^a-z0-9]+', normalized) if part]
+    joined = r'(?:[-\s]+)'.join(parts) if parts else re.escape(normalized.strip())
+    return re.compile(rf'{joined}\s*[:.]\s*$', re.I)
+
+
+def trailing_label_text(before_context: str) -> str | None:
+    match = re.search(r'([A-Za-z][A-Za-z0-9\- /()\[\],"]{0,80})\s*[:.]\s*$', before_context[-220:])
+    if not match:
+        return None
+    return match.group(1).strip()
+
+
 def has_term_label_near_end(before_context: str, term: str) -> bool:
-    normalized_context = normalize_label_text(before_context[-180:])
-    normalized_term = normalize_label_text(term)
-    return normalized_context.endswith(normalized_term)
+    return bool(build_loose_label_pattern(term).search(before_context[-180:]))
 
 
 def label_match_score(before_context: str, term: str) -> int:
-    normalized_context = normalize_label_text(before_context[-220:])
-    normalized_term = normalize_label_text(term)
-    if normalized_context.endswith(normalized_term):
+    if build_loose_label_pattern(term).search(before_context[-220:]):
         return 3
-    term_words = normalized_term.split()
-    context_words = normalized_context.split()
-    if term_words and context_words[-len(term_words):] == term_words:
-        return 2
     return 0
 
 
@@ -261,23 +267,34 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         video_matches.append({'src': src, 'beforeContext': before_context, 'kind': 'html5'})
 
     labeled_demo_candidates = []
+    direct_html5_video = None
     demo_video = None
     fallback_video = None
     contextual_video = None
     for item in video_matches:
         src = item['src']
         before_context = item['beforeContext']
+        recent_before_context = before_context[-100:]
         if item['kind'] == 'youtube':
             vid = src.split('/embed/')[-1].split('?')[0]
             if vid in GENERIC_CONTEXT_VIDEO_IDS:
                 if fallback_video is None:
                     fallback_video = src
                 continue
-        score = label_match_score(before_context, normalized_term)
+        score = label_match_score(recent_before_context, normalized_term)
         if score > 0:
             labeled_demo_candidates.append((score, src))
             continue
-        if any(re.search(pattern, before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
+        other_label = trailing_label_text(recent_before_context)
+        if other_label and not has_term_label_near_end(recent_before_context, normalized_term):
+            if contextual_video is None:
+                contextual_video = src
+            continue
+        if item['kind'] == 'html5':
+            if direct_html5_video is None:
+                direct_html5_video = src
+            continue
+        if any(re.search(pattern, recent_before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
             if contextual_video is None:
                 contextual_video = src
             continue
@@ -293,10 +310,14 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
 
     if labeled_demo_video:
         return {'type': 'video', 'url': labeled_demo_video, 'quality': 'demo'}
-    if preferred_gif:
-        return {'type': 'gif', 'url': preferred_gif, 'quality': 'gif'}
+    if labeled_animated_gif:
+        return {'type': 'gif', 'url': labeled_animated_gif, 'quality': 'gif'}
+    if direct_html5_video:
+        return {'type': 'video', 'url': direct_html5_video, 'quality': 'demo'}
     if demo_video:
         return {'type': 'video', 'url': demo_video, 'quality': 'demo'}
+    if preferred_gif:
+        return {'type': 'gif', 'url': preferred_gif, 'quality': 'gif'}
     if image_sequence:
         return {'type': 'image-sequence', 'urls': image_sequence, 'quality': 'sequence'}
     if contextual_video:

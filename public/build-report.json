@@ -55,6 +55,28 @@
   ],
   "fallbackMedia": [
     {
+      "term": "THEY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/they.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/13kQeMdVEqg?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/they.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
+      "term": "SAY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/say.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/fka6bGd2TX8?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/say.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "TOOTHPASTE",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/toothpaste.htm",
       "media": {
@@ -484,6 +506,17 @@
       }
     },
     {
+      "term": "HAPPEN",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/happen.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/happen.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "HOCKEY",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hockey.htm",
       "media": {
@@ -792,6 +825,17 @@
       }
     },
     {
+      "term": "Santa Claus",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/santa.htm",
+      "media": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/6B7orPGHA1M",
+        "quality": "fallback",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/santa.htm",
+        "selectedFrom": "direct"
+      }
+    },
+    {
       "term": "BREAK-DOWN",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm",
       "media": {
@@ -1006,7 +1050,7 @@
     "lessonCount": 45,
     "wordCount": 847,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 86,
+    "fallbackMediaCount": 90,
     "duplicateTermCount": 0
   }
 }

@@ -15,6 +15,11 @@
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs/s/soup.gif",
       "quality": "gif"
+    },
+    "PLAY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/p/play.gif",
+      "quality": "gif"
     }
   }
 }
