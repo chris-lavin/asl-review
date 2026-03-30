@@ -6,6 +6,7 @@ const state = {
   index: 0,
   revealed: false,
   progress: loadProgress(),
+  videoCache: {},
 };
 
 const els = {
@@ -20,6 +21,9 @@ const els = {
   lessonText: document.querySelector('#lessonText'),
   sourceLink: document.querySelector('#sourceLink'),
   answerArea: document.querySelector('#answerArea'),
+  videoArea: document.querySelector('#videoArea'),
+  videoStatus: document.querySelector('#videoStatus'),
+  signVideo: document.querySelector('#signVideo'),
   wordList: document.querySelector('#wordList'),
   flashcard: document.querySelector('#flashcard'),
   prevBtn: document.querySelector('#prevBtn'),
@@ -145,6 +149,11 @@ function render() {
   els.lessonText.textContent = `Lesson ${item.lesson}`;
   els.sourceLink.href = item.url;
   els.answerArea.classList.toggle('hidden', !state.revealed);
+  if (state.revealed) {
+    loadVideoForItem(item);
+  } else {
+    resetVideo();
+  }
   setNavDisabled(false);
   renderList();
 }
@@ -206,6 +215,49 @@ function setNavDisabled(disabled) {
   [els.prevBtn, els.nextBtn, els.flipBtn, els.knownBtn, els.unknownBtn].forEach((button) => {
     button.disabled = disabled;
   });
+}
+
+function resetVideo() {
+  els.videoArea.classList.add('hidden');
+  els.videoStatus.textContent = 'Loading sign video…';
+  els.signVideo.classList.add('hidden');
+  els.signVideo.removeAttribute('src');
+}
+
+async function loadVideoForItem(item) {
+  resetVideo();
+  els.videoArea.classList.remove('hidden');
+
+  if (state.videoCache[item.url] !== undefined) {
+    applyVideoResult(state.videoCache[item.url]);
+    return;
+  }
+
+  try {
+    const response = await fetch(item.url, { cache: 'force-cache' });
+    if (!response.ok) throw new Error(`Failed to load sign page (${response.status})`);
+    const html = await response.text();
+    const match = html.match(/<iframe[^>]+src=["'](https:\/\/www\.youtube\.com\/embed\/[^"']+)["']/i);
+    const result = match ? match[1] : null;
+    state.videoCache[item.url] = result;
+    applyVideoResult(result);
+  } catch {
+    state.videoCache[item.url] = null;
+    applyVideoResult(null);
+  }
+}
+
+function applyVideoResult(videoUrl) {
+  if (!videoUrl) {
+    els.videoStatus.textContent = 'No embedded video found for this sign. Use the Lifeprint link below.';
+    els.signVideo.classList.add('hidden');
+    els.signVideo.removeAttribute('src');
+    return;
+  }
+
+  els.videoStatus.textContent = 'Embedded sign video';
+  els.signVideo.src = videoUrl;
+  els.signVideo.classList.remove('hidden');
 }
 
 function loadProgress() {

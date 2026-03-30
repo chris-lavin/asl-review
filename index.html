@@ -70,6 +70,18 @@
               <h3 id="termText">Loading…</h3>
               <div id="answerArea" class="answer hidden">
                 <p id="lessonText" class="lesson-text"></p>
+                <div id="videoArea" class="video-area hidden">
+                  <div id="videoStatus" class="video-status">Loading sign video…</div>
+                  <iframe
+                    id="signVideo"
+                    class="sign-video hidden"
+                    title="ASL sign video"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">Open Lifeprint reference</a>
               </div>
             </div>

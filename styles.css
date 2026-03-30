@@ -222,14 +222,34 @@ select:focus, input[type="search"]:focus {
 .answer {
   margin-top: 18px;
   display: grid;
-  gap: 10px;
+  gap: 12px;
   justify-items: center;
+  width: min(100%, 720px);
 }
 .lesson-text {
   margin: 0;
   color: #d1dcff;
   font-size: 1rem;
 }
+.video-area {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+}
+.video-area.hidden { display: none; }
+.video-status {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.sign-video {
+  width: 100%;
+  min-height: 260px;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(0,0,0,0.24);
+}
+.sign-video.hidden { display: none; }
 .source-link {
   display: inline-flex;
   padding: 10px 14px;
