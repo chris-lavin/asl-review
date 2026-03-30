@@ -1,4 +1,5 @@
 const STORAGE_KEY = 'asl-review-progress-v1';
+const RANGE_STORAGE_KEY = 'asl-review-range-v1';
 
 const state = {
   words: [],
@@ -71,8 +72,14 @@ function setupRangeSliders() {
   els.rangeStartInput.max = String(state.maxLesson);
   els.rangeEndInput.min = '1';
   els.rangeEndInput.max = String(state.maxLesson);
-  els.rangeStartInput.value = '1';
-  els.rangeEndInput.value = '18';
+
+  const savedRange = loadRange();
+  const defaultEnd = Math.min(18, state.maxLesson);
+  const start = clamp(savedRange.start ?? 1, 1, state.maxLesson);
+  const end = clamp(savedRange.end ?? defaultEnd, start, state.maxLesson);
+
+  els.rangeStartInput.value = String(start);
+  els.rangeEndInput.value = String(end);
   els.heroLessonCount.textContent = String(state.maxLesson);
   updateSliderUI();
 }
@@ -95,6 +102,7 @@ function wireEvents() {
     els.rangeStartInput.value = '1';
     els.rangeEndInput.value = String(state.maxLesson);
     updateSliderUI();
+    saveRange();
     buildDeck();
   });
 
@@ -136,6 +144,7 @@ function onRangeInput(event) {
   }
 
   updateSliderUI();
+  saveRange();
   buildDeck();
 }
 
@@ -339,6 +348,24 @@ function buildAutoplayLoopUrl(videoUrl) {
   url.searchParams.set('playlist', videoId);
   url.searchParams.set('playsinline', '1');
   return url.toString();
+}
+
+function saveRange() {
+  const start = Number(els.rangeStartInput.value || 1);
+  const end = Number(els.rangeEndInput.value || state.maxLesson);
+  localStorage.setItem(RANGE_STORAGE_KEY, JSON.stringify({ start, end }));
+}
+
+function loadRange() {
+  try {
+    return JSON.parse(localStorage.getItem(RANGE_STORAGE_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
 }
 
 function formatLessonList(lessons) {
