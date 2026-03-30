@@ -18,6 +18,7 @@ const els = {
   sliderTrack: document.querySelector('#sliderTrack'),
   allLessonsBtn: document.querySelector('#allLessonsBtn'),
   searchInput: document.querySelector('#searchInput'),
+  clearSearchBtn: document.querySelector('#clearSearchBtn'),
   hideKnownInput: document.querySelector('#hideKnownInput'),
   randomizeInput: document.querySelector('#randomizeInput'),
   heroLessonCount: document.querySelector('#heroLessonCount'),
@@ -53,6 +54,7 @@ async function init() {
     state.maxLesson = Math.max(...state.words.flatMap((word) => word.lessons), 45);
     setupRangeSliders();
     wireEvents();
+    syncSearchClearButton();
     buildDeck();
   } catch (error) {
     console.error(error);
@@ -81,7 +83,11 @@ function wireEvents() {
     els.rangeEndInput.addEventListener(eventName, onRangeInput);
   });
 
-  els.searchInput.addEventListener('input', buildDeck);
+  els.searchInput.addEventListener('input', () => {
+    syncSearchClearButton();
+    buildDeck();
+  });
+  els.clearSearchBtn.addEventListener('click', clearSearch);
   els.hideKnownInput.addEventListener('change', buildDeck);
   els.randomizeInput.addEventListener('change', buildDeck);
 
@@ -145,6 +151,18 @@ function updateSliderUI() {
   els.rangeEndValue.textContent = String(end);
   els.sliderTrack.style.left = `${startPct}%`;
   els.sliderTrack.style.width = `${Math.max(endPct - startPct, 0)}%`;
+}
+
+function syncSearchClearButton() {
+  els.clearSearchBtn.classList.toggle('hidden', !els.searchInput.value);
+}
+
+function clearSearch() {
+  if (!els.searchInput.value) return;
+  els.searchInput.value = '';
+  syncSearchClearButton();
+  buildDeck();
+  els.searchInput.focus();
 }
 
 function buildDeck() {

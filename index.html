@@ -129,7 +129,10 @@
           <div class="deck-controls">
             <div class="deck-search-wrap">
               <label for="searchInput" class="deck-search-label">Search deck</label>
-              <input id="searchInput" type="search" placeholder="Search words in this deck" />
+              <div class="search-input-shell">
+                <input id="searchInput" type="search" placeholder="Search words in this deck" />
+                <button id="clearSearchBtn" class="clear-search-btn hidden" type="button" aria-label="Clear search">×</button>
+              </div>
             </div>
             <div class="deck-toggle-row">
               <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
