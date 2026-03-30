@@ -39,8 +39,8 @@
         </div>
       </section>
 
-      <section class="controls-grid controls-grid-wide">
-        <div class="panel control-card glass range-card">
+      <section class="hero-bottom panel glass">
+        <div class="range-card">
           <div class="range-header">
             <div>
               <label>Lesson range</label>
@@ -65,11 +65,6 @@
             <input id="rangeStartInput" class="range-slider range-start" type="range" min="1" max="45" step="1" value="1" />
             <input id="rangeEndInput" class="range-slider range-end" type="range" min="1" max="45" step="1" value="18" />
           </div>
-        </div>
-
-        <div class="panel control-card glass toggles-card">
-          <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
-          <label class="toggle-pill"><input id="randomizeInput" type="checkbox" checked /> <span>Random order</span></label>
         </div>
       </section>
 
@@ -130,9 +125,15 @@
             </div>
             <div class="deck-count" id="deckCount"></div>
           </div>
-          <div class="deck-search-wrap">
-            <label for="searchInput" class="deck-search-label">Search deck</label>
-            <input id="searchInput" type="search" placeholder="Search words in this deck" />
+          <div class="deck-controls">
+            <div class="deck-search-wrap">
+              <label for="searchInput" class="deck-search-label">Search deck</label>
+              <input id="searchInput" type="search" placeholder="Search words in this deck" />
+            </div>
+            <div class="deck-toggle-row">
+              <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
+              <label class="toggle-pill"><input id="randomizeInput" type="checkbox" checked /> <span>Random order</span></label>
+            </div>
           </div>
           <ul id="wordList" class="word-list"></ul>
         </aside>
