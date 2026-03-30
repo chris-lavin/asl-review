@@ -123,6 +123,20 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
   background: rgba(255,255,255,0.03); padding: 8px;
 }
 .sign-gif.hidden { display: none; }
+.sign-sequence {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+.sign-sequence img {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  padding: 6px;
+}
+.sign-sequence.hidden { display: none; }
 .sign-video { width: 100%; min-height: 260px; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: 18px; background: rgba(0,0,0,0.24); }
 .sign-video.hidden { display: none; }
 .source-link { display: inline-flex; padding: 10px 14px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255,255,255,0.05); }

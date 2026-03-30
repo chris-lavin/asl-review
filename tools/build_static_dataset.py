@@ -180,6 +180,23 @@ def extract_lessons() -> list[dict[str, Any]]:
     return all_lessons
 
 
+def extract_image_sequence(term_label_pattern: re.Pattern[str], html: str, base_url: str) -> list[str]:
+    sequence = []
+    for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.(?:jpg|jpeg|png)[^"\']*)["\'][^>]*>', html, re.I):
+        src = urljoin(base_url, match.group(1))
+        if '/images-layout/' in src:
+            continue
+        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        before_context = clean_text(html[before_start:match.start()]).lower()
+        recent_before_context = before_context[-80:]
+        if sequence:
+            sequence.append(src)
+            continue
+        if term_label_pattern.search(recent_before_context):
+            sequence.append(src)
+    return sequence if len(sequence) >= 2 else []
+
+
 def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, Any] | None:
     normalized_term = re.sub(r'\s+', ' ', term).strip()
     term_label_pattern = re.compile(rf'\b{re.escape(normalized_term)}\s*[:.]?\s*$', re.I)
@@ -245,12 +262,16 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         if demo_video is None:
             demo_video = src
 
+    image_sequence = extract_image_sequence(term_label_pattern, html, base_url)
+
     if labeled_demo_video:
         return {'type': 'video', 'url': labeled_demo_video, 'quality': 'demo'}
     if preferred_gif:
         return {'type': 'gif', 'url': preferred_gif, 'quality': 'gif'}
     if demo_video:
         return {'type': 'video', 'url': demo_video, 'quality': 'demo'}
+    if image_sequence:
+        return {'type': 'image-sequence', 'urls': image_sequence, 'quality': 'sequence'}
     if contextual_video:
         return {'type': 'video', 'url': contextual_video, 'quality': 'fallback'}
     if fallback_video:
