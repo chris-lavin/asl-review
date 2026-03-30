@@ -218,8 +218,6 @@ def label_match_score(before_context: str, term: str) -> int:
     context_words = normalized_context.split()
     if term_words and context_words[-len(term_words):] == term_words:
         return 2
-    if normalized_term in normalized_context:
-        return 1
     return 0
 
 
