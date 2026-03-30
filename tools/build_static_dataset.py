@@ -174,23 +174,24 @@ def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
     iframe_matches = []
     for match in re.finditer(r'<iframe[^>]+src=["\'](https://www\.youtube\.com/embed/[^"\']+)["\'][^>]*>', html, re.I):
         src = match.group(1).replace('/embed//', '/embed/')
-        start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
-        end = min(len(html), match.end() + VIDEO_CONTEXT_WINDOW)
-        context = clean_text(html[start:end]).lower()
-        iframe_matches.append({'src': src, 'context': context})
+        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        after_end = min(len(html), match.end() + VIDEO_CONTEXT_WINDOW)
+        before_context = clean_text(html[before_start:match.start()]).lower()
+        after_context = clean_text(html[match.end():after_end]).lower()
+        iframe_matches.append({'src': src, 'beforeContext': before_context, 'afterContext': after_context})
 
     demo_video = None
     fallback_video = None
     contextual_video = None
     for item in iframe_matches:
         src = item['src']
-        context = item['context']
+        before_context = item['beforeContext']
         vid = src.split('/embed/')[-1].split('?')[0]
         if vid in GENERIC_CONTEXT_VIDEO_IDS:
             if fallback_video is None:
                 fallback_video = src
             continue
-        if any(re.search(pattern, context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
+        if any(re.search(pattern, before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
             if contextual_video is None:
                 contextual_video = src
             continue
