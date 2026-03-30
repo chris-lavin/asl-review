@@ -67,10 +67,6 @@
           </div>
         </div>
 
-        <div class="panel control-card glass">
-          <label for="searchInput">Search</label>
-          <input id="searchInput" type="search" placeholder="Search signs, lessons, or review words" />
-        </div>
         <div class="panel control-card glass toggles-card">
           <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
           <label class="toggle-pill"><input id="randomizeInput" type="checkbox" checked /> <span>Random order</span></label>
@@ -133,6 +129,10 @@
               <h2>Words</h2>
             </div>
             <div class="deck-count" id="deckCount"></div>
+          </div>
+          <div class="deck-search-wrap">
+            <label for="searchInput" class="deck-search-label">Search deck</label>
+            <input id="searchInput" type="search" placeholder="Search words in this deck" />
           </div>
           <ul id="wordList" class="word-list"></ul>
         </aside>

@@ -83,6 +83,8 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .study-header, .deck-header { display: flex; justify-content: space-between; align-items: start; gap: 16px; margin-bottom: 18px; }
 .study-header h2, .deck-header h2 { margin: 6px 0 0; font-size: 1.35rem; }
 .progress-pill, .deck-count { border-radius: 999px; background: rgba(124, 156, 255, 0.14); border: 1px solid rgba(124, 156, 255, 0.2); color: #dce5ff; padding: 10px 14px; white-space: nowrap; }
+.deck-search-wrap { margin-bottom: 14px; }
+.deck-search-label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 0.9rem; }
 .flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(255,255,255,0.09); background: linear-gradient(145deg, rgba(132, 158, 255, 0.16), rgba(255,255,255,0.05)), linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); overflow: hidden; }
 .flashcard::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 35%); }
 .flashcard-inner { position: relative; z-index: 1; min-height: 360px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 30px; }
@@ -136,7 +138,9 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
   .hero h1 { font-size: 2rem; }
   .hero-stats { gap: 8px; }
   .stat-chip { min-width: 94px; padding: 10px 12px; }
-  .range-values, .nav-row, .rating-row { grid-template-columns: 1fr; }
+  .range-values, .rating-row { grid-template-columns: 1fr; }
+  .nav-row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .nav-row .btn { min-width: 0; font-size: 0.95rem; padding-left: 10px; padding-right: 10px; }
   .range-header { flex-direction: column; }
   .slider-wrap { height: 40px; }
   .range-slider::-webkit-slider-thumb {
