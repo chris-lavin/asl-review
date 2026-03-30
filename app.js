@@ -10,10 +10,15 @@ const state = {
 };
 
 const els = {
-  lessonSelect: document.querySelector('#lessonSelect'),
+  rangeStartSelect: document.querySelector('#rangeStartSelect'),
+  rangeEndSelect: document.querySelector('#rangeEndSelect'),
+  rangeSummary: document.querySelector('#rangeSummary'),
+  allLessonsBtn: document.querySelector('#allLessonsBtn'),
   searchInput: document.querySelector('#searchInput'),
   hideKnownInput: document.querySelector('#hideKnownInput'),
   randomizeInput: document.querySelector('#randomizeInput'),
+  heroLessonCount: document.querySelector('#heroLessonCount'),
+  heroRangeLabel: document.querySelector('#heroRangeLabel'),
   deckLabel: document.querySelector('#deckLabel'),
   progressLabel: document.querySelector('#progressLabel'),
   deckCount: document.querySelector('#deckCount'),
@@ -41,7 +46,7 @@ async function init() {
     const response = await fetch('./public/lessons.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Failed to load lessons (${response.status})`);
     state.lessons = await response.json();
-    populateLessonSelect();
+    populateRangeSelects();
     wireEvents();
     buildDeck();
   } catch (error) {
@@ -54,20 +59,31 @@ async function init() {
   }
 }
 
-function populateLessonSelect() {
-  const options = ['<option value="all">All lessons (1–18)</option>'];
-  for (const lesson of state.lessons) {
-    options.push(`<option value="${lesson.lesson}">Lesson ${lesson.lesson} (${lesson.count} words)</option>`);
-  }
-  els.lessonSelect.innerHTML = options.join('');
+function populateRangeSelects() {
+  const options = state.lessons
+    .map((lesson) => `<option value="${lesson.lesson}">Lesson ${lesson.lesson}</option>`)
+    .join('');
+
+  els.rangeStartSelect.innerHTML = options;
+  els.rangeEndSelect.innerHTML = options;
+  els.rangeStartSelect.value = String(state.lessons[0].lesson);
+  els.rangeEndSelect.value = String(state.lessons[state.lessons.length - 1].lesson);
+  els.heroLessonCount.textContent = String(state.lessons.length);
 }
 
 function wireEvents() {
   ['change', 'input'].forEach((eventName) => {
-    els.lessonSelect.addEventListener(eventName, buildDeck);
+    els.rangeStartSelect.addEventListener(eventName, syncRangeAndBuild);
+    els.rangeEndSelect.addEventListener(eventName, syncRangeAndBuild);
     els.searchInput.addEventListener(eventName, buildDeck);
     els.hideKnownInput.addEventListener(eventName, buildDeck);
     els.randomizeInput.addEventListener(eventName, buildDeck);
+  });
+
+  els.allLessonsBtn.addEventListener('click', () => {
+    els.rangeStartSelect.value = String(state.lessons[0].lesson);
+    els.rangeEndSelect.value = String(state.lessons[state.lessons.length - 1].lesson);
+    buildDeck();
   });
 
   els.flashcard.addEventListener('click', toggleReveal);
@@ -93,15 +109,26 @@ function wireEvents() {
   });
 }
 
+function syncRangeAndBuild() {
+  const start = Number(els.rangeStartSelect.value);
+  const end = Number(els.rangeEndSelect.value);
+  if (start > end) {
+    if (document.activeElement === els.rangeStartSelect) {
+      els.rangeEndSelect.value = String(start);
+    } else {
+      els.rangeStartSelect.value = String(end);
+    }
+  }
+  buildDeck();
+}
+
 function buildDeck() {
-  const selectedLesson = els.lessonSelect.value || 'all';
+  const startLesson = Number(els.rangeStartSelect.value || 1);
+  const endLesson = Number(els.rangeEndSelect.value || state.lessons.length);
   const query = els.searchInput.value.trim().toLowerCase();
   const hideKnown = els.hideKnownInput.checked;
 
-  let lessons = state.lessons;
-  if (selectedLesson !== 'all') {
-    lessons = lessons.filter((lesson) => String(lesson.lesson) === selectedLesson);
-  }
+  let lessons = state.lessons.filter((lesson) => lesson.lesson >= startLesson && lesson.lesson <= endLesson);
 
   let deck = lessons.flatMap((lesson) =>
     lesson.items.map((item) => ({ ...item, lesson: lesson.lesson, id: `${lesson.lesson}:${item.term}` }))
@@ -124,7 +151,15 @@ function buildDeck() {
   state.deck = deck;
   state.index = 0;
   state.revealed = false;
+  updateRangeLabels(startLesson, endLesson, lessons.length);
   render();
+}
+
+function updateRangeLabels(startLesson, endLesson, lessonCount) {
+  const rangeText = startLesson === endLesson ? `Lesson ${startLesson}` : `Lessons ${startLesson}–${endLesson}`;
+  els.rangeSummary.textContent = rangeText;
+  els.heroRangeLabel.textContent = `${startLesson}–${endLesson}`;
+  els.heroLessonCount.textContent = String(lessonCount);
 }
 
 function render() {
@@ -134,11 +169,12 @@ function render() {
 
   if (!state.deck.length) {
     els.deckLabel.textContent = 'No cards match this filter';
-    els.termText.textContent = 'Try a different lesson or search.';
+    els.termText.textContent = 'Try a different lesson range or search.';
     els.lessonText.textContent = 'No matching words right now.';
     els.answerArea.classList.remove('hidden');
     els.sourceLink.href = '#';
     els.wordList.innerHTML = '';
+    resetVideo();
     setNavDisabled(true);
     return;
   }
@@ -162,9 +198,9 @@ function renderList() {
   els.wordList.innerHTML = state.deck
     .map((item, idx) => {
       const known = state.progress[item.id]?.known;
-      const activeStyle = idx === state.index ? ' style="background:rgba(124,156,255,0.08); border-radius:18px;"' : '';
+      const activeClass = idx === state.index ? 'active-row' : '';
       return `
-        <li${activeStyle} class="word-row" data-index="${idx}" role="button" tabindex="0" aria-label="Open ${escapeHtml(item.term)}">
+        <li class="word-row ${activeClass}" data-index="${idx}" role="button" tabindex="0" aria-label="Open ${escapeHtml(item.term)}">
           <div class="word-main">
             <div class="word-term">${escapeHtml(item.term)}</div>
             <div class="word-meta">
@@ -181,6 +217,7 @@ function renderList() {
       state.index = Number(row.dataset.index);
       state.revealed = false;
       render();
+      row.scrollIntoView({ block: 'nearest' });
     };
     row.addEventListener('click', openRow);
     row.addEventListener('keydown', (event) => {

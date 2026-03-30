@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild the lesson vocabulary dataset from Lifeprint lessons 1–18."""
+"""Rebuild the lesson vocabulary dataset from Lifeprint lessons 1–45."""
 
 import html as ihtml
 import json
@@ -36,7 +36,7 @@ def keep_href(href: str) -> bool:
 
 
 all_lessons = []
-for lesson_number in range(1, 19):
+for lesson_number in range(1, 46):
     url = f'{BASE}lesson{lesson_number:02d}.htm'
     html = requests.get(url, headers=HEADERS, timeout=30).text
     match = re.search(r'<b>\s*Vocabulary\s*</b>\s*:?(.*)', html, re.I | re.S)

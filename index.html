@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASL Review</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260329b" />
+    <link rel="stylesheet" href="./styles.css?v=20260329c" />
   </head>
   <body>
     <div class="bg-orb orb-a"></div>
@@ -15,18 +15,18 @@
       <section class="hero panel glass">
         <div class="hero-copy">
           <span class="eyebrow">ASL vocabulary review</span>
-          <h1>Study Lifeprint lessons 1–18</h1>
+          <h1>Study Lifeprint lessons 1–45</h1>
           <p>
-            A cleaner flashcard app for quick review, lesson-based practice, and keeping track of what already feels solid.
+            Review a single lesson or any lesson range, flip cards, watch sign videos, and keep track of what already feels solid.
           </p>
           <div class="hero-stats">
             <div class="stat-chip">
               <span class="stat-label">Lessons</span>
-              <strong>18</strong>
+              <strong id="heroLessonCount">45</strong>
             </div>
             <div class="stat-chip">
-              <span class="stat-label">Mode</span>
-              <strong>Flashcards</strong>
+              <span class="stat-label">Range</span>
+              <strong id="heroRangeLabel">1–45</strong>
             </div>
             <div class="stat-chip">
               <span class="stat-label">Source</span>
@@ -39,10 +39,25 @@
         </div>
       </section>
 
-      <section class="controls-grid">
-        <div class="panel control-card glass">
-          <label for="lessonSelect">Lesson</label>
-          <select id="lessonSelect"></select>
+      <section class="controls-grid controls-grid-wide">
+        <div class="panel control-card glass range-card">
+          <div class="range-header">
+            <div>
+              <label for="rangeStartSelect">Lesson range</label>
+              <div class="range-summary" id="rangeSummary">Lessons 1–45</div>
+            </div>
+            <button id="allLessonsBtn" class="btn btn-ghost btn-small">All lessons</button>
+          </div>
+          <div class="range-inputs">
+            <div>
+              <label for="rangeStartSelect">Start</label>
+              <select id="rangeStartSelect"></select>
+            </div>
+            <div>
+              <label for="rangeEndSelect">End</label>
+              <select id="rangeEndSelect"></select>
+            </div>
+          </div>
         </div>
         <div class="panel control-card glass">
           <label for="searchInput">Search</label>
@@ -78,7 +93,7 @@
                     title="ASL sign video"
                     loading="lazy"
                     referrerpolicy="strict-origin-when-cross-origin"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                   ></iframe>
                 </div>
@@ -116,6 +131,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260329b" type="module"></script>
+    <script src="./app.js?v=20260329c" type="module"></script>
   </body>
 </html>
