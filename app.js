@@ -164,7 +164,7 @@ function renderList() {
       const known = state.progress[item.id]?.known;
       const activeStyle = idx === state.index ? ' style="background:rgba(124,156,255,0.08); border-radius:18px;"' : '';
       return `
-        <li${activeStyle}>
+        <li${activeStyle} class="word-row" data-index="${idx}" role="button" tabindex="0" aria-label="Open ${escapeHtml(item.term)}">
           <div class="word-main">
             <div class="word-term">${escapeHtml(item.term)}</div>
             <div class="word-meta">
@@ -172,16 +172,22 @@ function renderList() {
               <span class="badge">Lesson ${item.lesson}</span>
             </div>
           </div>
-          <button class="open-btn" data-index="${idx}">Open</button>
         </li>`;
     })
     .join('');
 
-  els.wordList.querySelectorAll('button').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.index = Number(button.dataset.index);
+  els.wordList.querySelectorAll('.word-row').forEach((row) => {
+    const openRow = () => {
+      state.index = Number(row.dataset.index);
       state.revealed = false;
       render();
+    };
+    row.addEventListener('click', openRow);
+    row.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openRow();
+      }
     });
   });
 }
