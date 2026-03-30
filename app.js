@@ -1,12 +1,12 @@
 const STORAGE_KEY = 'asl-review-progress-v1';
 
 const state = {
-  lessons: [],
+  words: [],
+  maxLesson: 45,
   deck: [],
   index: 0,
   revealed: false,
   progress: loadProgress(),
-  videoCache: {},
 };
 
 const els = {
@@ -47,15 +47,16 @@ init();
 
 async function init() {
   try {
-    const response = await fetch('./public/lessons.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Failed to load lessons (${response.status})`);
-    state.lessons = await response.json();
+    const response = await fetch('./public/words.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Failed to load words (${response.status})`);
+    state.words = await response.json();
+    state.maxLesson = Math.max(...state.words.flatMap((word) => word.lessons), 45);
     setupRangeSliders();
     wireEvents();
     buildDeck();
   } catch (error) {
     console.error(error);
-    els.deckLabel.textContent = 'Could not load lessons';
+    els.deckLabel.textContent = 'Could not load words';
     els.termText.textContent = 'Try refreshing the page.';
     els.lessonText.textContent = error.message;
     els.answerArea.classList.remove('hidden');
@@ -64,14 +65,13 @@ async function init() {
 }
 
 function setupRangeSliders() {
-  const maxLesson = state.lessons[state.lessons.length - 1].lesson;
   els.rangeStartInput.min = '1';
-  els.rangeStartInput.max = String(maxLesson);
+  els.rangeStartInput.max = String(state.maxLesson);
   els.rangeEndInput.min = '1';
-  els.rangeEndInput.max = String(maxLesson);
+  els.rangeEndInput.max = String(state.maxLesson);
   els.rangeStartInput.value = '1';
   els.rangeEndInput.value = '18';
-  els.heroLessonCount.textContent = String(state.lessons.length);
+  els.heroLessonCount.textContent = String(state.maxLesson);
   updateSliderUI();
 }
 
@@ -86,9 +86,8 @@ function wireEvents() {
   els.randomizeInput.addEventListener('change', buildDeck);
 
   els.allLessonsBtn.addEventListener('click', () => {
-    const maxLesson = state.lessons[state.lessons.length - 1].lesson;
     els.rangeStartInput.value = '1';
-    els.rangeEndInput.value = String(maxLesson);
+    els.rangeEndInput.value = String(state.maxLesson);
     updateSliderUI();
     buildDeck();
   });
@@ -150,34 +149,11 @@ function updateSliderUI() {
 
 function buildDeck() {
   const startLesson = Number(els.rangeStartInput.value || 1);
-  const endLesson = Number(els.rangeEndInput.value || state.lessons.length);
+  const endLesson = Number(els.rangeEndInput.value || state.maxLesson);
   const query = els.searchInput.value.trim().toLowerCase();
   const hideKnown = els.hideKnownInput.checked;
 
-  let lessons = state.lessons.filter((lesson) => lesson.lesson >= startLesson && lesson.lesson <= endLesson);
-
-  const grouped = new Map();
-  for (const lesson of lessons) {
-    for (const item of lesson.items) {
-      const key = item.term.toLowerCase();
-      if (!grouped.has(key)) {
-        grouped.set(key, {
-          term: item.term,
-          url: item.url,
-          lessons: [lesson.lesson],
-        });
-      } else {
-        const existing = grouped.get(key);
-        if (!existing.lessons.includes(lesson.lesson)) existing.lessons.push(lesson.lesson);
-      }
-    }
-  }
-
-  let deck = Array.from(grouped.values()).map((item) => ({
-    ...item,
-    lessons: item.lessons.sort((a, b) => a - b),
-    id: item.term.toLowerCase(),
-  }));
+  let deck = state.words.filter((item) => item.lessons.some((lesson) => lesson >= startLesson && lesson <= endLesson));
 
   if (query) {
     deck = deck.filter((item) => item.term.toLowerCase().includes(query));
@@ -190,17 +166,18 @@ function buildDeck() {
   if (els.randomizeInput.checked) {
     deck = shuffle(deck);
   } else {
-    deck.sort((a, b) => a.lessons[0] - b.lessons[0] || a.term.localeCompare(b.term));
+    deck = [...deck].sort((a, b) => a.lessons[0] - b.lessons[0] || a.term.localeCompare(b.term));
   }
 
   state.deck = deck;
   state.index = 0;
   state.revealed = false;
-  updateRangeLabels(startLesson, endLesson, lessons.length);
+  updateRangeLabels(startLesson, endLesson);
   render();
 }
 
-function updateRangeLabels(startLesson, endLesson, lessonCount) {
+function updateRangeLabels(startLesson, endLesson) {
+  const lessonCount = endLesson - startLesson + 1;
   const rangeText = startLesson === endLesson ? `Lesson ${startLesson}` : `Lessons ${startLesson}–${endLesson}`;
   els.rangeSummary.textContent = rangeText;
   els.heroRangeLabel.textContent = `${startLesson}–${endLesson}`;
@@ -228,10 +205,10 @@ function render() {
   els.deckLabel.textContent = `Card ${state.index + 1} of ${state.deck.length}`;
   els.termText.textContent = item.term;
   els.lessonText.textContent = formatLessonList(item.lessons);
-  els.sourceLink.href = item.url;
+  els.sourceLink.href = item.sourceUrl;
   els.answerArea.classList.toggle('hidden', !state.revealed);
   if (state.revealed) {
-    loadVideoForItem(item);
+    applyMedia(item.media);
   } else {
     resetVideo();
   }
@@ -314,53 +291,24 @@ function resetVideo() {
   els.signVideo.removeAttribute('src');
 }
 
-async function loadVideoForItem(item) {
+function applyMedia(media) {
   resetVideo();
   els.videoArea.classList.remove('hidden');
 
-  if (state.videoCache[item.url] !== undefined) {
-    applyVideoResult(state.videoCache[item.url]);
-    return;
-  }
-
-  try {
-    const apiUrl = `../api/asl-video?url=${encodeURIComponent(item.url)}`;
-    const response = await fetch(apiUrl, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Failed to load video (${response.status})`);
-    const payload = await response.json();
-    const result = payload.media || null;
-    state.videoCache[item.url] = result;
-    applyVideoResult(result);
-  } catch {
-    state.videoCache[item.url] = null;
-    applyVideoResult(null);
-  }
-}
-
-function applyVideoResult(media) {
   if (!media?.url) {
     els.videoStatus.textContent = 'No sign media found for this page. Use the Lifeprint link below.';
-    els.signGif.classList.add('hidden');
-    els.signGif.removeAttribute('src');
-    els.signVideo.classList.add('hidden');
-    els.signVideo.removeAttribute('src');
     return;
   }
 
   if (media.type === 'gif') {
     els.videoStatus.textContent = 'Animated sign reference';
-    els.signVideo.classList.add('hidden');
-    els.signVideo.removeAttribute('src');
     els.signGif.src = media.url;
     els.signGif.classList.remove('hidden');
     return;
   }
 
-  const autoplayUrl = buildAutoplayLoopUrl(media.url);
-  els.videoStatus.textContent = 'Embedded sign video';
-  els.signGif.classList.add('hidden');
-  els.signGif.removeAttribute('src');
-  els.signVideo.src = autoplayUrl;
+  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video' : 'Sign demo video';
+  els.signVideo.src = buildAutoplayLoopUrl(media.url);
   els.signVideo.classList.remove('hidden');
 }
 
