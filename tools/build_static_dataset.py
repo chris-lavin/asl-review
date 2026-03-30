@@ -72,6 +72,7 @@ SOURCE_PREFERENCES = load_json(CONFIG_DIR / 'source-preferences.json', {})
 session = requests.Session()
 session.headers.update(HEADERS)
 html_cache: dict[str, str] = {}
+binary_cache: dict[str, bytes] = {}
 media_cache: dict[str, dict[str, Any] | None] = {}
 
 
@@ -91,6 +92,22 @@ def clean_text(text: str) -> str:
     text = text.replace('\xa0', ' ')
     text = re.sub(r'\s+', ' ', text).strip(' -:\n\t')
     return text
+
+
+def fetch_bytes(url: str) -> bytes:
+    if url not in binary_cache:
+        response = session.get(url, timeout=30)
+        response.raise_for_status()
+        binary_cache[url] = response.content
+    return binary_cache[url]
+
+
+def gif_frame_count(url: str) -> int:
+    try:
+        data = fetch_bytes(url)
+    except requests.RequestException:
+        return 0
+    return data.count(b'\x21\xF9\x04')
 
 
 def keep_href(href: str) -> bool:
@@ -169,7 +186,15 @@ def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
         for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.gif[^"\']*)["\'][^>]*>', html, re.I)
     ]
     gif_matches = [src for src in gif_matches if '/images-layout/back.gif' not in src]
-    preferred_gif = next((src for src in gif_matches if re.search(r'/(gifs|images-signs)/', src, re.I)), None)
+
+    animated_gif_matches = [src for src in gif_matches if gif_frame_count(src) > 1]
+    preferred_gif = next((src for src in animated_gif_matches if re.search(r'/gifs(?:-animated)?/', src, re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((src for src in animated_gif_matches if re.search(r'/(gifs|images-signs)/', src, re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((src for src in gif_matches if re.search(r'/gifs(?:-animated)?/', src, re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((src for src in gif_matches if re.search(r'/(gifs|images-signs)/', src, re.I)), None)
     if not preferred_gif and gif_matches:
         preferred_gif = gif_matches[0]
 
