@@ -126,10 +126,35 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 @media (max-width: 980px) {
   .hero, .controls-grid, .workspace-grid { grid-template-columns: 1fr; }
   .hero-actions { justify-content: start; }
+  .deck-panel { order: 2; }
+  .study-panel { order: 1; }
 }
 @media (max-width: 640px) {
-  .app-shell { padding: 16px; }
-  .nav-row, .rating-row, .range-values { grid-template-columns: 1fr; }
-  .flashcard, .flashcard-inner { min-height: 300px; }
+  .app-shell { padding: 12px; }
+  .panel { border-radius: 22px; }
+  .hero, .study-panel, .deck-panel, .control-card { padding: 16px; }
+  .hero h1 { font-size: 2rem; }
+  .hero-stats { gap: 8px; }
+  .stat-chip { min-width: 94px; padding: 10px 12px; }
+  .range-values, .nav-row, .rating-row { grid-template-columns: 1fr; }
   .range-header { flex-direction: column; }
+  .slider-wrap { height: 40px; }
+  .range-slider::-webkit-slider-thumb {
+    width: 26px; height: 26px; margin-top: -9px;
+  }
+  .range-slider::-moz-range-thumb {
+    width: 26px; height: 26px;
+  }
+  input[type="search"] { padding: 16px; min-height: 52px; }
+  .toggle-pill, .btn, .source-link { min-height: 50px; }
+  .btn { padding: 15px 16px; }
+  .flashcard, .flashcard-inner { min-height: 250px; }
+  .flashcard-inner { padding: 20px 16px; }
+  .flashcard h3 { font-size: clamp(2rem, 10vw, 3rem); }
+  .answer { width: 100%; }
+  .sign-video { min-height: 200px; }
+  .word-list { max-height: none; }
+  .word-list li { padding: 12px 10px; }
+  .word-row { border-radius: 16px; }
+  .shortcut-note { font-size: 0.84rem; line-height: 1.4; }
 }
