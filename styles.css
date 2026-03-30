@@ -95,9 +95,9 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .answer.hidden { display: none; }
 .answer { margin-top: 18px; display: grid; gap: 12px; justify-items: center; width: min(100%, 720px); }
 .lesson-text { margin: 0; color: #d1dcff; font-size: 1rem; }
-.video-area { width: 100%; display: grid; gap: 10px; }
+.video-area { width: 100%; display: grid; gap: 10px; justify-items: center; }
 .video-area.hidden { display: none; }
-.video-status { color: var(--muted); font-size: 0.92rem; }
+.video-status { color: var(--muted); font-size: 0.92rem; text-align: center; }
 .sign-gif {
   width: auto; max-width: 100%; max-height: 280px; border: 1px solid var(--line); border-radius: 18px;
   background: rgba(255,255,255,0.03); padding: 8px;

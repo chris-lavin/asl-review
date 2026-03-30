@@ -155,9 +155,28 @@ function buildDeck() {
 
   let lessons = state.lessons.filter((lesson) => lesson.lesson >= startLesson && lesson.lesson <= endLesson);
 
-  let deck = lessons.flatMap((lesson) =>
-    lesson.items.map((item) => ({ ...item, lesson: lesson.lesson, id: `${lesson.lesson}:${item.term}` }))
-  );
+  const grouped = new Map();
+  for (const lesson of lessons) {
+    for (const item of lesson.items) {
+      const key = item.term.toLowerCase();
+      if (!grouped.has(key)) {
+        grouped.set(key, {
+          term: item.term,
+          url: item.url,
+          lessons: [lesson.lesson],
+        });
+      } else {
+        const existing = grouped.get(key);
+        if (!existing.lessons.includes(lesson.lesson)) existing.lessons.push(lesson.lesson);
+      }
+    }
+  }
+
+  let deck = Array.from(grouped.values()).map((item) => ({
+    ...item,
+    lessons: item.lessons.sort((a, b) => a - b),
+    id: item.term.toLowerCase(),
+  }));
 
   if (query) {
     deck = deck.filter((item) => item.term.toLowerCase().includes(query));
@@ -170,7 +189,7 @@ function buildDeck() {
   if (els.randomizeInput.checked) {
     deck = shuffle(deck);
   } else {
-    deck.sort((a, b) => a.lesson - b.lesson || a.term.localeCompare(b.term));
+    deck.sort((a, b) => a.lessons[0] - b.lessons[0] || a.term.localeCompare(b.term));
   }
 
   state.deck = deck;
@@ -207,7 +226,7 @@ function render() {
   const item = state.deck[state.index];
   els.deckLabel.textContent = `Card ${state.index + 1} of ${state.deck.length}`;
   els.termText.textContent = item.term;
-  els.lessonText.textContent = `Lesson ${item.lesson}`;
+  els.lessonText.textContent = formatLessonList(item.lessons);
   els.sourceLink.href = item.url;
   els.answerArea.classList.toggle('hidden', !state.revealed);
   if (state.revealed) {
@@ -230,7 +249,7 @@ function renderList() {
             <div class="word-term">${escapeHtml(item.term)}</div>
             <div class="word-meta">
               <span class="badge ${known ? 'known' : ''}">${known ? 'Known' : 'Reviewing'}</span>
-              <span class="badge">Lesson ${item.lesson}</span>
+              <span class="badge">${formatLessonBadge(item.lessons)}</span>
             </div>
           </div>
         </li>`;
@@ -353,6 +372,18 @@ function buildAutoplayLoopUrl(videoUrl) {
   url.searchParams.set('playlist', videoId);
   url.searchParams.set('playsinline', '1');
   return url.toString();
+}
+
+function formatLessonList(lessons) {
+  if (!lessons?.length) return '';
+  if (lessons.length === 1) return `Lesson ${lessons[0]}`;
+  return `Lessons ${lessons.join(', ')}`;
+}
+
+function formatLessonBadge(lessons) {
+  if (!lessons?.length) return '';
+  if (lessons.length === 1) return `Lesson ${lessons[0]}`;
+  return `${lessons.length} lessons`;
 }
 
 function loadProgress() {
