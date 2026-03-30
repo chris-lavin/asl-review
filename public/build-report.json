@@ -231,17 +231,6 @@
       }
     },
     {
-      "term": "ALRIGHT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/alright.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/alright.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "EXCITED",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/excited.htm",
       "media": {
@@ -436,28 +425,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/top.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "BALL",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/ball.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/ball.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "BASEBALL",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/baseball.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/baseball.htm",
         "selectedFrom": "direct"
       }
     },
@@ -781,17 +748,6 @@
       }
     },
     {
-      "term": "BREAK-DOWN",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "EMOTION",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/emotion.htm",
       "media": {
@@ -982,9 +938,9 @@
   "duplicateTerms": [],
   "buildStats": {
     "lessonCount": 45,
-    "wordCount": 845,
+    "wordCount": 843,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 84,
+    "fallbackMediaCount": 80,
     "duplicateTermCount": 0
   }
 }

@@ -6162,10 +6162,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-use-deoderant.mp4",
+      "url": "https://www.youtube.com/embed/yQScIrYGgaE?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/u/use.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6578,11 +6578,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-hours-equal-one-day.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/half-hour-b.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8317,10 +8317,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/job-you-apply-before-how-many.mp4",
+      "url": "https://www.youtube.com/embed/HaLGrHjNu3s?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/apply.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8619,24 +8619,6 @@
     }
   },
   {
-    "id": "p",
-    "term": "P",
-    "lessons": [
-      21
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/law.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/l/law.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-lawyer.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/law.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
     "id": "paint > painter",
     "term": "PAINT > PAINTER",
     "lessons": [
@@ -8792,10 +8774,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/something-broken-you-prefer-hire-mechanic-or-fix-it-yourself-which.mp4",
+      "url": "https://www.youtube.com/embed/C0puRenXIdE?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/wrench.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8817,24 +8799,6 @@
     }
   },
   {
-    "id": "rinciple,",
-    "term": "rinciple,",
-    "lessons": [
-      21
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/law.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/l/law.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-lawyer.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/law.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
     "id": "#bank",
     "term": "#BANK",
     "lessons": [
@@ -8845,11 +8809,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/bank.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/suppose-you-go-bank-you-prefer-computer-or-an-actual-in-person-teller.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/teller.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank4.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bank.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9091,11 +9060,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/pay.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/everyday-you-buy-what.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/buy.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pay.ht26.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pay.ht27.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/payher1.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pay.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9343,11 +9316,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/j/junior.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior41.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior42.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior43.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior44.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/j/junior.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9747,11 +9725,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/than.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/than1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than4.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9801,11 +9784,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/than.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan3.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9819,11 +9806,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/than.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan3.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -9861,11 +9852,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/than.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan3.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -11381,11 +11376,18 @@
       "https://www.lifeprint.com/asl101/pages-signs/a/alright.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/alright.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -12543,11 +12545,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/ball.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/ball.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -12561,11 +12568,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/baseball.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/baseball.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -13437,11 +13449,18 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/principal.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-lawyer.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/law.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-01.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-02.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-03.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-04.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-05.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-06.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/principal.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -13635,11 +13654,14 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/strict.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-think-this-class-hard.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/strict1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strict2.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/strict.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -14552,11 +14574,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -14570,11 +14596,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/c/cover.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/everyday-you-buy-what.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/buy.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.21.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.22.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.23.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.24.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cover.htm",
+      "selectedFrom": "override"
     }
   },
   {

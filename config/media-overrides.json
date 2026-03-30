@@ -145,6 +145,163 @@
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs-animated/dontmind.gif",
       "quality": "gif"
+    },
+    "PRINCIPAL": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-01.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-02.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-03.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-04.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-05.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/principal-06.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "#BANK": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bank4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "COVER": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.21.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.22.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.23.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/c/cover.24.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "JUNIOR": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior41.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior42.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior43.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/j/junior44.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "less": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "less-than": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "more-than": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "THAN": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/than1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "1/2-HOUR": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/half-hour-b.gif",
+      "quality": "gif"
+    },
+    "APPLY": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/HaLGrHjNu3s?rel=0",
+      "quality": "demo"
+    },
+    "USE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yQScIrYGgaE?rel=0",
+      "quality": "demo"
+    },
+    "WRENCH": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/C0puRenXIdE?rel=0",
+      "quality": "demo"
+    },
+    "ALRIGHT": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightsingle3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/a/alrightdouble3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "BALL": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/ball4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "BASEBALL": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/baseball4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "BREAK-DOWN": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/breakdown3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "PAY": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pay.ht26.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pay.ht27.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/payher1.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "STRICT": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/strict1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strict2.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }
