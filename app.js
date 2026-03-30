@@ -69,7 +69,7 @@ function setupRangeSliders() {
   els.rangeEndInput.min = '1';
   els.rangeEndInput.max = String(maxLesson);
   els.rangeStartInput.value = '1';
-  els.rangeEndInput.value = String(maxLesson);
+  els.rangeEndInput.value = '18';
   els.heroLessonCount.textContent = String(state.lessons.length);
   updateSliderUI();
 }
