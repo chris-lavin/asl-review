@@ -181,50 +181,62 @@ def extract_lessons() -> list[dict[str, Any]]:
 
 
 def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, Any] | None:
-    gif_matches = [
-        urljoin(base_url, match.group(1))
-        for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.gif[^"\']*)["\'][^>]*>', html, re.I)
-    ]
-    gif_matches = [src for src in gif_matches if '/images-layout/back.gif' not in src]
-
-    animated_gif_matches = [src for src in gif_matches if gif_frame_count(src) > 1]
-    preferred_gif = next((src for src in animated_gif_matches if re.search(r'/gifs(?:-animated)?/', src, re.I)), None)
-    if not preferred_gif:
-        preferred_gif = next((src for src in animated_gif_matches if re.search(r'/(gifs|images-signs)/', src, re.I)), None)
-    if not preferred_gif:
-        preferred_gif = next((src for src in gif_matches if re.search(r'/gifs(?:-animated)?/', src, re.I)), None)
-    if not preferred_gif:
-        preferred_gif = next((src for src in gif_matches if re.search(r'/(gifs|images-signs)/', src, re.I)), None)
-    if not preferred_gif and gif_matches:
-        preferred_gif = gif_matches[0]
-
-    iframe_matches = []
-    for match in re.finditer(r'<iframe[^>]+src=["\'](https://www\.youtube\.com/embed/[^"\']+)["\'][^>]*>', html, re.I):
-        src = match.group(1).replace('/embed//', '/embed/')
-        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
-        after_end = min(len(html), match.end() + VIDEO_CONTEXT_WINDOW)
-        before_context = clean_text(html[before_start:match.start()]).lower()
-        after_context = clean_text(html[match.end():after_end]).lower()
-        iframe_matches.append({'src': src, 'beforeContext': before_context, 'afterContext': after_context})
-
     normalized_term = re.sub(r'\s+', ' ', term).strip()
     term_label_pattern = re.compile(rf'\b{re.escape(normalized_term)}\s*[:.]?\s*$', re.I)
 
+    gif_matches = []
+    for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.gif[^"\']*)["\'][^>]*>', html, re.I):
+        src = urljoin(base_url, match.group(1))
+        if '/images-layout/back.gif' in src:
+            continue
+        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        before_context = clean_text(html[before_start:match.start()]).lower()
+        gif_matches.append({'src': src, 'beforeContext': before_context})
+
+    animated_gif_matches = [item for item in gif_matches if gif_frame_count(item['src']) > 1]
+    labeled_animated_gif = next((item['src'] for item in animated_gif_matches if term_label_pattern.search(item['beforeContext'][-80:])), None)
+    preferred_gif = labeled_animated_gif
+    if not preferred_gif:
+        preferred_gif = next((item['src'] for item in animated_gif_matches if re.search(r'/gifs(?:-animated)?/', item['src'], re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((item['src'] for item in animated_gif_matches if re.search(r'/(gifs|images-signs)/', item['src'], re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((item['src'] for item in gif_matches if re.search(r'/gifs(?:-animated)?/', item['src'], re.I)), None)
+    if not preferred_gif:
+        preferred_gif = next((item['src'] for item in gif_matches if re.search(r'/(gifs|images-signs)/', item['src'], re.I)), None)
+    if not preferred_gif and gif_matches:
+        preferred_gif = gif_matches[0]['src']
+
+    video_matches = []
+    for match in re.finditer(r'<iframe[^>]+src=["\'](https://www\.youtube\.com/embed/[^"\']+)["\'][^>]*>', html, re.I):
+        src = match.group(1).replace('/embed//', '/embed/')
+        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        before_context = clean_text(html[before_start:match.start()]).lower()
+        video_matches.append({'src': src, 'beforeContext': before_context, 'kind': 'youtube'})
+
+    for match in re.finditer(r'<video[^>]+src=["\']([^"\']+)["\'][^>]*>', html, re.I):
+        src = urljoin(base_url, match.group(1))
+        before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
+        before_context = clean_text(html[before_start:match.start()]).lower()
+        video_matches.append({'src': src, 'beforeContext': before_context, 'kind': 'html5'})
+
+    labeled_demo_video = None
     demo_video = None
     fallback_video = None
     contextual_video = None
-    for item in iframe_matches:
+    for item in video_matches:
         src = item['src']
         before_context = item['beforeContext']
         recent_before_context = before_context[-80:]
-        vid = src.split('/embed/')[-1].split('?')[0]
-        if vid in GENERIC_CONTEXT_VIDEO_IDS:
-            if fallback_video is None:
-                fallback_video = src
-            continue
+        if item['kind'] == 'youtube':
+            vid = src.split('/embed/')[-1].split('?')[0]
+            if vid in GENERIC_CONTEXT_VIDEO_IDS:
+                if fallback_video is None:
+                    fallback_video = src
+                continue
         if term_label_pattern.search(recent_before_context):
-            if demo_video is None:
-                demo_video = src
+            if labeled_demo_video is None:
+                labeled_demo_video = src
             continue
         if any(re.search(pattern, before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
             if contextual_video is None:
@@ -233,10 +245,12 @@ def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, An
         if demo_video is None:
             demo_video = src
 
-    if demo_video:
-        return {'type': 'video', 'url': demo_video, 'quality': 'demo'}
+    if labeled_demo_video:
+        return {'type': 'video', 'url': labeled_demo_video, 'quality': 'demo'}
     if preferred_gif:
         return {'type': 'gif', 'url': preferred_gif, 'quality': 'gif'}
+    if demo_video:
+        return {'type': 'video', 'url': demo_video, 'quality': 'demo'}
     if contextual_video:
         return {'type': 'video', 'url': contextual_video, 'quality': 'fallback'}
     if fallback_video:
@@ -293,16 +307,16 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
             media_cache[url] = result
         return result
 
-    for related_url in related_sign_links(html, url):
-        related_media = resolve_media(term, related_url, depth + 1, seen)
-        if related_media and related_media.get('quality') == 'demo':
-            return {**related_media, 'selectedFrom': 'related-demo'}
-
     if direct and direct.get('quality') == 'gif':
         result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
         if depth == 0:
             media_cache[url] = result
         return result
+
+    for related_url in related_sign_links(html, url):
+        related_media = resolve_media(term, related_url, depth + 1, seen)
+        if related_media and related_media.get('quality') == 'demo':
+            return {**related_media, 'selectedFrom': 'related-demo'}
 
     for related_url in related_sign_links(html, url):
         related_media = resolve_media(term, related_url, depth + 1, seen)
