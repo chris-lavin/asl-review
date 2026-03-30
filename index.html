@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASL Review</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260329c" />
+    <link rel="stylesheet" href="./styles.css?v=20260329d" />
   </head>
   <body>
     <div class="bg-orb orb-a"></div>
@@ -43,22 +43,30 @@
         <div class="panel control-card glass range-card">
           <div class="range-header">
             <div>
-              <label for="rangeStartSelect">Lesson range</label>
+              <label>Lesson range</label>
               <div class="range-summary" id="rangeSummary">Lessons 1–45</div>
             </div>
             <button id="allLessonsBtn" class="btn btn-ghost btn-small">All lessons</button>
           </div>
-          <div class="range-inputs">
-            <div>
-              <label for="rangeStartSelect">Start</label>
-              <select id="rangeStartSelect"></select>
+
+          <div class="range-values">
+            <div class="range-value-box">
+              <span class="range-value-label">Start</span>
+              <strong id="rangeStartValue">1</strong>
             </div>
-            <div>
-              <label for="rangeEndSelect">End</label>
-              <select id="rangeEndSelect"></select>
+            <div class="range-value-box">
+              <span class="range-value-label">End</span>
+              <strong id="rangeEndValue">45</strong>
             </div>
           </div>
+
+          <div class="slider-wrap">
+            <div class="slider-track" id="sliderTrack"></div>
+            <input id="rangeStartInput" class="range-slider range-start" type="range" min="1" max="45" step="1" value="1" />
+            <input id="rangeEndInput" class="range-slider range-end" type="range" min="1" max="45" step="1" value="45" />
+          </div>
         </div>
+
         <div class="panel control-card glass">
           <label for="searchInput">Search</label>
           <input id="searchInput" type="search" placeholder="Search signs, lessons, or review words" />
@@ -131,6 +139,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260329c" type="module"></script>
+    <script src="./app.js?v=20260329d" type="module"></script>
   </body>
 </html>

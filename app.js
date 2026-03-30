@@ -10,9 +10,12 @@ const state = {
 };
 
 const els = {
-  rangeStartSelect: document.querySelector('#rangeStartSelect'),
-  rangeEndSelect: document.querySelector('#rangeEndSelect'),
+  rangeStartInput: document.querySelector('#rangeStartInput'),
+  rangeEndInput: document.querySelector('#rangeEndInput'),
+  rangeStartValue: document.querySelector('#rangeStartValue'),
+  rangeEndValue: document.querySelector('#rangeEndValue'),
   rangeSummary: document.querySelector('#rangeSummary'),
+  sliderTrack: document.querySelector('#sliderTrack'),
   allLessonsBtn: document.querySelector('#allLessonsBtn'),
   searchInput: document.querySelector('#searchInput'),
   hideKnownInput: document.querySelector('#hideKnownInput'),
@@ -46,7 +49,7 @@ async function init() {
     const response = await fetch('./public/lessons.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Failed to load lessons (${response.status})`);
     state.lessons = await response.json();
-    populateRangeSelects();
+    setupRangeSliders();
     wireEvents();
     buildDeck();
   } catch (error) {
@@ -59,30 +62,32 @@ async function init() {
   }
 }
 
-function populateRangeSelects() {
-  const options = state.lessons
-    .map((lesson) => `<option value="${lesson.lesson}">Lesson ${lesson.lesson}</option>`)
-    .join('');
-
-  els.rangeStartSelect.innerHTML = options;
-  els.rangeEndSelect.innerHTML = options;
-  els.rangeStartSelect.value = String(state.lessons[0].lesson);
-  els.rangeEndSelect.value = String(state.lessons[state.lessons.length - 1].lesson);
+function setupRangeSliders() {
+  const maxLesson = state.lessons[state.lessons.length - 1].lesson;
+  els.rangeStartInput.min = '1';
+  els.rangeStartInput.max = String(maxLesson);
+  els.rangeEndInput.min = '1';
+  els.rangeEndInput.max = String(maxLesson);
+  els.rangeStartInput.value = '1';
+  els.rangeEndInput.value = String(maxLesson);
   els.heroLessonCount.textContent = String(state.lessons.length);
+  updateSliderUI();
 }
 
 function wireEvents() {
-  ['change', 'input'].forEach((eventName) => {
-    els.rangeStartSelect.addEventListener(eventName, syncRangeAndBuild);
-    els.rangeEndSelect.addEventListener(eventName, syncRangeAndBuild);
+  ['input', 'change'].forEach((eventName) => {
+    els.rangeStartInput.addEventListener(eventName, onRangeInput);
+    els.rangeEndInput.addEventListener(eventName, onRangeInput);
     els.searchInput.addEventListener(eventName, buildDeck);
     els.hideKnownInput.addEventListener(eventName, buildDeck);
     els.randomizeInput.addEventListener(eventName, buildDeck);
   });
 
   els.allLessonsBtn.addEventListener('click', () => {
-    els.rangeStartSelect.value = String(state.lessons[0].lesson);
-    els.rangeEndSelect.value = String(state.lessons[state.lessons.length - 1].lesson);
+    const maxLesson = state.lessons[state.lessons.length - 1].lesson;
+    els.rangeStartInput.value = '1';
+    els.rangeEndInput.value = String(maxLesson);
+    updateSliderUI();
     buildDeck();
   });
 
@@ -109,22 +114,41 @@ function wireEvents() {
   });
 }
 
-function syncRangeAndBuild() {
-  const start = Number(els.rangeStartSelect.value);
-  const end = Number(els.rangeEndSelect.value);
+function onRangeInput(event) {
+  let start = Number(els.rangeStartInput.value);
+  let end = Number(els.rangeEndInput.value);
+
   if (start > end) {
-    if (document.activeElement === els.rangeStartSelect) {
-      els.rangeEndSelect.value = String(start);
+    if (event.target === els.rangeStartInput) {
+      end = start;
+      els.rangeEndInput.value = String(end);
     } else {
-      els.rangeStartSelect.value = String(end);
+      start = end;
+      els.rangeStartInput.value = String(start);
     }
   }
+
+  updateSliderUI();
   buildDeck();
 }
 
+function updateSliderUI() {
+  const min = Number(els.rangeStartInput.min);
+  const max = Number(els.rangeStartInput.max);
+  const start = Number(els.rangeStartInput.value);
+  const end = Number(els.rangeEndInput.value);
+  const startPct = ((start - min) / (max - min)) * 100;
+  const endPct = ((end - min) / (max - min)) * 100;
+
+  els.rangeStartValue.textContent = String(start);
+  els.rangeEndValue.textContent = String(end);
+  els.sliderTrack.style.left = `${startPct}%`;
+  els.sliderTrack.style.width = `${Math.max(endPct - startPct, 0)}%`;
+}
+
 function buildDeck() {
-  const startLesson = Number(els.rangeStartSelect.value || 1);
-  const endLesson = Number(els.rangeEndSelect.value || state.lessons.length);
+  const startLesson = Number(els.rangeStartInput.value || 1);
+  const endLesson = Number(els.rangeEndInput.value || state.lessons.length);
   const query = els.searchInput.value.trim().toLowerCase();
   const hideKnown = els.hideKnownInput.checked;
 
