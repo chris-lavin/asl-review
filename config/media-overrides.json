@@ -20,6 +20,21 @@
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs/p/play.gif",
       "quality": "gif"
+    },
+    "OH-I-SEE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/zi9T8_Xm2v0?rel=0",
+      "quality": "demo"
+    },
+    "HOUR": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hour-1-hour.gif",
+      "quality": "gif"
+    },
+    "monthly": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/month-every.gif",
+      "quality": "gif"
     }
   }
 }

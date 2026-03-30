@@ -4928,11 +4928,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/oh-i-see.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/a/ah-oh-I-see-2.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/zi9T8_Xm2v0?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh-i-see.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -5149,11 +5149,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-hours-equal-one-day.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hour-1-hour.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hour.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -5519,10 +5519,10 @@
     ],
     "media": {
       "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/m/month-1.gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/month-every.gif",
       "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/month.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

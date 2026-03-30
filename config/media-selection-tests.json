@@ -127,6 +127,30 @@
         "url": "https://www.lifeprint.com/asl101/gifs/p/play.gif"
       },
       "note": "Use PLAY animated gif, not PLAYER video or sentence clip."
+    },
+    {
+      "term": "OH-I-SEE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/zi9T8_Xm2v0?rel=0"
+      },
+      "note": "Use demo video, not animated gif."
+    },
+    {
+      "term": "HOUR",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/h/hour-1-hour.gif"
+      },
+      "note": "Use animated gif, not sentence video."
+    },
+    {
+      "term": "monthly",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/m/month-every.gif"
+      },
+      "note": "Use MONTHLY / every month gif, not month.gif."
     }
   ]
 }
