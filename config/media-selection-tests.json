@@ -1,0 +1,117 @@
+{
+  "cases": [
+    {
+      "term": "HELP",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/h/help.gif"
+      },
+      "note": "Use animated GIF, not sentence/context video."
+    },
+    {
+      "term": "SUN",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/fnYd3XHdEPI?rel=0"
+      },
+      "note": "Use first true sign demo video on page."
+    },
+    {
+      "term": "DEAF",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/d/deaf.gif"
+      },
+      "note": "Use animated GIF, not static gif image or sentence video."
+    },
+    {
+      "term": "MONDAY",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/lXVIBinAmQ8?rel=0"
+      },
+      "note": "Use MONDAY demo, not EVERY-MONDAY or sample sentence."
+    },
+    {
+      "term": "SOUP",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/s/soup.gif"
+      },
+      "note": "Prefer animated GIF on page."
+    },
+    {
+      "term": "PREFER",
+      "expect": {
+        "type": "video",
+        "url": "https://www.lifeprint.com/asl101/videos/favorite.mp4"
+      },
+      "note": "Use direct on-page embedded video, not TASTE."
+    },
+    {
+      "term": "CHURCH",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/c/church.gif"
+      },
+      "note": "Use animated GIF on page."
+    },
+    {
+      "term": "don't-UNDERSTAND",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/_90JOGT0vfs?rel=0"
+      },
+      "note": "Use DON'T-UNDERSTAND demo, not UNDERSTAND."
+    },
+    {
+      "term": "UNDERSTAND",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/5N10dIavSYc?rel=0"
+      },
+      "note": "Use UNDERSTAND demo."
+    },
+    {
+      "term": "SICK",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/s/sick.gif"
+      },
+      "note": "Use animated GIF, not sample sentence video."
+    },
+    {
+      "term": "WEB-CAM",
+      "expect": {
+        "type": "video",
+        "url": "https://www.lifeprint.com/asl101/videos/web-cam.mp4"
+      },
+      "note": "Use direct page video, not sample sentence clip."
+    },
+    {
+      "term": "SHIRT",
+      "expect": {
+        "type": "video"
+      },
+      "rejectUrlContains": [
+        "t-shirt",
+        "shirt-volunteer"
+      ],
+      "note": "Should not point to T-shirt or volunteer/shirt gif."
+    },
+    {
+      "term": "BIRD",
+      "expect": {
+        "type": "video"
+      },
+      "note": "Should use demo YouTube video, not sentence video or gif."
+    },
+    {
+      "term": "LATE",
+      "expect": {
+        "type": "video"
+      },
+      "note": "Should use demo video, not animated gif."
+    }
+  ]
+}
