@@ -2398,11 +2398,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/he.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-all.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/indexing.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/he-she-it.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/he.htm2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/index.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/he.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -8014,24 +8018,6 @@
     }
   },
   {
-    "id": "buzz-cut before you?",
-    "term": "BUZZ-CUT BEFORE YOU?",
-    "lessons": [
-      20
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/buzz-cut-before-you.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/20/buzz-cut-before-you.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/gv_y4f7v5aA?rel=0&autoplay=1",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/buzz-cut-before-you.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
     "id": "colors",
     "term": "COLORS",
     "lessons": [
@@ -8546,11 +8532,18 @@
       "https://www.lifeprint.com/asl101/pages-signs/l/lawyer.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-lawyer.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer6.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lawyer.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9569,11 +9562,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dontmind.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/tomorrow-you-help-me-you-mind.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/dontmind.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dontmind.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9844,11 +9837,17 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/than.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "related-demo"
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/than.h9.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than.h10.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan3.jpg"
+      ],
+      "quality": "sequence",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -11815,11 +11814,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/u/upset.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.75.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.76.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.77.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/u/upset.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -12068,11 +12071,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/pepsi.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/qjtC9okyyGk",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pepsi.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -12759,11 +12766,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hockey.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey29.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey28.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey27.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hockey.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -14326,11 +14337,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/halloween.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow84.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow85.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow86.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow87.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/halloween.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -14825,10 +14841,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "url": "https://www.youtube.com/embed/cJB-fzt26sM?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

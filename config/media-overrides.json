@@ -66,6 +66,85 @@
         "https://www.lifeprint.com/asl101/signjpegs/b/bowling6.jpg"
       ],
       "quality": "sequence"
+    },
+    "PEPSI": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pepsi3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "UPSET": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.75.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.76.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/u/upset.77.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "HALLOWEEN": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow84.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow85.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow86.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hallow87.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "LAWYER": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/l/lawyer6.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "HE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/he-she-it.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/he.htm2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/index.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "HOCKEY": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey29.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey28.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/hockey27.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "oh-gee": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/cJB-fzt26sM?rel=0",
+      "quality": "demo"
+    },
+    "limit": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/t/than.h9.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/than.h10.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/t/thanmorethan3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "DON'T-MIND": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/dontmind.gif",
+      "quality": "gif"
     }
   }
 }

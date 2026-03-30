@@ -188,6 +188,78 @@
         "url": "https://www.youtube.com/embed/3UmDXnQkUTY?rel=0"
       },
       "note": "Use first demo YouTube video, not sentence clip."
+    },
+    {
+      "term": "PEPSI",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images, not sentence/demo video."
+    },
+    {
+      "term": "UPSET",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images."
+    },
+    {
+      "term": "HALLOWEEN",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images."
+    },
+    {
+      "term": "LAWYER",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images, not sentence video."
+    },
+    {
+      "term": "HE",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images, not related video."
+    },
+    {
+      "term": "HOCKEY",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use images."
+    },
+    {
+      "term": "oh-gee",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/cJB-fzt26sM?rel=0"
+      },
+      "note": "Use direct OH-GEE video."
+    },
+    {
+      "term": "limit",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use embedded images from than.htm family page."
+    },
+    {
+      "term": "DON'T-MIND",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/dontmind.gif"
+      },
+      "note": "Use animated gif."
+    },
+    {
+      "term": "BUZZ-CUT BEFORE YOU?",
+      "expect": {
+        "absent": true
+      },
+      "note": "Sentence entry should be removed from deck."
     }
   ]
 }

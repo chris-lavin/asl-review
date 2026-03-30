@@ -330,17 +330,6 @@
       }
     },
     {
-      "term": "UPSET",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/u/upset.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/u/upset.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "FRUIT",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fruit.htm",
       "media": {
@@ -491,17 +480,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/happen.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "HOCKEY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hockey.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hockey.htm",
         "selectedFrom": "direct"
       }
     },
@@ -770,17 +748,6 @@
       }
     },
     {
-      "term": "HALLOWEEN",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/halloween.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/halloween.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "NATIVE-AMERICAN",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/nativeamerican.htm",
       "media": {
@@ -924,17 +891,6 @@
       }
     },
     {
-      "term": "oh-gee",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "EARS",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/ears.htm",
       "media": {
@@ -1026,9 +982,9 @@
   "duplicateTerms": [],
   "buildStats": {
     "lessonCount": 45,
-    "wordCount": 846,
+    "wordCount": 845,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 88,
+    "fallbackMediaCount": 84,
     "duplicateTermCount": 0
   }
 }
