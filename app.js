@@ -234,11 +234,11 @@ async function loadVideoForItem(item) {
   }
 
   try {
-    const response = await fetch(item.url, { cache: 'force-cache' });
-    if (!response.ok) throw new Error(`Failed to load sign page (${response.status})`);
-    const html = await response.text();
-    const match = html.match(/<iframe[^>]+src=["'](https:\/\/www\.youtube\.com\/embed\/[^"']+)["']/i);
-    const result = match ? match[1] : null;
+    const apiUrl = `../api/asl-video?url=${encodeURIComponent(item.url)}`;
+    const response = await fetch(apiUrl, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Failed to load video (${response.status})`);
+    const payload = await response.json();
+    const result = payload.embedUrl || null;
     state.videoCache[item.url] = result;
     applyVideoResult(result);
   } catch {
