@@ -79,10 +79,11 @@ function wireEvents() {
   ['input', 'change'].forEach((eventName) => {
     els.rangeStartInput.addEventListener(eventName, onRangeInput);
     els.rangeEndInput.addEventListener(eventName, onRangeInput);
-    els.searchInput.addEventListener(eventName, buildDeck);
-    els.hideKnownInput.addEventListener(eventName, buildDeck);
-    els.randomizeInput.addEventListener(eventName, buildDeck);
   });
+
+  els.searchInput.addEventListener('input', buildDeck);
+  els.hideKnownInput.addEventListener('change', buildDeck);
+  els.randomizeInput.addEventListener('change', buildDeck);
 
   els.allLessonsBtn.addEventListener('click', () => {
     const maxLesson = state.lessons[state.lessons.length - 1].lesson;
