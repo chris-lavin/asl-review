@@ -181,20 +181,36 @@ def extract_lessons() -> list[dict[str, Any]]:
 
 
 def extract_image_sequence(term: str, html: str, base_url: str) -> list[str]:
-    sequence = []
+    images = []
     for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.(?:jpg|jpeg|png)[^"\']*)["\'][^>]*>', html, re.I):
         src = urljoin(base_url, match.group(1))
         if '/images-layout/' in src:
             continue
         before_start = max(0, match.start() - VIDEO_CONTEXT_WINDOW)
         before_context = clean_text(html[before_start:match.start()]).lower()
-        recent_before_context = before_context[-80:]
+        images.append({'src': src, 'beforeContext': before_context})
+
+    sequence = []
+    for item in images:
+        src = item['src']
+        recent_before_context = item['beforeContext'][-80:]
         if sequence:
             sequence.append(src)
             continue
         if has_term_label_near_end(recent_before_context, term):
             sequence.append(src)
-    return sequence if len(sequence) >= 2 else []
+    if len(sequence) >= 2:
+        return sequence
+
+    sign_images = [item['src'] for item in images if '/signjpegs/' in item['src']]
+    if len(sign_images) >= 2:
+        return sign_images[:8]
+
+    plain_images = [item['src'] for item in images]
+    if len(plain_images) >= 2:
+        return plain_images[:8]
+
+    return []
 
 
 def normalize_label_text(text: str) -> str:
