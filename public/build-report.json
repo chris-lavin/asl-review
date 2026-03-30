@@ -88,17 +88,6 @@
       }
     },
     {
-      "term": "YOU THINK CUTE, WHO?",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/ZcH4x4P8aRQ?rel=0&autoplay=1",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "DENTIST",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dentist.htm",
       "media": {
@@ -216,17 +205,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pay.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "WHAT COST CENT-25?",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/Xg1JcqTrH-0?rel=0&autoplay=1",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm",
         "selectedFrom": "direct"
       }
     },
@@ -381,17 +359,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/topic.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "CAKE, YOU LIKE WHAT-KIND?",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/27/cake-you-like-what-kind.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/OoCBLWuw7EI?rel=0&autoplay=1",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/27/cake-you-like-what-kind.htm",
         "selectedFrom": "direct"
       }
     },
@@ -1270,7 +1237,7 @@
     "lessonCount": 45,
     "wordCount": 847,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 110,
+    "fallbackMediaCount": 107,
     "duplicateTermCount": 0
   }
 }

@@ -1795,7 +1795,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/q1muj-SHunM?rel=0",
+      "url": "https://www.youtube.com/embed/UxO5Q0fSqOw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/feel.htm",
       "selectedFrom": "direct"
@@ -5181,7 +5181,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/LGqaMCk2-_Q?rel=0",
+      "url": "https://www.youtube.com/embed/lXVIBinAmQ8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/monday.htm",
       "selectedFrom": "direct"
@@ -8290,7 +8290,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/ZcH4x4P8aRQ?rel=0&autoplay=1",
-      "quality": "fallback",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
       "selectedFrom": "direct"
     }
@@ -9178,7 +9178,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/Xg1JcqTrH-0?rel=0&autoplay=1",
-      "quality": "fallback",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm",
       "selectedFrom": "direct"
     }
@@ -10455,7 +10455,7 @@
     "media": {
       "type": "video",
       "url": "https://www.youtube.com/embed/OoCBLWuw7EI?rel=0&autoplay=1",
-      "quality": "fallback",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/27/cake-you-like-what-kind.htm",
       "selectedFrom": "direct"
     }

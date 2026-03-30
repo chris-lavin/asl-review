@@ -180,7 +180,7 @@ def extract_lessons() -> list[dict[str, Any]]:
     return all_lessons
 
 
-def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
+def extract_media_from_html(term: str, html: str, base_url: str) -> dict[str, Any] | None:
     gif_matches = [
         urljoin(base_url, match.group(1))
         for match in re.finditer(r'<img[^>]+src=["\']([^"\']+\.gif[^"\']*)["\'][^>]*>', html, re.I)
@@ -207,16 +207,24 @@ def extract_media_from_html(html: str, base_url: str) -> dict[str, Any] | None:
         after_context = clean_text(html[match.end():after_end]).lower()
         iframe_matches.append({'src': src, 'beforeContext': before_context, 'afterContext': after_context})
 
+    normalized_term = re.sub(r'\s+', ' ', term).strip()
+    term_label_pattern = re.compile(rf'\b{re.escape(normalized_term)}\s*[:.]?\s*$', re.I)
+
     demo_video = None
     fallback_video = None
     contextual_video = None
     for item in iframe_matches:
         src = item['src']
         before_context = item['beforeContext']
+        recent_before_context = before_context[-80:]
         vid = src.split('/embed/')[-1].split('?')[0]
         if vid in GENERIC_CONTEXT_VIDEO_IDS:
             if fallback_video is None:
                 fallback_video = src
+            continue
+        if term_label_pattern.search(recent_before_context):
+            if demo_video is None:
+                demo_video = src
             continue
         if any(re.search(pattern, before_context, re.I) for pattern in EXAMPLE_VIDEO_PATTERNS):
             if contextual_video is None:
@@ -278,7 +286,7 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
         html = fetch_text(url)
     except requests.RequestException:
         return None
-    direct = extract_media_from_html(html, url)
+    direct = extract_media_from_html(term, html, url)
     if direct and direct.get('quality') == 'demo':
         result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
         if depth == 0:
