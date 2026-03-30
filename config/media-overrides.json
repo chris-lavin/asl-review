@@ -35,6 +35,37 @@
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs/m/month-every.gif",
       "quality": "gif"
+    },
+    "STRAIGHT-HAIR": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jas_AwA_h9M?rel=0",
+      "quality": "demo"
+    },
+    "WASHING-MACHINE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3UmDXnQkUTY?rel=0",
+      "quality": "demo"
+    },
+    "STRANGE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "BOWLING": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling6.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

@@ -3885,10 +3885,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/08.10.mp4",
+      "url": "https://www.youtube.com/embed/3UmDXnQkUTY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/washingmachine.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8187,10 +8187,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/9j2d2WQsriY?rel=0",
+      "url": "https://www.youtube.com/embed/jas_AwA_h9M?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hair.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8280,24 +8280,6 @@
       "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
       "quality": "fallback",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/weak.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
-    "id": "you think cute, who?",
-    "term": "YOU THINK CUTE, WHO?",
-    "lessons": [
-      20
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ZcH4x4P8aRQ?rel=0&autoplay=1",
-      "quality": "fallback",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
       "selectedFrom": "direct"
     }
   },
@@ -9731,11 +9713,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/strange.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/food-strange-new-you-like-eat.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/s/strange3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/strange.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -12622,11 +12608,18 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/bowling.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/bowling6.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bowling.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

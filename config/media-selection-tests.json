@@ -151,6 +151,43 @@
         "url": "https://www.lifeprint.com/asl101/gifs/m/month-every.gif"
       },
       "note": "Use MONTHLY / every month gif, not month.gif."
+    },
+    {
+      "term": "STRANGE",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use image sequence, not sentence video."
+    },
+    {
+      "term": "YOU THINK CUTE, WHO?",
+      "expect": {
+        "absent": true
+      },
+      "note": "Sentence entry should be removed from deck."
+    },
+    {
+      "term": "STRAIGHT-HAIR",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/jas_AwA_h9M?rel=0"
+      },
+      "note": "Use straight-hair video, not hair video."
+    },
+    {
+      "term": "BOWLING",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use image sequence, not fallback/generic video."
+    },
+    {
+      "term": "WASHING-MACHINE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/3UmDXnQkUTY?rel=0"
+      },
+      "note": "Use first demo YouTube video, not sentence clip."
     }
   ]
 }

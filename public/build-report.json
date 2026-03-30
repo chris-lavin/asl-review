@@ -99,17 +99,6 @@
       }
     },
     {
-      "term": "YOU THINK CUTE, WHO?",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/ZcH4x4P8aRQ?rel=0&autoplay=1",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/you-think-cute-who.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
       "term": "PAINT > PAINTER",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/paint.htm",
       "media": {
@@ -480,17 +469,6 @@
         "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
         "quality": "fallback",
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/baseball.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "BOWLING",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bowling.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bowling.htm",
         "selectedFrom": "direct"
       }
     },
@@ -1048,9 +1026,9 @@
   "duplicateTerms": [],
   "buildStats": {
     "lessonCount": 45,
-    "wordCount": 847,
+    "wordCount": 846,
     "missingMediaCount": 13,
-    "fallbackMediaCount": 90,
+    "fallbackMediaCount": 88,
     "duplicateTermCount": 0
   }
 }

@@ -9,6 +9,15 @@ const words = JSON.parse(fs.readFileSync(path.join(root, 'public/words.json'), '
 let failures = 0;
 for (const test of tests) {
   const word = words.find((w) => w.term === test.term);
+  if (test.expect.absent) {
+    if (word) {
+      console.log(`FAIL ${test.term}: expected absent, but found term`);
+      failures += 1;
+    } else {
+      console.log(`PASS ${test.term}: absent as expected`);
+    }
+    continue;
+  }
   if (!word) {
     console.log(`FAIL ${test.term}: term not found`);
     failures += 1;
