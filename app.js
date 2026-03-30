@@ -31,6 +31,7 @@ const els = {
   answerArea: document.querySelector('#answerArea'),
   videoArea: document.querySelector('#videoArea'),
   videoStatus: document.querySelector('#videoStatus'),
+  signGif: document.querySelector('#signGif'),
   signVideo: document.querySelector('#signVideo'),
   wordList: document.querySelector('#wordList'),
   flashcard: document.querySelector('#flashcard'),
@@ -286,7 +287,9 @@ function setNavDisabled(disabled) {
 
 function resetVideo() {
   els.videoArea.classList.add('hidden');
-  els.videoStatus.textContent = 'Loading sign video…';
+  els.videoStatus.textContent = 'Loading sign media…';
+  els.signGif.classList.add('hidden');
+  els.signGif.removeAttribute('src');
   els.signVideo.classList.add('hidden');
   els.signVideo.removeAttribute('src');
 }
@@ -305,7 +308,7 @@ async function loadVideoForItem(item) {
     const response = await fetch(apiUrl, { cache: 'no-store' });
     if (!response.ok) throw new Error(`Failed to load video (${response.status})`);
     const payload = await response.json();
-    const result = payload.embedUrl || null;
+    const result = payload.media || null;
     state.videoCache[item.url] = result;
     applyVideoResult(result);
   } catch {
@@ -314,16 +317,29 @@ async function loadVideoForItem(item) {
   }
 }
 
-function applyVideoResult(videoUrl) {
-  if (!videoUrl) {
-    els.videoStatus.textContent = 'No embedded video found for this sign. Use the Lifeprint link below.';
+function applyVideoResult(media) {
+  if (!media?.url) {
+    els.videoStatus.textContent = 'No sign media found for this page. Use the Lifeprint link below.';
+    els.signGif.classList.add('hidden');
+    els.signGif.removeAttribute('src');
     els.signVideo.classList.add('hidden');
     els.signVideo.removeAttribute('src');
     return;
   }
 
-  const autoplayUrl = buildAutoplayLoopUrl(videoUrl);
+  if (media.type === 'gif') {
+    els.videoStatus.textContent = 'Animated sign reference';
+    els.signVideo.classList.add('hidden');
+    els.signVideo.removeAttribute('src');
+    els.signGif.src = media.url;
+    els.signGif.classList.remove('hidden');
+    return;
+  }
+
+  const autoplayUrl = buildAutoplayLoopUrl(media.url);
   els.videoStatus.textContent = 'Embedded sign video';
+  els.signGif.classList.add('hidden');
+  els.signGif.removeAttribute('src');
   els.signVideo.src = autoplayUrl;
   els.signVideo.classList.remove('hidden');
 }
