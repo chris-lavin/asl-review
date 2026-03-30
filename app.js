@@ -33,11 +33,21 @@ const els = {
 init();
 
 async function init() {
-  const response = await fetch('./public/lessons.json');
-  state.lessons = await response.json();
-  populateLessonSelect();
-  wireEvents();
-  buildDeck();
+  try {
+    const response = await fetch('./public/lessons.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Failed to load lessons (${response.status})`);
+    state.lessons = await response.json();
+    populateLessonSelect();
+    wireEvents();
+    buildDeck();
+  } catch (error) {
+    console.error(error);
+    els.deckLabel.textContent = 'Could not load lessons';
+    els.termText.textContent = 'Try refreshing the page.';
+    els.lessonText.textContent = error.message;
+    els.answerArea.classList.remove('hidden');
+    setNavDisabled(true);
+  }
 }
 
 function populateLessonSelect() {
@@ -70,7 +80,7 @@ function wireEvents() {
   document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowLeft') moveCard(-1);
     if (event.key === 'ArrowRight') moveCard(1);
-    if (event.key.toLowerCase() === ' ') {
+    if (event.key === ' ') {
       event.preventDefault();
       toggleReveal();
     }
@@ -121,8 +131,8 @@ function render() {
   if (!state.deck.length) {
     els.deckLabel.textContent = 'No cards match this filter';
     els.termText.textContent = 'Try a different lesson or search.';
-    els.lessonText.textContent = '';
-    els.answerArea.classList.add('hidden');
+    els.lessonText.textContent = 'No matching words right now.';
+    els.answerArea.classList.remove('hidden');
     els.sourceLink.href = '#';
     els.wordList.innerHTML = '';
     setNavDisabled(true);
@@ -130,23 +140,31 @@ function render() {
   }
 
   const item = state.deck[state.index];
-  const status = state.progress[item.id]?.known ? 'known' : 'review';
-
   els.deckLabel.textContent = `Card ${state.index + 1} of ${state.deck.length}`;
   els.termText.textContent = item.term;
   els.lessonText.textContent = `Lesson ${item.lesson}`;
   els.sourceLink.href = item.url;
   els.answerArea.classList.toggle('hidden', !state.revealed);
   setNavDisabled(false);
-  renderList(status);
+  renderList();
 }
 
 function renderList() {
   els.wordList.innerHTML = state.deck
     .map((item, idx) => {
       const known = state.progress[item.id]?.known;
-      const active = idx === state.index ? ' style="background:#f7f9ff"' : '';
-      return `<li${active}><div><strong>${escapeHtml(item.term)}</strong><br /><span class="badge ${known ? 'known' : ''}">${known ? 'Known' : 'Reviewing'}</span> <span class="badge">L${item.lesson}</span></div><button data-index="${idx}">Open</button></li>`;
+      const activeStyle = idx === state.index ? ' style="background:rgba(124,156,255,0.08); border-radius:18px;"' : '';
+      return `
+        <li${activeStyle}>
+          <div class="word-main">
+            <div class="word-term">${escapeHtml(item.term)}</div>
+            <div class="word-meta">
+              <span class="badge ${known ? 'known' : ''}">${known ? 'Known' : 'Reviewing'}</span>
+              <span class="badge">Lesson ${item.lesson}</span>
+            </div>
+          </div>
+          <button class="open-btn" data-index="${idx}">Open</button>
+        </li>`;
     })
     .join('');
 
@@ -175,10 +193,7 @@ function moveCard(direction) {
 function markKnown(known) {
   const item = state.deck[state.index];
   if (!item) return;
-  state.progress[item.id] = {
-    known,
-    updatedAt: new Date().toISOString(),
-  };
+  state.progress[item.id] = { known, updatedAt: new Date().toISOString() };
   saveProgress();
   if (known && els.hideKnownInput.checked) {
     buildDeck();
