@@ -506,6 +506,22 @@
         "type": "image-sequence"
       },
       "note": "Use the six bottom EARTH-QUAKE pictures on earth.htm."
+    },
+    {
+      "term": "HABIT",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/h/habit.gif"
+      },
+      "note": "Use first animated gif, not sentence mp4."
+    },
+    {
+      "term": "PROUD",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0"
+      },
+      "note": "Use first YouTube video on the page, not the gif or sample sentence."
     }
   ]
 }

@@ -948,6 +948,16 @@
         "https://www.lifeprint.com/asl101/signjpegs/e/earth.24.jpg"
       ],
       "quality": "sequence"
+    },
+    "HABIT": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/habit.gif",
+      "quality": "gif"
+    },
+    "PROUD": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0",
+      "quality": "demo"
     }
   }
 }

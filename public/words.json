@@ -5122,11 +5122,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/habit.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/habit-any-you.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/habit.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/habit.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -7939,11 +7939,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/proud.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/p/proud.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/proud.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
