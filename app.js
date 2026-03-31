@@ -323,7 +323,7 @@ function markKnown(known) {
 }
 
 function setNavDisabled(disabled) {
-  [els.prevBtn, els.nextBtn, els.flipBtn, els.knownBtn, els.unknownBtn].forEach((button) => {
+  [els.prevBtn, els.nextBtn, els.knownBtn, els.unknownBtn].forEach((button) => {
     button.disabled = disabled;
   });
 }
