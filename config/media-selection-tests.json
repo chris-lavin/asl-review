@@ -260,6 +260,14 @@
         "absent": true
       },
       "note": "Sentence entry should be removed from deck."
+    },
+    {
+      "term": "EXPENSIVE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/ZdmmD6ZsQrw?rel=0"
+      },
+      "note": "Use the first demo YouTube video, not the sentence example clip."
     }
   ]
 }

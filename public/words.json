@@ -13609,10 +13609,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/EHzf4S6SRh4?rel=0",
+      "url": "https://www.youtube.com/embed/ZdmmD6ZsQrw?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/expensive.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
