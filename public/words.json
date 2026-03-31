@@ -5185,11 +5185,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-minutes-equal-one-hour.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min-2.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -5720,11 +5720,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-think-this-class-hard.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hard.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6083,11 +6083,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-like-sleep-in.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-in.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6520,11 +6520,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-have-secretary.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-3.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8096,11 +8096,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-like-fool-people.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8502,11 +8506,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-like-fishing.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8734,11 +8743,17 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/your-resume-how-many-pages.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume5.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9103,11 +9118,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/office.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-have-your-own-office.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/o/office.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/office.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9143,11 +9158,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-want-retire-how-old.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire10.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire11.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire29.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire30.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9327,11 +9347,14 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/have-you-ever-flunked-a-class-before.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/flunk.31.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/flunk.32.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9345,11 +9368,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9405,11 +9433,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/trigonometry-you-finish-pass.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9441,11 +9473,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/sophomore.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9459,11 +9491,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/study.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/before-test-you-study-all-night.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/study.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/study.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9659,11 +9691,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-mischievous-sometimes.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9795,11 +9832,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/food-enough-you.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9903,11 +9940,18 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-think-asl-teacher-earn-too-much.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -10429,11 +10473,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/your-first-teacher-you-remember-his-her-name.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/remember.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -11530,11 +11574,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau15.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau16.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau17.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau18.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -15940,11 +15989,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-going-steady-with-someone.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/single.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

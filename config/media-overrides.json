@@ -413,6 +413,155 @@
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs-animated/fail.gif",
       "quality": "gif"
+    },
+    "FISHING": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "FLUNK": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/flunk.31.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/flunk.32.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "FOOL": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "FRESHMAN": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "good-enough": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+      "quality": "gif"
+    },
+    "HARD": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hard.gif",
+      "quality": "gif"
+    },
+    "MINUTE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min-2.gif",
+      "quality": "gif"
+    },
+    "MISCHIEVOUS-(variation:_devil)": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/mischievous4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "OFFICE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/o/office.gif",
+      "quality": "gif"
+    },
+    "PASS": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/p/pass.h3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "REMEMBER": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/remember.gif",
+      "quality": "gif"
+    },
+    "RESTAURANT": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau15.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau16.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau17.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/restau18.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "RESUME": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/resume5.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "RETIRE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire10.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire11.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire29.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/r/retire30.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "SECRETARY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-3.gif",
+      "quality": "gif"
+    },
+    "SLEEP-in": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-in.gif",
+      "quality": "gif"
+    },
+    "SOMEONE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/single.gif",
+      "quality": "gif"
+    },
+    "SOPHOMORE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/sophomore.gif",
+      "quality": "gif"
+    },
+    "STUDY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/study.gif",
+      "quality": "gif"
+    },
+    "too-much": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

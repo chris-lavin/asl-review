@@ -1,872 +1,6 @@
 {
-  "generatedAt": "2026-03-31T00:25:26.775Z",
+  "generatedAt": "2026-03-31T00:55:21.073Z",
   "results": [
-    {
-      "term": "FISHING",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-fishing.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-like-fishing.mp4",
-            "context": "g\" width=\"223\"/> Do you like fishing?"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 10,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishafish1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/fishafish2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "FLUNK",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/have-you-ever-flunked-a-class-before.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/have-you-ever-flunked-a-class-before.mp4",
-            "context": "in-top: 0; margin-bottom: 0\">� Sample sentence: Have you ever gotten an F in class before?�"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 2,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.31.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.32.jpg"
-        ]
-      }
-    },
-    {
-      "term": "FOOL",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-fool-people.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-like-fool-people.mp4",
-            "context": "eone3.jpg\" width=\"199\"/> \"Do you like to fool people?\" �"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone3.jpg"
-        ]
-      }
-    },
-    {
-      "term": "FRESHMAN",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-            "context": "dth=\"236\"/> � Sample sentence: Are you a freshman or sophomore?"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/f/freshman1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "good-enough",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/food-enough-you.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/food-enough-you.mp4",
-            "context": "the left fist. Sample sentence: Did you get enough to eat? / Have you had enough food? / Is there enough food?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
-            "context": "single exaggerated motion with the fingers wiggling as if representing an overflowing cup. ENOUGH: The right hand brushes once or twice over the left fist."
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/signjpegs/f/full.h1.gif",
-            "context": "=\"../../signjpegs/e/enoughdoublemotion6.jpg\" width=\"252\"/> � FULL:"
-          }
-        ],
-        "imageSequenceCount": 15,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion6.jpg"
-        ]
-      }
-    },
-    {
-      "term": "HARD",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-think-this-class-hard.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-think-this-class-hard.mp4",
-            "context": "h/hard2.jpg\" width=\"216\"/> � Sample sentence: \"Do you think this class is hard?\""
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/h/hard.gif",
-            "context": "nd does not move.� In the main version, both hands are using \"bent-V\" hands.� There is another version in which the base hand is a palm-down \"S-hand.\" HARD:"
-          }
-        ],
-        "imageSequenceCount": 9,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard-alternatehandshape1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard-reallyhard1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hard-reallyhard2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "MINUTE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/how-many-minutes-equal-one-hour.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/how-many-minutes-equal-one-hour.mp4",
-            "context": "style=\"margin-top: 0; margin-bottom: 0\"> � Sample sentence: How many minutes equal one hour?"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/one-min-have-how-many-seconds.mp4",
-            "context": "/m/minute-m-i-n2.jpg\" width=\"238\"/> Or you can do a sentence like this: \"One minute has how many seconds?\""
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min-2.gif",
-            "context": "movement is from the wrist, not the finger. Note: This sign can also mean \"moment,\" or \"a second.\" MINUTE:"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min.gif",
-            "context": "index finger touches the wrist at the base of the dominant hand.� Only the dominant hand moves. MINUTE: (variation)"
-          }
-        ],
-        "imageSequenceCount": 8,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/m/minute-onpalm1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hour2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/minute-a1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/minute-a2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/minute-m-i-n1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/minute-m-i-n2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "MISCHIEVOUS-(variation:_devil)",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-mischievous-sometimes.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-mischievous-sometimes.mp4",
-            "context": "jpg\" width=\"258\"/> � Sample sentence: \"Are you mischievous sometimes?\""
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "OFFICE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/office.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-have-your-own-office.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/office.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-have-your-own-office.mp4",
-            "context": "idth=\"218\"/> � Sample sentence: \"You have your own office?\"� = YOU HAVE your-SELF OFFICE?\""
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/o/office-fs.gif",
-            "context": "e uses it while chatting with you.� As always, you should do this sign however it is done by your local teacher or local Deaf community. OFFICE (fingerspelled):"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/o/office.gif",
-            "context": "cher or local Deaf community. OFFICE (fingerspelled): OFFICE (version):"
-          }
-        ],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/o/office1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/o/office3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/o/office4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "PASS",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/trigonometry-you-finish-pass.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/trigonometry-you-finish-pass.mp4",
-            "context": "\"213\" src=\"../../signjpegs/p/pass.h3.jpg\" width=\"214\"/> � Sample sentence: Have you passed trigonometry?� = T-R-I-G YOU FINISH PASS YOU?"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h3.jpg"
-        ]
-      }
-    },
-    {
-      "term": "REMEMBER",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-first-teacher-you-remember-his-her-name.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/your-first-teacher-you-remember-his-her-name.mp4",
-            "context": "c=\"../../signjpegs/r/rememb5.jpg\" width=\"238\"/> Sample sentence: YOUR FIRST TEACHER, YOU REMEMBER HIS/HER NAME?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs-animated/remember.gif",
-            "context": "sity &#9658;American Sign Language: \"remember\" Memory aid: Think of \"tacking it down.\" REMEMBER:"
-          }
-        ],
-        "imageSequenceCount": 7,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/r/remember1.1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/rememb5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/rememb6.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/rememb1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/rememb2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/rememb3.jpg"
-        ]
-      }
-    },
-    {
-      "term": "RESTAURANT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
-            "context": "c=\"../../signjpegs/r/restau16.jpg\" width=\"196\"/> Sample sentence: \"What is the name of a restaurant you like to eat at?\" = RESTAURANT YOU LIKE EAT, (what)-NAME?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs-animated/cafeteria.gif",
-            "context": "ETERIA or CAFE: cafeteria animation:"
-          }
-        ],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/r/restau15.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/restau16.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/restau17.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/restau18.jpg"
-        ]
-      }
-    },
-    {
-      "term": "RESUME",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/your-resume-how-many-pages.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/your-resume-how-many-pages.mp4",
-            "context": "esume4.jpg\" width=\"227\"/> Sentence: How many pages are there in your r�sum�?� = YOUR RESUME, HOW-MANY PAGES? �"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 5,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/r/resume1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/resume2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/resume3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/resume4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/resume5.jpg"
-        ]
-      }
-    },
-    {
-      "term": "RETIRE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-want-retire-how-old.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-want-retire-how-old.mp4",
-            "context": "margin-bottom: 0\">� Sample sentence: How old do you want to retire? = \"YOU WANT RETIRE, how-OLD?\""
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 6,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/r/retire10.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/retire11.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/retire29.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/r/retire30.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/v/vacation-e1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/v/vacation-e2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "SECRETARY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-have-secretary.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-have-secretary.mp4",
-            "context": "r=\"0\" height=\"237\" src=\"../../signjpegs/s/secretaryb6.jpg\" width=\"235\"/> � Sample sentence: Do you wish that you had a secretary?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-3.gif",
-            "context": "r local Deaf use. � SECRETARY�(recommended general version)"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-1.gif",
-            "context": "� SECRETARY (\"K\" version)"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-2.gif",
-            "context": "img border=\"0\" height=\"226\" src=\"../../signjpegs/s/secretaryc7.jpg\" width=\"224\"/> � SECRETARY (\"U\" version)"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-4.gif",
-            "context": "� SECRETARY (\"ear\" version \"P\" handshape version)"
-          }
-        ],
-        "imageSequenceCount": 23,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretary1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretary2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretary3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretary4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretary5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/secretaryc1.jpg"
-        ]
-      }
-    },
-    {
-      "term": "SLEEP-in",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-sleep-in.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-like-sleep-in.mp4",
-            "context": "-layout/back.gif\" width=\"54\"/> A combination of SLEEP and SUNRISE.� Can also be used to mean \"oversleep\" if you use a \"th\" mouth-shape. Do you like to sleep in?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-in.gif",
-            "context": "Can also be used to mean \"oversleep\" if you use a \"th\" mouth-shape. Do you like to sleep in?"
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-oversleep.gif",
-            "context": "to sleep in?"
-          }
-        ],
-        "imageSequenceCount": 13,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin0.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin5.jpg"
-        ]
-      }
-    },
-    {
-      "term": "SOMEONE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-going-steady-with-someone.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-going-steady-with-someone.mp4",
-            "context": "g border=\"0\" src=\"../../signjpegs/s/something10.jpg\"/> � Sample sentence: \"Are you going steady with someone?\""
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/images-signs/single.gif",
-            "context": " the underside of a table. Your right index finger makes circular motions about the size of a quarter. The movement is in your arm, not in your wrist.� SOMEONE:"
-          }
-        ],
-        "imageSequenceCount": 1,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/s/something10.jpg"
-        ]
-      }
-    },
-    {
-      "term": "SOPHOMORE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
-            "context": "c=\"../../gifs-animated/sophomore.gif\" width=\"140\"/>� Sample sentence: Are you a freshman or sophomore?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs-animated/sophomore.gif",
-            "context": "width=\"226\"/>"
-          }
-        ],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/s/sophom33.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sophom34.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sophom35.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/sophom36.jpg"
-        ]
-      }
-    },
-    {
-      "term": "STUDY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/study.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/before-test-you-study-all-night.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/study.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/before-test-you-study-all-night.mp4",
-            "context": "dy.2.jpg\" width=\"273\"/> Sample sentence:� Do you study all night before a test?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs-animated/study.gif",
-            "context": "e \"book\" and wiggle your fingers. STUDY:�"
-          }
-        ],
-        "imageSequenceCount": 2,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/s/study.1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/s/study.2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "too-much",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-think-asl-teacher-earn-too-much.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-think-asl-teacher-earn-too-much.mp4",
-            "context": "olor=\"#000000\" size=\"1\" width=\"50%\"/> Sample sentence:� \"Do you think that ASL teachers earn too much?\"� (YOU THINK ASL TEACHERS EARN TOO-MUCH?)"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 7,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
-        ]
-      }
-    },
     {
       "term": "TRUE",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/true.htm",
@@ -13538,6 +12672,56 @@
       }
     },
     {
+      "term": "good-enough",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/food-enough-you.mp4",
+            "context": "the left fist. Sample sentence: Did you get enough to eat? / Have you had enough food? / Is there enough food?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+            "context": "single exaggerated motion with the fingers wiggling as if representing an overflowing cup. ENOUGH: The right hand brushes once or twice over the left fist."
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/signjpegs/f/full.h1.gif",
+            "context": "=\"../../signjpegs/e/enoughdoublemotion6.jpg\" width=\"252\"/> � FULL:"
+          }
+        ],
+        "imageSequenceCount": 15,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/enoughdoublemotion6.jpg"
+        ]
+      }
+    },
+    {
       "term": "GRANDPA",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/grandpa.htm",
       "media": {
@@ -17082,6 +16266,60 @@
       }
     },
     {
+      "term": "MINUTE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min-2.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/minute.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/how-many-minutes-equal-one-hour.mp4",
+            "context": "style=\"margin-top: 0; margin-bottom: 0\"> � Sample sentence: How many minutes equal one hour?"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/one-min-have-how-many-seconds.mp4",
+            "context": "/m/minute-m-i-n2.jpg\" width=\"238\"/> Or you can do a sentence like this: \"One minute has how many seconds?\""
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min-2.gif",
+            "context": "movement is from the wrist, not the finger. Note: This sign can also mean \"moment,\" or \"a second.\" MINUTE:"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/m/minute-1-min.gif",
+            "context": "index finger touches the wrist at the base of the dominant hand.� Only the dominant hand moves. MINUTE: (variation)"
+          }
+        ],
+        "imageSequenceCount": 8,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/m/minute-onpalm1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hour2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/minute-a1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/minute-a2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/minute-m-i-n1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/minute-m-i-n2.jpg"
+        ]
+      }
+    },
+    {
       "term": "MOM",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mom.htm",
       "media": {
@@ -18115,6 +17353,53 @@
           "https://www.lifeprint.com/asl101/signjpegs/o/offb1.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/o/offb2.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/o/off1.jpg"
+        ]
+      }
+    },
+    {
+      "term": "OFFICE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/office.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/o/office.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/office.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-have-your-own-office.mp4",
+            "context": "idth=\"218\"/> � Sample sentence: \"You have your own office?\"� = YOU HAVE your-SELF OFFICE?\""
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/o/office-fs.gif",
+            "context": "e uses it while chatting with you.� As always, you should do this sign however it is done by your local teacher or local Deaf community. OFFICE (fingerspelled):"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/o/office.gif",
+            "context": "cher or local Deaf community. OFFICE (fingerspelled): OFFICE (version):"
+          }
+        ],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/o/office1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/o/office3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/o/office4.jpg"
         ]
       }
     },
@@ -19833,6 +19118,59 @@
       }
     },
     {
+      "term": "SECRETARY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-3.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/secretary.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-wish-yourself-have-secretary.mp4",
+            "context": "r=\"0\" height=\"237\" src=\"../../signjpegs/s/secretaryb6.jpg\" width=\"235\"/> � Sample sentence: Do you wish that you had a secretary?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-3.gif",
+            "context": "r local Deaf use. � SECRETARY�(recommended general version)"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-1.gif",
+            "context": "� SECRETARY (\"K\" version)"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-2.gif",
+            "context": "img border=\"0\" height=\"226\" src=\"../../signjpegs/s/secretaryc7.jpg\" width=\"224\"/> � SECRETARY (\"U\" version)"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/secretary-4.gif",
+            "context": "� SECRETARY (\"ear\" version \"P\" handshape version)"
+          }
+        ],
+        "imageSequenceCount": 23,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretary1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretary2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretary3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretary4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretary5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/secretaryc1.jpg"
+        ]
+      }
+    },
+    {
       "term": "SEE",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/see.htm",
       "media": {
@@ -20776,6 +20114,51 @@
           "https://www.lifeprint.com/asl101/signjpegs/s/skirt.66.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/s/skirt.67.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/s/skirt.68.jpg"
+        ]
+      }
+    },
+    {
+      "term": "SLEEP-in",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-in.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sleepin.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-like-sleep-in.mp4",
+            "context": "-layout/back.gif\" width=\"54\"/> A combination of SLEEP and SUNRISE.� Can also be used to mean \"oversleep\" if you use a \"th\" mouth-shape. Do you like to sleep in?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-in.gif",
+            "context": "Can also be used to mean \"oversleep\" if you use a \"th\" mouth-shape. Do you like to sleep in?"
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/s/sleep-oversleep.gif",
+            "context": "to sleep in?"
+          }
+        ],
+        "imageSequenceCount": 13,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin0.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sleepin5.jpg"
         ]
       }
     },
@@ -28906,6 +28289,51 @@
       }
     },
     {
+      "term": "HARD",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/h/hard.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-think-this-class-hard.mp4",
+            "context": "h/hard2.jpg\" width=\"216\"/> � Sample sentence: \"Do you think this class is hard?\""
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/h/hard.gif",
+            "context": "nd does not move.� In the main version, both hands are using \"bent-V\" hands.� There is another version in which the base hand is a palm-down \"S-hand.\" HARD:"
+          }
+        ],
+        "imageSequenceCount": 9,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard-alternatehandshape1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard-reallyhard1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hard-reallyhard2.jpg"
+        ]
+      }
+    },
+    {
       "term": "oh-gee",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/oh.htm",
       "media": {
@@ -28935,6 +28363,175 @@
           "https://www.lifeprint.com/asl101/signjpegs/o/oh.htm3.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/o/oh.htm4.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/o/oh.htm5.jpg"
+        ]
+      }
+    },
+    {
+      "term": "REMEMBER",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/remember.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/remember.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/your-first-teacher-you-remember-his-her-name.mp4",
+            "context": "c=\"../../signjpegs/r/rememb5.jpg\" width=\"238\"/> Sample sentence: YOUR FIRST TEACHER, YOU REMEMBER HIS/HER NAME?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs-animated/remember.gif",
+            "context": "sity &#9658;American Sign Language: \"remember\" Memory aid: Think of \"tacking it down.\" REMEMBER:"
+          }
+        ],
+        "imageSequenceCount": 7,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/remember1.1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/rememb5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/rememb6.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/rememb1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/rememb2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/rememb3.jpg"
+        ]
+      }
+    },
+    {
+      "term": "SOMEONE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/images-signs/single.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/someone.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-going-steady-with-someone.mp4",
+            "context": "g border=\"0\" src=\"../../signjpegs/s/something10.jpg\"/> � Sample sentence: \"Are you going steady with someone?\""
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/images-signs/single.gif",
+            "context": " the underside of a table. Your right index finger makes circular motions about the size of a quarter. The movement is in your arm, not in your wrist.� SOMEONE:"
+          }
+        ],
+        "imageSequenceCount": 1,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/s/something10.jpg"
+        ]
+      }
+    },
+    {
+      "term": "SOPHOMORE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/sophomore.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/sophomore.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
+            "context": "c=\"../../gifs-animated/sophomore.gif\" width=\"140\"/>� Sample sentence: Are you a freshman or sophomore?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs-animated/sophomore.gif",
+            "context": "width=\"226\"/>"
+          }
+        ],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/s/sophom33.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sophom34.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sophom35.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/sophom36.jpg"
+        ]
+      }
+    },
+    {
+      "term": "STUDY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/study.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/study.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/study.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/before-test-you-study-all-night.mp4",
+            "context": "dy.2.jpg\" width=\"273\"/> Sample sentence:� Do you study all night before a test?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs-animated/study.gif",
+            "context": "e \"book\" and wiggle your fingers. STUDY:�"
+          }
+        ],
+        "imageSequenceCount": 2,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/s/study.1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/s/study.2.jpg"
         ]
       }
     },
@@ -35501,6 +35098,170 @@
       }
     },
     {
+      "term": "FISHING",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fishing.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-like-fishing.mp4",
+            "context": "g\" width=\"223\"/> Do you like fishing?"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 10,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishfishing4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishafish1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/fishafish2.jpg"
+        ]
+      }
+    },
+    {
+      "term": "FLUNK",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.31.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.32.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/flunk.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/have-you-ever-flunked-a-class-before.mp4",
+            "context": "in-top: 0; margin-bottom: 0\">� Sample sentence: Have you ever gotten an F in class before?�"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 2,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.31.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/flunk.32.jpg"
+        ]
+      }
+    },
+    {
+      "term": "FOOL",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone3.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fool.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-like-fool-people.mp4",
+            "context": "eone3.jpg\" width=\"199\"/> \"Do you like to fool people?\" �"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/foolsomeone3.jpg"
+        ]
+      }
+    },
+    {
+      "term": "FRESHMAN",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/freshman.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/are-you-a-freshman-or-a-sophomore.mp4",
+            "context": "dth=\"236\"/> � Sample sentence: Are you a freshman or sophomore?"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
+        ]
+      }
+    },
+    {
       "term": "JUNIOR",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/j/junior.htm",
       "media": {
@@ -35645,6 +35406,48 @@
       }
     },
     {
+      "term": "MISCHIEVOUS-(variation:_devil)",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/mischievous.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-mischievous-sometimes.mp4",
+            "context": "jpg\" width=\"258\"/> � Sample sentence: \"Are you mischievous sometimes?\""
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/mischievous4.jpg"
+        ]
+      }
+    },
+    {
       "term": "more-than",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/than.htm",
       "media": {
@@ -35710,6 +35513,46 @@
         "imageSequenceCount": 1,
         "firstImageSequenceUrls": [
           "https://www.lifeprint.com/asl101/signjpegs/n/nose.h1.jpg"
+        ]
+      }
+    },
+    {
+      "term": "PASS",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h3.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/pass.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/trigonometry-you-finish-pass.mp4",
+            "context": "\"213\" src=\"../../signjpegs/p/pass.h3.jpg\" width=\"214\"/> � Sample sentence: Have you passed trigonometry?� = T-R-I-G YOU FINISH PASS YOU?"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/pass.h3.jpg"
         ]
       }
     },
@@ -35797,6 +35640,141 @@
           "https://www.lifeprint.com/asl101/signjpegs/p/principal-04.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/p/principal-05.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/p/principal-06.jpg"
+        ]
+      }
+    },
+    {
+      "term": "RESTAURANT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau15.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau16.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau17.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau18.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/restaurant.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
+            "context": "c=\"../../signjpegs/r/restau16.jpg\" width=\"196\"/> Sample sentence: \"What is the name of a restaurant you like to eat at?\" = RESTAURANT YOU LIKE EAT, (what)-NAME?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs-animated/cafeteria.gif",
+            "context": "ETERIA or CAFE: cafeteria animation:"
+          }
+        ],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau15.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau16.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau17.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/restau18.jpg"
+        ]
+      }
+    },
+    {
+      "term": "RESUME",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume5.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/resume.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/your-resume-how-many-pages.mp4",
+            "context": "esume4.jpg\" width=\"227\"/> Sentence: How many pages are there in your r�sum�?� = YOUR RESUME, HOW-MANY PAGES? �"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 5,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/resume5.jpg"
+        ]
+      }
+    },
+    {
+      "term": "RETIRE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire10.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire11.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire29.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire30.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/r/retire.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-want-retire-how-old.mp4",
+            "context": "margin-bottom: 0\">� Sample sentence: How old do you want to retire? = \"YOU WANT RETIRE, how-OLD?\""
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 6,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire10.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire11.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire29.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/r/retire30.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/v/vacation-e1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/v/vacation-e2.jpg"
         ]
       }
     },
@@ -35900,6 +35878,52 @@
           "https://www.lifeprint.com/asl101/signjpegs/t/than4.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan1.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/t/thanlessthan2.jpg"
+        ]
+      }
+    },
+    {
+      "term": "too-much",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/too-much.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-think-asl-teacher-earn-too-much.mp4",
+            "context": "olor=\"#000000\" size=\"1\" width=\"50%\"/> Sample sentence:� \"Do you think that ASL teachers earn too much?\"� (YOU THINK ASL TEACHERS EARN TOO-MUCH?)"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 7,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
         ]
       }
     },
