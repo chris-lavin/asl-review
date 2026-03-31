@@ -147,16 +147,9 @@
       "quality": "gif"
     },
     "PRINCIPAL": {
-      "type": "image-sequence",
-      "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-01.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-02.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-03.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-04.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-05.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-06.jpg"
-      ],
-      "quality": "sequence"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u3vxA2BzbNg?rel=0",
+      "quality": "demo"
     },
     "#BANK": {
       "type": "image-sequence",
@@ -724,21 +717,20 @@
     "HEAD": {
       "type": "image-sequence",
       "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/h/head01.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/h/head02.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/h/head03.jpg"
+        "https://www.lifeprint.com/asl101/signjpegs/h/head1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/head2.jpg"
       ],
       "quality": "sequence"
     },
     "AFTERNOON": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0",
-      "quality": "demo"
-    },
-    "every-AFTERNOON": {
       "type": "gif",
       "url": "https://www.lifeprint.com/asl101/gifs/a/afternoon.gif",
       "quality": "gif"
+    },
+    "every-AFTERNOON": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0",
+      "quality": "demo"
     },
     "MORNING": {
       "type": "video",
@@ -786,18 +778,13 @@
       "quality": "gif"
     },
     "SOON": {
-      "type": "gif",
-      "url": "https://lifeprint.com/asl101/gifs/s/soon-f.gif",
-      "quality": "gif"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ty0cXz3tYlM?rel=0",
+      "quality": "demo"
     },
     "EXPENSIVE": {
       "type": "video",
       "url": "https://www.youtube.com/embed/ZdmmD6ZsQrw?rel=0",
-      "quality": "demo"
-    },
-    "PRINCIPAL": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/u3vxA2BzbNg?rel=0",
       "quality": "demo"
     },
     "stand": {
@@ -874,11 +861,6 @@
       "url": "https://www.youtube.com/embed/pwh3cOdoiG4?rel=0",
       "quality": "demo"
     },
-    "every-AFTERNOON": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0",
-      "quality": "demo"
-    },
     "KEYS": {
       "type": "video",
       "url": "https://www.youtube.com/embed/wBBgfOLszFM?rel=0",
@@ -909,23 +891,10 @@
       "url": "https://www.lifeprint.com/asl101/gifs/f/future.gif",
       "quality": "gif"
     },
-    "AFTERNOON": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/a/afternoon.gif",
-      "quality": "gif"
-    },
     "LOOK-LIKE": {
       "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/l/looks-like.gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/look-like-2.gif",
       "quality": "gif"
-    },
-    "HEAD": {
-      "type": "image-sequence",
-      "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/h/head1.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/h/head2.jpg"
-      ],
-      "quality": "sequence"
     },
     "DRIVER": {
       "type": "image-sequence",
@@ -965,6 +934,36 @@
         "https://www.lifeprint.com/asl101/signjpegs/v/video-record.jpg"
       ],
       "quality": "sequence"
+    },
+    "LOUD": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/loud.gif",
+      "quality": "gif"
+    },
+    "NOW": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/g2j70neQ_lI?rel=0",
+      "quality": "demo"
+    },
+    "my": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/FW_4ABXQ_kQ?rel=0",
+      "quality": "demo"
+    },
+    "DIVORCE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JCTgLJFs4c8?rel=0",
+      "quality": "demo"
+    },
+    "WHAT": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/w/what.gif",
+      "quality": "gif"
+    },
+    "STUDENT": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jrf2XYqjg2o?rel=0",
+      "quality": "demo"
     }
   }
 }

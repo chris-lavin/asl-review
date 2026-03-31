@@ -253,10 +253,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/0E3YmyCR6EY?rel=0",
+      "url": "https://www.youtube.com/embed/jrf2XYqjg2o?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/student.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -383,11 +383,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/w/what.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/what_player.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/w/what.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/what.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -589,10 +589,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/separate.mp4",
+      "url": "https://www.youtube.com/embed/JCTgLJFs4c8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/divorce.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -977,11 +977,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/m/my.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/images-signs/my.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/FW_4ABXQ_kQ?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/my.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -2966,11 +2966,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/n/now.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/n/now.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/g2j70neQ_lI?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/now.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -4593,7 +4593,7 @@
     ],
     "media": {
       "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/l/looks-like.gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/look-like-2.gif",
       "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/looklike.htm",
       "selectedFrom": "override"
@@ -7085,9 +7085,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/soon.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://lifeprint.com/asl101/gifs/s/soon-f.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ty0cXz3tYlM?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/soon.htm",
       "selectedFrom": "override"
     }
@@ -14003,11 +14003,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/l/loud.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/last-night-thunder-lightening.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/loud.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/loud.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

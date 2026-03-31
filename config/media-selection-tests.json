@@ -461,9 +461,9 @@
       "term": "LOOK-LIKE",
       "expect": {
         "type": "gif",
-        "url": "https://www.lifeprint.com/asl101/gifs/l/looks-like.gif"
+        "url": "https://www.lifeprint.com/asl101/gifs/l/look-like-2.gif"
       },
-      "note": "Use first animated gif."
+      "note": "Use the first animated gif on the page; previous gif override pointed to a broken link."
     },
     {
       "term": "OUTSIDE",
@@ -529,6 +529,62 @@
         "type": "image-sequence"
       },
       "note": "Use the first image on the page rather than the bad mp4 link."
+    },
+    {
+      "term": "LOUD",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/loud.gif"
+      },
+      "note": "Use the first animated gif, not the thunder sentence video."
+    },
+    {
+      "term": "NOW",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/g2j70neQ_lI?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "SOON",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/ty0cXz3tYlM?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "my",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/FW_4ABXQ_kQ?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "DIVORCE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/JCTgLJFs4c8?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "WHAT",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/w/what.gif"
+      },
+      "note": "Use the first animated gif on the page, not the broken mp4 link."
+    },
+    {
+      "term": "STUDENT",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/jrf2XYqjg2o?rel=0"
+      },
+      "note": "Use the farther-down full-version YouTube video."
     }
   ]
 }
