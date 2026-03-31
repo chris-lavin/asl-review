@@ -24,7 +24,6 @@ const els = {
   searchInput: document.querySelector('#searchInput'),
   clearSearchBtn: document.querySelector('#clearSearchBtn'),
   hideKnownInput: document.querySelector('#hideKnownInput'),
-  randomizeInput: document.querySelector('#randomizeInput'),
   heroLessonCount: document.querySelector('#heroLessonCount'),
   heroRangeLabel: document.querySelector('#heroRangeLabel'),
   deckLabel: document.querySelector('#deckLabel'),
@@ -99,12 +98,6 @@ function wireEvents() {
   });
   els.clearSearchBtn.addEventListener('click', clearSearch);
   els.hideKnownInput.addEventListener('change', buildDeck);
-  els.randomizeInput.addEventListener('change', () => {
-    if (!els.randomizeInput.checked) {
-      clearShuffleState();
-    }
-    buildDeck();
-  });
 
   els.allLessonsBtn.addEventListener('click', () => {
     els.rangeStartInput.value = '1';
@@ -132,7 +125,6 @@ function wireEvents() {
     markKnown(false);
   });
   els.shuffleAllBtn.addEventListener('click', () => {
-    els.randomizeInput.checked = true;
     resetShuffleState();
     buildDeck();
   });
@@ -204,7 +196,7 @@ function buildDeck() {
     endLesson,
     query,
     hideKnown,
-    randomize: els.randomizeInput.checked,
+    randomize: true,
   };
 
   const previousSelectedId = state.deck[state.index]?.id;
@@ -220,12 +212,8 @@ function buildDeck() {
     deck = deck.filter((item) => !state.progress[item.id]?.known);
   }
 
-  if (els.randomizeInput.checked) {
-    const shuffleKey = buildShuffleKey(deck, { startLesson, endLesson, query, hideKnown });
-    deck = shufflePersisted(deck, shuffleKey);
-  } else {
-    deck = [...deck].sort((a, b) => a.lessons[0] - b.lessons[0] || a.term.localeCompare(b.term));
-  }
+  const shuffleKey = buildShuffleKey(deck, { startLesson, endLesson, query, hideKnown });
+  deck = shufflePersisted(deck, shuffleKey);
 
   state.deck = deck;
   state.index = resolveSelectedIndex(deck, filters, previousSelectedId, savedSelection);
@@ -433,7 +421,7 @@ function getCurrentFilters() {
     endLesson: Number(els.rangeEndInput.value || state.maxLesson),
     query: els.searchInput.value.trim().toLowerCase(),
     hideKnown: els.hideKnownInput.checked,
-    randomize: els.randomizeInput.checked,
+    randomize: true,
   };
 }
 

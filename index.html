@@ -119,6 +119,10 @@
             <div class="deck-count" id="deckCount"></div>
           </div>
           <div class="deck-controls">
+            <div class="deck-action-row">
+              <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
+              <button id="shuffleAllBtn" class="btn btn-secondary deck-shuffle-btn">Shuffle deck</button>
+            </div>
             <div class="deck-search-wrap">
               <label for="searchInput" class="deck-search-label">Search deck</label>
               <div class="search-input-shell">
@@ -126,17 +130,12 @@
                 <button id="clearSearchBtn" class="clear-search-btn hidden" type="button" aria-label="Clear search">×</button>
               </div>
             </div>
-            <div class="deck-toggle-row">
-              <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
-              <label class="toggle-pill"><input id="randomizeInput" type="checkbox" checked /> <span>Random order</span></label>
-            </div>
-            <button id="shuffleAllBtn" class="btn btn-secondary deck-shuffle-btn">Shuffle deck</button>
           </div>
           <ul id="wordList" class="word-list"></ul>
         </aside>
       </section>
     </main>
 
-    <script src="./app.js?v=20260331c" type="module"></script>
+    <script src="./app.js?v=20260331d" type="module"></script>
   </body>
 </html>

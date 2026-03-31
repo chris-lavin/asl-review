@@ -113,13 +113,13 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .toggle-pill { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--line); background: rgba(255,255,255,0.04); border-radius: 999px; padding: 12px 14px; color: var(--text); }
 .workspace-grid { display: grid; grid-template-columns: minmax(360px, 1.2fr) minmax(320px, 0.8fr); gap: 20px; }
 .deck-controls { display: grid; gap: 14px; margin-bottom: 14px; }
-.deck-toggle-row { display: flex; flex-wrap: wrap; gap: 10px; }
-.deck-shuffle-btn { width: 100%; justify-content: center; }
+.deck-action-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+.deck-shuffle-btn { justify-content: center; white-space: nowrap; }
 .study-panel, .deck-panel { padding: 22px; }
 .study-header, .deck-header { display: flex; justify-content: space-between; align-items: start; gap: 16px; margin-bottom: 18px; }
 .study-header h2, .deck-header h2 { margin: 6px 0 0; font-size: 1.35rem; }
 .progress-pill, .deck-count { border-radius: 999px; background: rgba(124, 156, 255, 0.14); border: 1px solid rgba(124, 156, 255, 0.2); color: #dce5ff; padding: 10px 14px; white-space: nowrap; }
-.deck-search-wrap { margin-bottom: 14px; }
+.deck-search-wrap { margin-bottom: 0; }
 .deck-search-label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 0.9rem; }
 .flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(255,255,255,0.09); background: linear-gradient(145deg, rgba(132, 158, 255, 0.16), rgba(255,255,255,0.05)), linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); overflow: hidden; }
 .flashcard::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 35%); }
@@ -204,7 +204,7 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
   .stat-chip { min-width: 94px; padding: 10px 12px; }
   .range-values { grid-template-columns: 1fr; }
   .range-header { flex-direction: column; }
-  .deck-toggle-row { display: grid; grid-template-columns: 1fr 1fr; }
+  .deck-action-row { grid-template-columns: 1fr; }
   .slider-wrap { height: 40px; }
   .range-slider::-webkit-slider-thumb {
     width: 26px; height: 26px; margin-top: -9px;
