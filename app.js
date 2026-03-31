@@ -16,8 +16,8 @@ const state = {
 const els = {
   rangeStartInput: document.querySelector('#rangeStartInput'),
   rangeEndInput: document.querySelector('#rangeEndInput'),
-  rangeStartValue: document.querySelector('#rangeStartValue'),
-  rangeEndValue: document.querySelector('#rangeEndValue'),
+  rangeStartNumber: document.querySelector('#rangeStartNumber'),
+  rangeEndNumber: document.querySelector('#rangeEndNumber'),
   rangeSummary: document.querySelector('#rangeSummary'),
   sliderTrack: document.querySelector('#sliderTrack'),
   allLessonsBtn: document.querySelector('#allLessonsBtn'),
@@ -74,6 +74,10 @@ function setupRangeSliders() {
   els.rangeStartInput.max = String(state.maxLesson);
   els.rangeEndInput.min = '1';
   els.rangeEndInput.max = String(state.maxLesson);
+  els.rangeStartNumber.min = '1';
+  els.rangeStartNumber.max = String(state.maxLesson);
+  els.rangeEndNumber.min = '1';
+  els.rangeEndNumber.max = String(state.maxLesson);
 
   const savedRange = loadRange();
   const defaultEnd = Math.min(18, state.maxLesson);
@@ -82,6 +86,8 @@ function setupRangeSliders() {
 
   els.rangeStartInput.value = String(start);
   els.rangeEndInput.value = String(end);
+  els.rangeStartNumber.value = String(start);
+  els.rangeEndNumber.value = String(end);
   els.heroLessonCount.textContent = String(state.maxLesson);
   updateSliderUI();
 }
@@ -90,6 +96,10 @@ function wireEvents() {
   ['input', 'change'].forEach((eventName) => {
     els.rangeStartInput.addEventListener(eventName, onRangeInput);
     els.rangeEndInput.addEventListener(eventName, onRangeInput);
+  });
+  ['change', 'blur'].forEach((eventName) => {
+    els.rangeStartNumber.addEventListener(eventName, onRangeNumberInput);
+    els.rangeEndNumber.addEventListener(eventName, onRangeNumberInput);
   });
 
   els.searchInput.addEventListener('input', () => {
@@ -155,6 +165,27 @@ function onRangeInput(event) {
     }
   }
 
+  syncRangeNumberInputs(start, end);
+  updateSliderUI();
+  saveRange();
+  buildDeck();
+}
+
+function onRangeNumberInput(event) {
+  let start = clamp(Number(els.rangeStartNumber.value || 1), 1, state.maxLesson);
+  let end = clamp(Number(els.rangeEndNumber.value || state.maxLesson), 1, state.maxLesson);
+
+  if (start > end) {
+    if (event.target === els.rangeStartNumber) {
+      end = start;
+    } else {
+      start = end;
+    }
+  }
+
+  els.rangeStartInput.value = String(start);
+  els.rangeEndInput.value = String(end);
+  syncRangeNumberInputs(start, end);
   updateSliderUI();
   saveRange();
   buildDeck();
@@ -168,10 +199,14 @@ function updateSliderUI() {
   const startPct = ((start - min) / (max - min)) * 100;
   const endPct = ((end - min) / (max - min)) * 100;
 
-  els.rangeStartValue.textContent = String(start);
-  els.rangeEndValue.textContent = String(end);
+  syncRangeNumberInputs(start, end);
   els.sliderTrack.style.left = `${startPct}%`;
   els.sliderTrack.style.width = `${Math.max(endPct - startPct, 0)}%`;
+}
+
+function syncRangeNumberInputs(start, end) {
+  els.rangeStartNumber.value = String(start);
+  els.rangeEndNumber.value = String(end);
 }
 
 function syncSearchClearButton() {

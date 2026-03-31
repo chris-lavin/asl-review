@@ -47,14 +47,14 @@
           </div>
 
           <div class="range-values compact-range-values">
-            <div class="range-value-box">
+            <label class="range-value-box" for="rangeStartNumber">
               <span class="range-value-label">Start</span>
-              <strong id="rangeStartValue">1</strong>
-            </div>
-            <div class="range-value-box">
+              <input id="rangeStartNumber" class="range-number-input" type="number" min="1" max="45" step="1" value="1" inputmode="numeric" />
+            </label>
+            <label class="range-value-box" for="rangeEndNumber">
               <span class="range-value-label">End</span>
-              <strong id="rangeEndValue">18</strong>
-            </div>
+              <input id="rangeEndNumber" class="range-number-input" type="number" min="1" max="45" step="1" value="18" inputmode="numeric" />
+            </label>
           </div>
 
           <div class="slider-wrap">
@@ -136,6 +136,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260331f" type="module"></script>
+    <script src="./app.js?v=20260331g" type="module"></script>
   </body>
 </html>
