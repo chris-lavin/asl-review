@@ -728,6 +728,24 @@
     }
   },
   {
+    "id": "husband",
+    "term": "HUSBAND",
+    "lessons": [
+      2
+    ],
+    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm",
+    "sourceUrls": [
+      "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm"
+    ],
+    "media": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/TYTsqVZU1dk?rel=0",
+      "quality": "demo",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm",
+      "selectedFrom": "override"
+    }
+  },
+  {
     "id": "just",
     "term": "JUST",
     "lessons": [
@@ -908,6 +926,24 @@
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/spell.htm",
       "selectedFrom": "direct"
+    }
+  },
+  {
+    "id": "wife",
+    "term": "WIFE",
+    "lessons": [
+      2
+    ],
+    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm",
+    "sourceUrls": [
+      "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm"
+    ],
+    "media": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/6lwaXQeF0FY?rel=0",
+      "quality": "demo",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm",
+      "selectedFrom": "override"
     }
   },
   {

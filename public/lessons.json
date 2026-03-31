@@ -247,9 +247,17 @@
       {
         "term": "SLOW",
         "url": "https://www.lifeprint.com/asl101/pages-signs/s/slow.htm"
+      },
+      {
+        "term": "HUSBAND",
+        "url": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm"
+      },
+      {
+        "term": "WIFE",
+        "url": "https://www.lifeprint.com/asl101/pages-signs/m/marriage.htm"
       }
     ],
-    "count": 32
+    "count": 34
   },
   {
     "lesson": 3,

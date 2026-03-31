@@ -593,6 +593,22 @@
         "url": "https://www.youtube.com/embed/0zRYKjeOM-4?rel=0"
       },
       "note": "Use the first YouTube video on the page, not the later HUSBAND video."
+    },
+    {
+      "term": "HUSBAND",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/TYTsqVZU1dk?rel=0"
+      },
+      "note": "Restore HUSBAND from the marriage page and use its demo video."
+    },
+    {
+      "term": "WIFE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/6lwaXQeF0FY?rel=0"
+      },
+      "note": "Restore WIFE from the marriage page and use its demo video."
     }
   ]
 }

@@ -68,6 +68,7 @@ def load_json(path: Path, default: Any) -> Any:
 MEDIA_OVERRIDES = load_json(CONFIG_DIR / 'media-overrides.json', {'byUrl': {}, 'byTerm': {}})
 TERM_ALIASES = load_json(CONFIG_DIR / 'term-aliases.json', {})
 SOURCE_PREFERENCES = load_json(CONFIG_DIR / 'source-preferences.json', {})
+EXTRA_LESSON_ITEMS = load_json(CONFIG_DIR / 'extra-lesson-items.json', {})
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -167,6 +168,16 @@ def extract_lessons() -> list[dict[str, Any]]:
                 continue
             seen_terms.add(key)
             items.append({'term': normalized, 'url': href})
+
+        for extra in EXTRA_LESSON_ITEMS.get(str(lesson_number), []):
+            term = canonicalize_term(extra['term'])
+            if SOURCE_PREFERENCES.get(term, '__missing__') is None:
+                continue
+            key = term.lower()
+            if key in seen_terms:
+                continue
+            seen_terms.add(key)
+            items.append({'term': term, 'url': extra['url']})
 
         all_lessons.append(
             {

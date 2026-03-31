@@ -969,6 +969,16 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/0zRYKjeOM-4?rel=0",
       "quality": "demo"
+    },
+    "HUSBAND": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/TYTsqVZU1dk?rel=0",
+      "quality": "demo"
+    },
+    "WIFE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/6lwaXQeF0FY?rel=0",
+      "quality": "demo"
     }
   }
 }
