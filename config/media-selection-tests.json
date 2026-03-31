@@ -306,6 +306,67 @@
         "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0"
       },
       "note": "Special case: use CAR base demo video rather than DRIVE-to variant."
+    },
+    {
+      "term": "NAME SOMEONE CURLY-HAIR",
+      "expect": {
+        "absent": true
+      },
+      "note": "Sentence entry should be removed from deck."
+    },
+    {
+      "term": "Cardinal and Ordinal Numbers",
+      "expect": {
+        "absent": true
+      },
+      "note": "Reference page entry should be removed from deck."
+    },
+    {
+      "term": "STEPFATHER",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/UDQJ9IvC8f8?rel=0"
+      },
+      "note": "Use first YouTube demo."
+    },
+    {
+      "term": "MORE",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/m/more.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "EVERYDAY",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/e/everyday.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "LIVE",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/l/live-address.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "LOOK",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/l/look-at-1.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "OUTSIDE",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use first set of images."
     }
   ]
 }

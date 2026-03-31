@@ -818,6 +818,41 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0",
       "quality": "demo"
+    },
+    "STEPFATHER": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UDQJ9IvC8f8?rel=0",
+      "quality": "demo"
+    },
+    "MORE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/more.gif",
+      "quality": "gif"
+    },
+    "EVERYDAY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/e/everyday.gif",
+      "quality": "gif"
+    },
+    "LIVE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/live-address.gif",
+      "quality": "gif"
+    },
+    "LOOK": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/look-at-1.gif",
+      "quality": "gif"
+    },
+    "OUTSIDE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid4.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

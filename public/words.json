@@ -756,11 +756,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/l/live.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/Lcn7x_4b_Bk?rel=0&amp;autoplay=1",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/live-address.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/live.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -1387,11 +1387,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/m/more.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ijqIBiWCcNw?rel=0",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/more.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/m/more.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -4497,24 +4497,6 @@
     }
   },
   {
-    "id": "cardinal and ordinal numbers",
-    "term": "Cardinal and Ordinal Numbers",
-    "lessons": [
-      10
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/numbersordianlandcardinal.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/n/numbersordianlandcardinal.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/numbers-1-to-5_player.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/numbers1-10.htm",
-      "selectedFrom": "related-demo"
-    }
-  },
-  {
     "id": "dog",
     "term": "DOG",
     "lessons": [
@@ -5112,11 +5094,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/everyday.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/08.17.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/e/everyday.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/everyday.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6539,10 +6521,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/G45OnUVlnls?rel=0",
+      "url": "https://www.youtube.com/embed/UDQJ9IvC8f8?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stepfather.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6920,11 +6902,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/l/look.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/look_player.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/look-at-1.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/look.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8131,24 +8113,6 @@
       "url": "https://www.youtube.com/embed/9j2d2WQsriY?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hair.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
-    "id": "name someone curly-hair",
-    "term": "NAME SOMEONE CURLY-HAIR",
-    "lessons": [
-      20
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/name-someone-curly-hair.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/20/name-someone-curly-hair.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/pEPi3ePhKNY?rel=0&autoplay=1",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/20/name-someone-curly-hair.htm",
       "selectedFrom": "direct"
     }
   },
@@ -10477,11 +10441,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/o/outside.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs-animated/exit-out.gif",
-      "quality": "gif",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/o/outsid4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/o/outside.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
