@@ -2281,10 +2281,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/_fYdWJp5-to?rel=0",
+      "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

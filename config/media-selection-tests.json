@@ -298,6 +298,14 @@
         "absent": true
       },
       "note": "Sentence entry should be removed from deck."
+    },
+    {
+      "term": "DRIVE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0"
+      },
+      "note": "Special case: use CAR base demo video rather than DRIVE-to variant."
     }
   ]
 }

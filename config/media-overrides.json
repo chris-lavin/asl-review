@@ -813,6 +813,11 @@
         "https://www.lifeprint.com/asl101/signjpegs/i/improve3.jpg"
       ],
       "quality": "sequence"
+    },
+    "DRIVE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YfwGL0ZIBqE?rel=0",
+      "quality": "demo"
     }
   }
 }
