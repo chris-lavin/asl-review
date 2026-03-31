@@ -958,6 +958,13 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0",
       "quality": "demo"
+    },
+    "VIDEO-record": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/v/video-record.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

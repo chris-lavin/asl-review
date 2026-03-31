@@ -522,6 +522,13 @@
         "url": "https://www.youtube.com/embed/v74BSmAB5Uk?rel=0"
       },
       "note": "Use first YouTube video on the page, not the gif or sample sentence."
+    },
+    {
+      "term": "VIDEO-record",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use the first image on the page rather than the bad mp4 link."
     }
   ]
 }

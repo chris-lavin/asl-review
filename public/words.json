@@ -13486,11 +13486,13 @@
       "https://www.lifeprint.com/asl101/pages-signs/v/video-record.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/video-record_player.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/v/video-record.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/v/video-record.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
