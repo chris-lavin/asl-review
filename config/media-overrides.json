@@ -936,6 +936,18 @@
         "https://www.lifeprint.com/asl101/signjpegs/d/driver4.jpg"
       ],
       "quality": "sequence"
+    },
+    "EARTH-QUAKE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.14.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.15.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.16.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.22.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.23.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/e/earth.24.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

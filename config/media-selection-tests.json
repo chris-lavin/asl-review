@@ -499,6 +499,13 @@
         "absent": true
       },
       "note": "Advanced discussion entry should be removed from deck."
+    },
+    {
+      "term": "EARTH-QUAKE",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use the six bottom EARTH-QUAKE pictures on earth.htm."
     }
   ]
 }
