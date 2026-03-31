@@ -853,6 +853,89 @@
         "https://www.lifeprint.com/asl101/signjpegs/o/outsid4.jpg"
       ],
       "quality": "sequence"
+    },
+    "GIVE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PkJpgPxNhwE?rel=0",
+      "quality": "demo"
+    },
+    "WHITE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v8h6mw4zGys?rel=0",
+      "quality": "demo"
+    },
+    "EMAIL": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QPKfFDenOPg?rel=0",
+      "quality": "demo"
+    },
+    "GIRL": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pwh3cOdoiG4?rel=0",
+      "quality": "demo"
+    },
+    "every-AFTERNOON": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0",
+      "quality": "demo"
+    },
+    "KEYS": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wBBgfOLszFM?rel=0",
+      "quality": "demo"
+    },
+    "WHAT-DO": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Jc-6r6jmTFI?rel=0",
+      "quality": "demo"
+    },
+    "HUNGRY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/h/hungry-wish.gif",
+      "quality": "gif"
+    },
+    "PEOPLE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/p/people-2.gif",
+      "quality": "gif"
+    },
+    "NEVER": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/n/never.gif",
+      "quality": "gif"
+    },
+    "FUTURE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/f/future.gif",
+      "quality": "gif"
+    },
+    "AFTERNOON": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/afternoon.gif",
+      "quality": "gif"
+    },
+    "LOOK-LIKE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/l/looks-like.gif",
+      "quality": "gif"
+    },
+    "HEAD": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/h/head1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/h/head2.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "DRIVER": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/d/driver1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/driver2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/driver3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/driver4.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

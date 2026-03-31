@@ -330,6 +330,62 @@
       "note": "Use first YouTube demo."
     },
     {
+      "term": "GIVE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/PkJpgPxNhwE?rel=0"
+      },
+      "note": "Use first YouTube video on page."
+    },
+    {
+      "term": "WHITE",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/v8h6mw4zGys?rel=0"
+      },
+      "note": "Use first YouTube video on page."
+    },
+    {
+      "term": "EMAIL",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/QPKfFDenOPg?rel=0"
+      },
+      "note": "Use first YouTube video on page."
+    },
+    {
+      "term": "GIRL",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/pwh3cOdoiG4?rel=0"
+      },
+      "note": "Use first YouTube video on page."
+    },
+    {
+      "term": "every-AFTERNOON",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0"
+      },
+      "note": "Use first YouTube video on referenced page."
+    },
+    {
+      "term": "KEYS",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/wBBgfOLszFM?rel=0"
+      },
+      "note": "Use first YouTube video on referenced page."
+    },
+    {
+      "term": "WHAT-DO",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/Jc-6r6jmTFI?rel=0"
+      },
+      "note": "Use first YouTube video on page."
+    },
+    {
       "term": "MORE",
       "expect": {
         "type": "gif",
@@ -362,11 +418,87 @@
       "note": "Use first animated gif."
     },
     {
+      "term": "HUNGRY",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/h/hungry-wish.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "PEOPLE",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/p/people-2.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "NEVER",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/n/never.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "FUTURE",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/f/future.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "AFTERNOON",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/a/afternoon.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
+      "term": "LOOK-LIKE",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/l/looks-like.gif"
+      },
+      "note": "Use first animated gif."
+    },
+    {
       "term": "OUTSIDE",
       "expect": {
         "type": "image-sequence"
       },
       "note": "Use first set of images."
+    },
+    {
+      "term": "HEAD",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use the two images nearest the HEAD section."
+    },
+    {
+      "term": "DRIVER",
+      "expect": {
+        "type": "image-sequence"
+      },
+      "note": "Use second set of pictures."
+    },
+    {
+      "term": "drive-back-here",
+      "expect": {
+        "absent": true
+      },
+      "note": "Sentence/variant entry should be removed from deck."
+    },
+    {
+      "term": "WITH: advanced discussion",
+      "expect": {
+        "absent": true
+      },
+      "note": "Advanced discussion entry should be removed from deck."
     }
   ]
 }
