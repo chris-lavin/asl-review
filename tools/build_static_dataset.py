@@ -399,6 +399,12 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
             media_cache[cache_key] = result
         return result
 
+    if direct:
+        result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
+        if depth == 0:
+            media_cache[cache_key] = result
+        return result
+
     for related_url in related_sign_links(html, url):
         related_media = resolve_media(term, related_url, depth + 1, seen)
         if related_media and related_media.get('quality') == 'demo':
@@ -408,12 +414,6 @@ def resolve_media(term: str, url: str, depth: int = 0, seen: set[str] | None = N
         related_media = resolve_media(term, related_url, depth + 1, seen)
         if related_media and related_media.get('quality') == 'gif':
             return {**related_media, 'selectedFrom': 'related-gif'}
-
-    if direct:
-        result = {**direct, 'sourceUrl': url, 'selectedFrom': 'direct'}
-        if depth == 0:
-            media_cache[cache_key] = result
-        return result
 
     if depth == 0:
         media_cache[cache_key] = None
