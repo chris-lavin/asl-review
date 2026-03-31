@@ -794,6 +794,25 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/ZdmmD6ZsQrw?rel=0",
       "quality": "demo"
+    },
+    "PRINCIPAL": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u3vxA2BzbNg?rel=0",
+      "quality": "demo"
+    },
+    "stand": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KhhowNO7Ywk?rel=0",
+      "quality": "demo"
+    },
+    "IMPROVE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve3.jpg"
+      ],
+      "quality": "sequence"
     }
   }
 }

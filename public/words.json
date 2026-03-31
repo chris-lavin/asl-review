@@ -2097,11 +2097,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/stand.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/s/stand.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KhhowNO7Ywk?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stand.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9210,24 +9210,6 @@
     }
   },
   {
-    "id": "what cost cent-25?",
-    "term": "WHAT COST CENT-25?",
-    "lessons": [
-      22
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/what-costs-25-cents.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/22/what-costs-25-cents.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
     "id": "apartment",
     "term": "APARTMENT",
     "lessons": [
@@ -9658,11 +9640,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/i/improve.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/your-sign-improve-how.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/i/improve3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/improve.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -14068,16 +14054,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/p/principal.htm"
     ],
     "media": {
-      "type": "image-sequence",
-      "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-01.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-02.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-03.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-04.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-05.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/p/principal-06.jpg"
-      ],
-      "quality": "sequence",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u3vxA2BzbNg?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/principal.htm",
       "selectedFrom": "override"
     }
