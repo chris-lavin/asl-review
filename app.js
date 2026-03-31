@@ -10,6 +10,7 @@ const state = {
   index: 0,
   revealed: false,
   progress: loadProgress(),
+  loadedVideoUrl: null,
 };
 
 const els = {
@@ -267,7 +268,7 @@ function render() {
   if (state.revealed) {
     applyMedia(item.media);
   } else {
-    resetVideo();
+    resetVideo({ preserveEmbedded: false });
   }
   setNavDisabled(false);
   renderList();
@@ -342,7 +343,7 @@ function setNavDisabled(disabled) {
   });
 }
 
-function resetVideo() {
+function resetVideo({ preserveEmbedded = false } = {}) {
   els.videoArea.classList.add('hidden');
   els.videoStatus.textContent = 'Loading sign media…';
   els.signGif.classList.add('hidden');
@@ -350,19 +351,23 @@ function resetVideo() {
   els.signSequence.classList.add('hidden');
   els.signSequence.innerHTML = '';
   els.signVideo.classList.add('hidden');
-  els.signVideo.removeAttribute('src');
+  if (!preserveEmbedded) {
+    resetEmbeddedVideo();
+  }
 }
 
 function applyMedia(media) {
-  resetVideo();
+  resetVideo({ preserveEmbedded: true });
   els.videoArea.classList.remove('hidden');
 
   if (!media?.url && !media?.urls?.length) {
+    resetEmbeddedVideo();
     els.videoStatus.textContent = 'No sign media found for this page. Use the Lifeprint link below.';
     return;
   }
 
   if (media.type === 'gif') {
+    resetEmbeddedVideo();
     els.videoStatus.textContent = 'Animated sign reference';
     els.signGif.src = media.url;
     els.signGif.classList.remove('hidden');
@@ -370,6 +375,7 @@ function applyMedia(media) {
   }
 
   if (media.type === 'image-sequence') {
+    resetEmbeddedVideo();
     els.videoStatus.textContent = 'Step-by-step sign image sequence';
     els.signSequence.innerHTML = media.urls
       .map((url, index) => `<img src="${escapeHtml(url)}" alt="Sign step ${index + 1}" loading="lazy" />`)
@@ -378,19 +384,32 @@ function applyMedia(media) {
     return;
   }
 
-  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video' : 'Sign demo video';
-  els.signVideo.src = media.url.includes('youtube.com/embed/') ? buildAutoplayLoopUrl(media.url) : media.url;
+  const videoUrl = media.url;
+  const isYouTubeEmbed = videoUrl.includes('youtube.com/embed/');
+  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video — press play if needed' : 'Sign demo video — press play when ready';
+
+  if (state.loadedVideoUrl !== videoUrl) {
+    els.signVideo.src = isYouTubeEmbed ? buildManualPlayUrl(videoUrl) : videoUrl;
+    state.loadedVideoUrl = videoUrl;
+  }
+
   els.signVideo.classList.remove('hidden');
 }
 
-function buildAutoplayLoopUrl(videoUrl) {
+function resetEmbeddedVideo() {
+  if (state.loadedVideoUrl) {
+    els.signVideo.removeAttribute('src');
+    state.loadedVideoUrl = null;
+  }
+}
+
+function buildManualPlayUrl(videoUrl) {
   const url = new URL(videoUrl);
-  const videoId = url.pathname.split('/').filter(Boolean).pop();
-  url.searchParams.set('autoplay', '1');
-  url.searchParams.set('mute', '1');
-  url.searchParams.set('loop', '1');
-  url.searchParams.set('playlist', videoId);
-  url.searchParams.set('playsinline', '1');
+  url.searchParams.delete('autoplay');
+  url.searchParams.delete('mute');
+  url.searchParams.delete('loop');
+  url.searchParams.delete('playlist');
+  url.searchParams.delete('playsinline');
   return url.toString();
 }
 
