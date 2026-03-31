@@ -729,6 +729,66 @@
         "https://www.lifeprint.com/asl101/signjpegs/h/head03.jpg"
       ],
       "quality": "sequence"
+    },
+    "AFTERNOON": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/sCP7LjzZXfY?rel=0",
+      "quality": "demo"
+    },
+    "every-AFTERNOON": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/afternoon.gif",
+      "quality": "gif"
+    },
+    "MORNING": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/iH8N44QMh7c?rel=0",
+      "quality": "demo"
+    },
+    "all-MORNING": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PKrGMspKng4?rel=0",
+      "quality": "demo"
+    },
+    "every-MORNING": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jMJYpa-xIjI?rel=0",
+      "quality": "demo"
+    },
+    "ANGRY": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/angry-2.gif",
+      "quality": "gif"
+    },
+    "CLOSE-CAPTIONED": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/closecaptioned.gif",
+      "quality": "gif"
+    },
+    "GALLAUDET": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Z7mTRgU_Xqs?rel=0",
+      "quality": "demo"
+    },
+    "MAYONNAISE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/m/mayo.gif",
+      "quality": "gif"
+    },
+    "MIDNIGHT": {
+      "type": "gif",
+      "url": "https://lifeprint.com/asl101/gifs/m/midnight.gif",
+      "quality": "gif"
+    },
+    "SECRET": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/secret.gif",
+      "quality": "gif"
+    },
+    "SOON": {
+      "type": "gif",
+      "url": "https://lifeprint.com/asl101/gifs/s/soon-f.gif",
+      "quality": "gif"
     }
   }
 }
