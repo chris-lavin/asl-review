@@ -1,274 +1,6 @@
 {
-  "generatedAt": "2026-03-31T00:55:21.073Z",
+  "generatedAt": "2026-03-31T01:00:43.969Z",
   "results": [
-    {
-      "term": "TRUE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/true.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-like-true-false-test.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/true.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-like-true-false-test.mp4",
-            "context": "s/t/true-b1.jpg\" width=\"192\"/> � Do you like true/false tests?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/t/true.gif",
-            "context": "the dominant index finger against your lips.�If you are right-handed, your palm should face left.� Move your finger forward several inches using a quick motion."
-          },
-          {
-            "url": "https://www.lifeprint.com/asl101/images-signs/true.gif",
-            "context": "ould face left.� Move your finger forward several inches using a quick motion."
-          }
-        ],
-        "imageSequenceCount": 2,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/t/true-b1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/t/true-b2.jpg"
-        ]
-      }
-    },
-    {
-      "term": "what-TIME",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/time.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/you-go-asl-class-what-time.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/time.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/you-go-asl-class-what-time.mp4",
-            "context": "ght=\"227\" src=\"../../signjpegs/t/time4.jpg\" width=\"195\"/> � What time do you go to ASL class?"
-          }
-        ],
-        "gifs": [
-          {
-            "url": "https://www.lifeprint.com/asl101/gifs/t/time-1.gif",
-            "context": "watches, (before cell phones). Just tap your wrist twice.� If you want to know \"What time is it?\" then do this same sign but with furrowed eyebrows. � TIME:"
-          }
-        ],
-        "imageSequenceCount": 12,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/t/time1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/t/time2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/t/time3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/t/time4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/o/oclock-11.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/o/oclock-12.jpg"
-        ]
-      }
-    },
-    {
-      "term": "WORRY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/worry.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/before-test-you-worry.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/worry.htm",
-        "selectedFrom": "direct"
-      },
-      "suspicionScore": 20,
-      "issues": [
-        "video_despite_gif_candidate",
-        "sentence_like_video_filename",
-        "selected_video_has_sentence_context"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [
-          {
-            "url": "https://www.lifeprint.com/asl101/videos/before-test-you-worry.mp4",
-            "context": "up, back. Some people initialize this sign with a \"W.\" Sample sentence:� \"Do you get worried before tests?\" = BEFORE-(prior to) TEST YOU WORRY?"
-          }
-        ],
-        "gifs": [],
-        "imageSequenceCount": 9,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/w/worry6.jpg"
-        ]
-      }
-    },
-    {
-      "term": "BIRTHDAY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/birthday.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/6Ag2Q2J9DAU?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/day.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 7,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/b/birthday2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/birthday3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/birthday4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/birth1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/birth2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/birth3.jpg"
-        ]
-      }
-    },
-    {
-      "term": "BLANKET",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/blanket.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/0zSHZngEFRU?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/satisfy.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 10,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/blanket4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "BODY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/kyU5Z7b8EKs?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/foot.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/b/body1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/body2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/body3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/b/body4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "BRIGHT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bright.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.lifeprint.com/asl101/videos/clear.mp4",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/clear.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright4.jpg"
-        ]
-      }
-    },
     {
       "term": "Cardinal and Ordinal Numbers",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/numbersordianlandcardinal.htm",
@@ -294,339 +26,6 @@
       }
     },
     {
-      "term": "CHRISTMAS",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/christmas.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/DMdPpkiUJso",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/tree.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 15,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/c/christ6.jpg"
-        ]
-      }
-    },
-    {
-      "term": "DELICIOUS",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/delicious.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/xxKnfrh-tdE?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lucky.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/d/delici3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/delici4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/delici5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/delici7.jpg"
-        ]
-      }
-    },
-    {
-      "term": "DEPOSIT",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deposit.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/G3LICbWdIb8?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/p/put.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/d/deposi8.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/deposi9.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/deposi10.jpg"
-        ]
-      }
-    },
-    {
-      "term": "don't-LIKE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dont-like.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/8uIg8r1awC4?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/like.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-1s.jpg",
-          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-2s.jpg",
-          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-3s.jpg",
-          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-4s.jpg"
-        ]
-      }
-    },
-    {
-      "term": "DOTS",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dots.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/B-GrGs17ljA?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/clf.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 6,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h4.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h5.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h6.jpg"
-        ]
-      }
-    },
-    {
-      "term": "DUTY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/duty.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/IEVgcJA3JWk?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/doctor.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/d/duty1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/duty2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/duty3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/d/duty4.jpg"
-        ]
-      }
-    },
-    {
-      "term": "EAST",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/east.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/jluBmwvfPyE?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/south.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/e/east1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/east2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/e/east3.jpg"
-        ]
-      }
-    },
-    {
-      "term": "FRISBEE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frisbee.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/kzuiLQ-ZCxI?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dish.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 4,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe39.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe40.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe39.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe40.jpg"
-        ]
-      }
-    },
-    {
-      "term": "FROM-NOW-ON, from then on",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/from-now-on.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/AZqgw-USe2I?rel=0&amp;autoplay=1",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/after.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 3,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/p/procee16.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/p/procee17.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/p/procee18.jpg"
-        ]
-      }
-    },
-    {
-      "term": "GOSSIP",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/gossip.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/vv8D34vy3pY?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/chat.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 12,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip57.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip58.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip59.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip60.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip61.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/g/gossip62.jpg"
-        ]
-      }
-    },
-    {
       "term": "HANUKAH",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hanukah.htm",
       "media": {
@@ -648,42 +47,6 @@
         "gifs": [],
         "imageSequenceCount": 0,
         "firstImageSequenceUrls": []
-      }
-    },
-    {
-      "term": "HEAD",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body-parts.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/kyU5Z7b8EKs?rel=0",
-        "quality": "demo",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/foot.htm",
-        "selectedFrom": "related-demo"
-      },
-      "suspicionScore": 18,
-      "issues": [
-        "related_media",
-        "video_despite_gif_candidate",
-        "selected_media_from_different_source"
-      ],
-      "candidates": {
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
-          }
-        ],
-        "html5": [],
-        "gifs": [],
-        "imageSequenceCount": 12,
-        "firstImageSequenceUrls": [
-          "https://www.lifeprint.com/asl101/signjpegs/a/arm1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/a/arm2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/a/arm3.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hands1.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hands2.jpg",
-          "https://www.lifeprint.com/asl101/signjpegs/h/hands3.jpg"
-        ]
       }
     },
     {
@@ -21969,6 +21332,52 @@
       }
     },
     {
+      "term": "TRUE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/true.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/t/true.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/true.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 8,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate",
+        "multiple_gif_candidates"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-like-true-false-test.mp4",
+            "context": "s/t/true-b1.jpg\" width=\"192\"/> � Do you like true/false tests?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/t/true.gif",
+            "context": "the dominant index finger against your lips.�If you are right-handed, your palm should face left.� Move your finger forward several inches using a quick motion."
+          },
+          {
+            "url": "https://www.lifeprint.com/asl101/images-signs/true.gif",
+            "context": "ould face left.� Move your finger forward several inches using a quick motion."
+          }
+        ],
+        "imageSequenceCount": 2,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/t/true-b1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/t/true-b2.jpg"
+        ]
+      }
+    },
+    {
       "term": "UNDERWEAR",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/u/underwear.htm",
       "media": {
@@ -28536,6 +27945,51 @@
       }
     },
     {
+      "term": "what-TIME",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/time.htm",
+      "media": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs/t/time-1.gif",
+        "quality": "gif",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/time.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 6,
+      "issues": [
+        "manual_override",
+        "gif_despite_video_candidate"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/you-go-asl-class-what-time.mp4",
+            "context": "ght=\"227\" src=\"../../signjpegs/t/time4.jpg\" width=\"195\"/> � What time do you go to ASL class?"
+          }
+        ],
+        "gifs": [
+          {
+            "url": "https://www.lifeprint.com/asl101/gifs/t/time-1.gif",
+            "context": "watches, (before cell phones). Just tap your wrist twice.� If you want to know \"What time is it?\" then do this same sign but with furrowed eyebrows. � TIME:"
+          }
+        ],
+        "imageSequenceCount": 12,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/t/time1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/t/time2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/t/time3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/t/time4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/o/oclock-11.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/o/oclock-12.jpg"
+        ]
+      }
+    },
+    {
       "term": "#BUS",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bus.htm",
       "media": {
@@ -34947,6 +34401,115 @@
       }
     },
     {
+      "term": "BIRTHDAY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/birthday.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/birthday.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 7,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birthday4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birth1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birth2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/birth3.jpg"
+        ]
+      }
+    },
+    {
+      "term": "BLANKET",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/blanket.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/blanket.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 10,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/blanket4.jpg"
+        ]
+      }
+    },
+    {
+      "term": "BODY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/body1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/b/body1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/b/body4.jpg"
+        ]
+      }
+    },
+    {
       "term": "BREAK-DOWN",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/breakdown.htm",
       "media": {
@@ -34982,6 +34545,82 @@
       }
     },
     {
+      "term": "BRIGHT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bright.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bright.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/l/light-bright4.jpg"
+        ]
+      }
+    },
+    {
+      "term": "CHRISTMAS",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/christmas.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/christmas.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 15,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/c/christ6.jpg"
+        ]
+      }
+    },
+    {
       "term": "COVER",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cover.htm",
       "media": {
@@ -35010,6 +34649,38 @@
           "https://www.lifeprint.com/asl101/signjpegs/c/cover.22.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/c/cover.23.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/c/cover.24.jpg"
+        ]
+      }
+    },
+    {
+      "term": "DELICIOUS",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/delicious.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici7.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/delicious.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/delici7.jpg"
         ]
       }
     },
@@ -35058,6 +34729,78 @@
       }
     },
     {
+      "term": "DEPOSIT",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deposit.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi8.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi9.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi10.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/deposit.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi8.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi9.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/deposi10.jpg"
+        ]
+      }
+    },
+    {
+      "term": "don't-LIKE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dont-like.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-1s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-2s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-3s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-4s.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dont-like.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-1s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-2s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-3s.jpg",
+          "https://www.lifeprint.com/asl101/pages-signs/d/dont-like-4s.jpg"
+        ]
+      }
+    },
+    {
       "term": "DORM",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm",
       "media": {
@@ -35094,6 +34837,114 @@
           "https://www.lifeprint.com/asl101/signjpegs/d/dorm1.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/d/dorm2.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/d/dorm3.jpg"
+        ]
+      }
+    },
+    {
+      "term": "DOTS",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dots.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h6.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dots.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 6,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/dots.h6.jpg"
+        ]
+      }
+    },
+    {
+      "term": "DUTY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/duty.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty4.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/duty.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/d/duty4.jpg"
+        ]
+      }
+    },
+    {
+      "term": "EAST",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/east.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/e/east1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/east2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/east3.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/east.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/e/east1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/east2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/e/east3.jpg"
         ]
       }
     },
@@ -35258,6 +35109,153 @@
           "https://www.lifeprint.com/asl101/signjpegs/f/freshman2.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/f/freshman3.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/f/freshman4.jpg"
+        ]
+      }
+    },
+    {
+      "term": "FRISBEE",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frisbee.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe39.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe40.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/frisbee.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 4,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe39.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe40.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe39.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/f/frisbe40.jpg"
+        ]
+      }
+    },
+    {
+      "term": "FROM-NOW-ON, from then on",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/from-now-on.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee16.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee17.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee18.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/from-now-on.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 3,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee16.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee17.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/p/procee18.jpg"
+        ]
+      }
+    },
+    {
+      "term": "GOSSIP",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/gossip.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip57.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip58.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip59.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip60.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/g/gossip.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 12,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip57.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip58.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip59.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip60.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip61.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/g/gossip62.jpg"
+        ]
+      }
+    },
+    {
+      "term": "HEAD",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body-parts.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/h/head01.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/head02.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/head03.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/body-parts.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [],
+        "gifs": [],
+        "imageSequenceCount": 12,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/a/arm1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/a/arm2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/a/arm3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hands1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hands2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/h/hands3.jpg"
         ]
       }
     },
@@ -35924,6 +35922,52 @@
           "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch4.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch5.jpg",
           "https://www.lifeprint.com/asl101/signjpegs/m/muchtoomuch6.jpg"
+        ]
+      }
+    },
+    {
+      "term": "WORRY",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/worry.htm",
+      "media": {
+        "type": "image-sequence",
+        "urls": [
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry6.jpg"
+        ],
+        "quality": "sequence",
+        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/w/worry.htm",
+        "selectedFrom": "override"
+      },
+      "suspicionScore": 1,
+      "issues": [
+        "manual_override"
+      ],
+      "candidates": {
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
+            "context": "A must see!:&nbsp; ASL University's YouTube playlist &#9658; Latest ASLU YouTube upload:"
+          }
+        ],
+        "html5": [
+          {
+            "url": "https://www.lifeprint.com/asl101/videos/before-test-you-worry.mp4",
+            "context": "up, back. Some people initialize this sign with a \"W.\" Sample sentence:� \"Do you get worried before tests?\" = BEFORE-(prior to) TEST YOU WORRY?"
+          }
+        ],
+        "gifs": [],
+        "imageSequenceCount": 9,
+        "firstImageSequenceUrls": [
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry1.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry2.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry3.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry4.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry5.jpg",
+          "https://www.lifeprint.com/asl101/signjpegs/w/worry6.jpg"
         ]
       }
     },
