@@ -4,12 +4,13 @@ A lightweight ASL vocabulary review app based on Lifeprint lessons 1–45.
 
 ## Status
 
-This app now supports a **static-data build pipeline** and a **GitHub Pages export path**.
+This project is a standalone static site repo.
 
 That means:
-- the frontend can run as a pure static site
+- the frontend runs as a pure static site
 - sign media is precomputed at build time
 - no runtime server scraping is required for normal use
+- GitHub Pages should publish directly from the repository root
 
 ## Static build artifacts
 
@@ -25,37 +26,23 @@ Optional manual override files:
 
 - `config/media-overrides.json`
 - `config/term-aliases.json`
+- `config/source-preferences.json`
 
-Use these to lock down tricky words or canonicalize inconsistent terms.
+Use these to lock down tricky words, canonicalize inconsistent terms, or pin the preferred source page.
 
 ## Build the dataset
 
-From the workspace root:
+From the repo root:
 
 ```bash
-python3 asl-review/tools/build_static_dataset.py
-```
-
-## Export a static site
-
-From the workspace root:
-
-```bash
-python3 asl-review/tools/export_static_site.py
-```
-
-This creates a publishable static site in:
-
-```bash
-asl-review/docs/
+python3 tools/build_static_dataset.py
 ```
 
 ## Run locally
 
-From the workspace root:
+From the repo root:
 
 ```bash
-cd asl-review
 python3 -m http.server 8000
 ```
 
@@ -67,23 +54,14 @@ http://localhost:8000
 
 ## GitHub Pages publishing
 
-A GitHub Actions workflow is included at:
+This repo is intended to publish as a branch-based GitHub Pages site from the **repository root**.
 
-```bash
-asl-review/.github/workflows/pages.yml
-```
+Expected repo setup:
+- Pages source: **Deploy from a branch**
+- Branch: `master`
+- Folder: `/ (root)`
 
-It will:
-1. build the static dataset
-2. export the static site to `asl-review/docs/`
-3. deploy that artifact to GitHub Pages
-
-### Expected repo setup
-
-When this project is pushed to GitHub:
-- enable **GitHub Pages** in the repository settings if needed
-- allow GitHub Actions to deploy Pages
-- push to `main` or `master`
+A root-level `.nojekyll` file is included so GitHub Pages serves the site as plain static files.
 
 ## Media selection policy
 
@@ -91,12 +69,11 @@ Precomputed media order:
 
 1. demonstration video of the sign
 2. animated GIF of the sign
-3. fallback context/story video
-
-The builder also follows related sign pages when needed.
+3. image sequence
+4. otherwise no inline media
 
 ## Notes
 
-- User progress is still stored in browser local storage.
+- User progress is stored in browser local storage.
 - `public/build-report.json` is the main review artifact for cleanup.
-- The generated dataset currently includes a small number of missing-media and fallback-media entries that can be improved over time via overrides.
+- `docs/` is now only a local export artifact and is not required for GitHub Pages publishing.
