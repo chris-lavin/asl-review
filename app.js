@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'asl-review-progress-v1';
 const RANGE_STORAGE_KEY = 'asl-review-range-v1';
+const SHUFFLE_STORAGE_KEY = 'asl-review-shuffle-v1';
 
 const state = {
   words: [],
@@ -97,7 +98,12 @@ function wireEvents() {
   });
   els.clearSearchBtn.addEventListener('click', clearSearch);
   els.hideKnownInput.addEventListener('change', buildDeck);
-  els.randomizeInput.addEventListener('change', buildDeck);
+  els.randomizeInput.addEventListener('change', () => {
+    if (!els.randomizeInput.checked) {
+      clearShuffleState();
+    }
+    buildDeck();
+  });
 
   els.allLessonsBtn.addEventListener('click', () => {
     els.rangeStartInput.value = '1';
@@ -115,6 +121,7 @@ function wireEvents() {
   els.unknownBtn.addEventListener('click', () => markKnown(false));
   els.shuffleAllBtn.addEventListener('click', () => {
     els.randomizeInput.checked = true;
+    resetShuffleState();
     buildDeck();
   });
 
@@ -192,7 +199,8 @@ function buildDeck() {
   }
 
   if (els.randomizeInput.checked) {
-    deck = shuffle(deck);
+    const shuffleKey = buildShuffleKey(deck, { startLesson, endLesson, query, hideKnown });
+    deck = shufflePersisted(deck, shuffleKey);
   } else {
     deck = [...deck].sort((a, b) => a.lessons[0] - b.lessons[0] || a.term.localeCompare(b.term));
   }
@@ -374,6 +382,51 @@ function loadRange() {
   } catch {
     return {};
   }
+}
+
+function buildShuffleKey(deck, filters) {
+  return JSON.stringify({
+    ids: deck.map((item) => item.id),
+    filters,
+  });
+}
+
+function loadShuffleState() {
+  try {
+    return JSON.parse(localStorage.getItem(SHUFFLE_STORAGE_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function saveShuffleState(state) {
+  localStorage.setItem(SHUFFLE_STORAGE_KEY, JSON.stringify(state));
+}
+
+function clearShuffleState() {
+  localStorage.removeItem(SHUFFLE_STORAGE_KEY);
+}
+
+function resetShuffleState() {
+  const state = loadShuffleState();
+  delete state.key;
+  delete state.order;
+  saveShuffleState(state);
+}
+
+function shufflePersisted(deck, key) {
+  const saved = loadShuffleState();
+  const ids = deck.map((item) => item.id);
+  if (saved.key === key && Array.isArray(saved.order)) {
+    const orderMap = new Map(saved.order.map((id, index) => [id, index]));
+    if (ids.every((id) => orderMap.has(id))) {
+      return [...deck].sort((a, b) => orderMap.get(a.id) - orderMap.get(b.id));
+    }
+  }
+
+  const shuffled = shuffle(deck);
+  saveShuffleState({ key, order: shuffled.map((item) => item.id) });
+  return shuffled;
 }
 
 function clamp(value, min, max) {
