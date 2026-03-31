@@ -964,6 +964,11 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/jrf2XYqjg2o?rel=0",
       "quality": "demo"
+    },
+    "MARRIAGE": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/0zRYKjeOM-4?rel=0",
+      "quality": "demo"
     }
   }
 }
