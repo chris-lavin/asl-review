@@ -386,10 +386,10 @@ function applyMedia(media) {
 
   const videoUrl = media.url;
   const isYouTubeEmbed = videoUrl.includes('youtube.com/embed/');
-  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video — press play if needed' : 'Sign demo video — press play when ready';
+  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video' : 'Sign demo video';
 
   if (state.loadedVideoUrl !== videoUrl) {
-    els.signVideo.src = isYouTubeEmbed ? buildManualPlayUrl(videoUrl) : videoUrl;
+    els.signVideo.src = isYouTubeEmbed ? buildAutoplayOnceUrl(videoUrl) : videoUrl;
     state.loadedVideoUrl = videoUrl;
   }
 
@@ -403,13 +403,13 @@ function resetEmbeddedVideo() {
   }
 }
 
-function buildManualPlayUrl(videoUrl) {
+function buildAutoplayOnceUrl(videoUrl) {
   const url = new URL(videoUrl);
-  url.searchParams.delete('autoplay');
-  url.searchParams.delete('mute');
+  url.searchParams.set('autoplay', '1');
+  url.searchParams.set('mute', '1');
+  url.searchParams.set('playsinline', '1');
   url.searchParams.delete('loop');
   url.searchParams.delete('playlist');
-  url.searchParams.delete('playsinline');
   return url.toString();
 }
 
