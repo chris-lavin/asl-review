@@ -41,7 +41,6 @@ const els = {
   flashcard: document.querySelector('#flashcard'),
   prevBtn: document.querySelector('#prevBtn'),
   nextBtn: document.querySelector('#nextBtn'),
-  flipBtn: document.querySelector('#flipBtn'),
   knownBtn: document.querySelector('#knownBtn'),
   unknownBtn: document.querySelector('#unknownBtn'),
   shuffleAllBtn: document.querySelector('#shuffleAllBtn'),
@@ -114,11 +113,22 @@ function wireEvents() {
   });
 
   els.flashcard.addEventListener('click', toggleReveal);
-  els.flipBtn.addEventListener('click', toggleReveal);
-  els.prevBtn.addEventListener('click', () => moveCard(-1));
-  els.nextBtn.addEventListener('click', () => moveCard(1));
-  els.knownBtn.addEventListener('click', () => markKnown(true));
-  els.unknownBtn.addEventListener('click', () => markKnown(false));
+  els.prevBtn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    moveCard(-1);
+  });
+  els.nextBtn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    moveCard(1);
+  });
+  els.knownBtn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    markKnown(true);
+  });
+  els.unknownBtn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    markKnown(false);
+  });
   els.shuffleAllBtn.addEventListener('click', () => {
     els.randomizeInput.checked = true;
     resetShuffleState();

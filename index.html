@@ -79,6 +79,8 @@
           </div>
 
           <article id="flashcard" class="flashcard" tabindex="0" aria-live="polite">
+            <button id="prevBtn" class="card-corner-btn card-corner-top-left btn btn-ghost">← Previous</button>
+            <button id="nextBtn" class="card-corner-btn card-corner-top-right btn btn-ghost">Next →</button>
             <div class="flashcard-inner">
               <p class="card-hint">Tap to reveal</p>
               <h3 id="termText">Loading…</h3>
@@ -101,18 +103,9 @@
                 <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">Open Lifeprint reference</a>
               </div>
             </div>
+            <button id="unknownBtn" class="card-corner-btn card-corner-bottom-left btn btn-soft-danger">Still learning</button>
+            <button id="knownBtn" class="card-corner-btn card-corner-bottom-right btn btn-soft-success">I know this</button>
           </article>
-
-          <div class="nav-row">
-            <button id="prevBtn" class="btn btn-ghost">← Previous</button>
-            <button id="flipBtn" class="btn btn-primary">Flip</button>
-            <button id="nextBtn" class="btn btn-ghost">Next →</button>
-          </div>
-
-          <div class="rating-row">
-            <button id="unknownBtn" class="btn btn-soft-danger">Still learning</button>
-            <button id="knownBtn" class="btn btn-soft-success">I know this</button>
-          </div>
 
           <div class="shortcut-note">
             Shortcuts: <strong>space</strong> flip · <strong>←/→</strong> move · <strong>K</strong> known · <strong>U</strong> still learning
