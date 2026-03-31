@@ -11,47 +11,14 @@
         "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/they.htm",
         "selectedFrom": "direct"
       }
-    },
-    {
-      "term": "STINK",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stink.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stink.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "LAZY",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lazy.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lazy.htm",
-        "selectedFrom": "direct"
-      }
-    },
-    {
-      "term": "NOSE",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/nose.htm",
-      "media": {
-        "type": "video",
-        "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-        "quality": "fallback",
-        "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/nose.htm",
-        "selectedFrom": "direct"
-      }
     }
   ],
   "duplicateTerms": [],
   "buildStats": {
     "lessonCount": 45,
-    "wordCount": 843,
+    "wordCount": 841,
     "missingMediaCount": 0,
-    "fallbackMediaCount": 4,
+    "fallbackMediaCount": 1,
     "duplicateTermCount": 0
   }
 }

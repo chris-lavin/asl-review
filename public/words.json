@@ -4435,11 +4435,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/bookstore.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/this-city-bookstore-how-many.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/bookstore.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bookstore.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -4837,10 +4837,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/TDN9SnM7xgQ?rel=0",
+      "url": "https://www.youtube.com/embed/fhlFbsOEd9E?rel=0",
       "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/can.htm",
-      "selectedFrom": "related-demo"
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cant.htm",
+      "selectedFrom": "override"
     }
   },
   {
@@ -8443,11 +8443,16 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dentist.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-go-dentist-how-often.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist4.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dentist.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8869,11 +8874,17 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/busy.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/tomorrow-are-you-busy.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/business1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business5.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/busy.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -8905,11 +8916,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/buy.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/everyday-you-buy-what.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/buy.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/buy.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9204,11 +9215,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/a/apartment.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-live-apartment.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/apartment.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/a/apartment.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9222,29 +9233,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/cafeteria.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
-    "id": "d",
-    "term": "D",
-    "lessons": [
-      23
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/explain.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/e/explain.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/algebra-can-you-explain-me.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/explain.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9276,11 +9269,15 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-live-dorm.mp4",
-      "quality": "demo",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm3.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9312,11 +9309,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/f/fail.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/have-you-ever-flunked-a-class-before.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/fail.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/f/fail.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9506,24 +9503,6 @@
     }
   },
   {
-    "id": "estaurant",
-    "term": "estaurant",
-    "lessons": [
-      23
-    ],
-    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm",
-    "sourceUrls": [
-      "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm"
-    ],
-    "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/restaurant-you-like-eat-name.mp4",
-      "quality": "demo",
-      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm",
-      "selectedFrom": "direct"
-    }
-  },
-  {
     "id": "accept",
     "term": "ACCEPT",
     "lessons": [
@@ -9608,11 +9587,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/food-enough-you.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/enough.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9626,11 +9605,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/how-many-day-equal-one-month.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/e/equal.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/e/equal.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -9757,9 +9736,9 @@
       "https://www.lifeprint.com/asl101/pages-signs/t/test.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/gifs/t/test.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KHByG1S6Xdw",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/t/test.htm",
       "selectedFrom": "direct"
     }
@@ -10508,11 +10487,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/bread.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/bread-fresh-smell-you-like.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/breadsideview.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/bread.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -10526,11 +10505,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/butter.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/bread-with-butter-you-like.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/butter.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/butter.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -10580,11 +10559,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/c/coffee.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/your-coffee-you-like-sugar.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/coffee.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/c/coffee.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -11868,11 +11847,13 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/stink.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/stink.1.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/stink.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -14070,11 +14051,13 @@
       "https://www.lifeprint.com/asl101/pages-signs/l/lazy.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/l/lazy.h1.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/lazy.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -15594,11 +15577,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/d/during.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/during-summer-vacation-you-study.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/during-along.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/during.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -15834,11 +15817,13 @@
       "https://www.lifeprint.com/asl101/pages-signs/n/nose.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/q6LuW4Sp_XM?rel=0",
-      "quality": "fallback",
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/n/nose.h1.jpg"
+      ],
+      "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/n/nose.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {

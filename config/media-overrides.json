@@ -302,6 +302,117 @@
         "https://www.lifeprint.com/asl101/signjpegs/s/strict2.jpg"
       ],
       "quality": "sequence"
+    },
+    "CAN'T": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fhlFbsOEd9E?rel=0",
+      "quality": "demo"
+    },
+    "LAZY": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/l/lazy.h1.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "NOSE": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/n/nose.h1.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "STINK": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/s/stink.1.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "#busy": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/b/business1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business4.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/b/business5.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "APARTMENT": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/a/apartment.gif",
+      "quality": "gif"
+    },
+    "BOOKSTORE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/bookstore.gif",
+      "quality": "gif"
+    },
+    "BREAD": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/breadsideview.gif",
+      "quality": "gif"
+    },
+    "BUTTER": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/butter.gif",
+      "quality": "gif"
+    },
+    "BUY, purchase": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/b/buy.gif",
+      "quality": "gif"
+    },
+    "CAFETERIA /": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/cafeteria.gif",
+      "quality": "gif"
+    },
+    "COFFEE": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/coffee.gif",
+      "quality": "gif"
+    },
+    "DENTIST": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist3.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dentist4.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "DORM": {
+      "type": "image-sequence",
+      "urls": [
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm1.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm2.jpg",
+        "https://www.lifeprint.com/asl101/signjpegs/d/dorm3.jpg"
+      ],
+      "quality": "sequence"
+    },
+    "DURING": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/during-along.gif",
+      "quality": "gif"
+    },
+    "ENOUGH": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/images-signs/enough.gif",
+      "quality": "gif"
+    },
+    "EQUAL": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs/e/equal.gif",
+      "quality": "gif"
+    },
+    "FAIL": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/fail.gif",
+      "quality": "gif"
     }
   }
 }

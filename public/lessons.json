@@ -2605,20 +2605,12 @@
         "url": "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm"
       },
       {
-        "term": "estaurant",
-        "url": "https://www.lifeprint.com/asl101/pages-signs/c/cafeteria.htm"
-      },
-      {
         "term": "DORM",
         "url": "https://www.lifeprint.com/asl101/pages-signs/d/dorm.htm"
       },
       {
         "term": "DIVIDE",
         "url": "https://www.lifeprint.com/asl101/pages-signs/d/divide.htm"
-      },
-      {
-        "term": "D",
-        "url": "https://www.lifeprint.com/asl101/pages-signs/e/explain.htm"
       },
       {
         "term": "ENGLISH",
@@ -2665,7 +2657,7 @@
         "url": "https://www.lifeprint.com/asl101/pages-signs/t/takeaway.htm"
       }
     ],
-    "count": 19
+    "count": 17
   },
   {
     "lesson": 24,
