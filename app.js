@@ -1,6 +1,7 @@
 const STORAGE_KEY = 'asl-review-progress-v1';
 const RANGE_STORAGE_KEY = 'asl-review-range-v1';
 const SHUFFLE_STORAGE_KEY = 'asl-review-shuffle-v1';
+const SELECTED_CARD_STORAGE_KEY = 'asl-review-selected-card-v1';
 
 const state = {
   words: [],
@@ -197,6 +198,16 @@ function buildDeck() {
   const endLesson = Number(els.rangeEndInput.value || state.maxLesson);
   const query = els.searchInput.value.trim().toLowerCase();
   const hideKnown = els.hideKnownInput.checked;
+  const filters = {
+    startLesson,
+    endLesson,
+    query,
+    hideKnown,
+    randomize: els.randomizeInput.checked,
+  };
+
+  const previousSelectedId = state.deck[state.index]?.id;
+  const savedSelection = loadSelectedCard();
 
   let deck = state.words.filter((item) => item.lessons.some((lesson) => lesson >= startLesson && lesson <= endLesson));
 
@@ -216,9 +227,9 @@ function buildDeck() {
   }
 
   state.deck = deck;
-  state.index = 0;
-  state.revealed = false;
+  state.index = resolveSelectedIndex(deck, filters, previousSelectedId, savedSelection);
   updateRangeLabels(startLesson, endLesson);
+  saveSelectedCard(filters);
   render();
 }
 
@@ -284,6 +295,7 @@ function renderList() {
     const openRow = () => {
       state.index = Number(row.dataset.index);
       state.revealed = false;
+      saveSelectedCard(getCurrentFilters());
       render();
       row.scrollIntoView({ block: 'nearest' });
     };
@@ -300,6 +312,7 @@ function renderList() {
 function toggleReveal() {
   if (!state.deck.length) return;
   state.revealed = !state.revealed;
+  saveSelectedCard(getCurrentFilters());
   render();
 }
 
@@ -307,6 +320,7 @@ function moveCard(direction) {
   if (!state.deck.length) return;
   state.index = (state.index + direction + state.deck.length) % state.deck.length;
   state.revealed = false;
+  saveSelectedCard(getCurrentFilters());
   render();
 }
 
@@ -392,6 +406,54 @@ function loadRange() {
   } catch {
     return {};
   }
+}
+
+function getCurrentFilters() {
+  return {
+    startLesson: Number(els.rangeStartInput.value || 1),
+    endLesson: Number(els.rangeEndInput.value || state.maxLesson),
+    query: els.searchInput.value.trim().toLowerCase(),
+    hideKnown: els.hideKnownInput.checked,
+    randomize: els.randomizeInput.checked,
+  };
+}
+
+function saveSelectedCard(filters = getCurrentFilters()) {
+  const item = state.deck[state.index];
+  const payload = {
+    filters,
+    selectedId: item?.id ?? null,
+    revealed: Boolean(item && state.revealed),
+  };
+  localStorage.setItem(SELECTED_CARD_STORAGE_KEY, JSON.stringify(payload));
+}
+
+function loadSelectedCard() {
+  try {
+    return JSON.parse(localStorage.getItem(SELECTED_CARD_STORAGE_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function sameFilters(a = {}, b = {}) {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
+function resolveSelectedIndex(deck, filters, previousSelectedId, savedSelection) {
+  const preferredId = previousSelectedId
+    || (sameFilters(savedSelection?.filters, filters) ? savedSelection?.selectedId : null);
+
+  if (preferredId) {
+    const idx = deck.findIndex((item) => item.id === preferredId);
+    if (idx >= 0) {
+      state.revealed = Boolean(savedSelection?.revealed && savedSelection?.selectedId === preferredId && sameFilters(savedSelection?.filters, filters));
+      return idx;
+    }
+  }
+
+  state.revealed = false;
+  return 0;
 }
 
 function buildShuffleKey(deck, filters) {

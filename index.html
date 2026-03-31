@@ -7,7 +7,7 @@
     <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
     <title>ASL Review</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260329d" />
+    <link rel="stylesheet" href="./styles.css?v=20260331a" />
   </head>
   <body>
     <div class="bg-orb orb-a"></div>
@@ -36,13 +36,8 @@
             </div>
           </div>
         </div>
-        <div class="hero-actions">
-          <button id="shuffleAllBtn" class="btn btn-secondary">Shuffle deck</button>
-        </div>
-      </section>
 
-      <section class="hero-bottom panel glass">
-        <div class="range-card">
+        <div class="hero-range-card">
           <div class="range-header">
             <div>
               <label>Lesson range</label>
@@ -51,7 +46,7 @@
             <button id="allLessonsBtn" class="btn btn-ghost btn-small">All lessons</button>
           </div>
 
-          <div class="range-values">
+          <div class="range-values compact-range-values">
             <div class="range-value-box">
               <span class="range-value-label">Start</span>
               <strong id="rangeStartValue">1</strong>
@@ -63,6 +58,7 @@
           </div>
 
           <div class="slider-wrap">
+            <div class="slider-rail"></div>
             <div class="slider-track" id="sliderTrack"></div>
             <input id="rangeStartInput" class="range-slider range-start" type="range" min="1" max="45" step="1" value="1" />
             <input id="rangeEndInput" class="range-slider range-end" type="range" min="1" max="45" step="1" value="18" />
@@ -134,12 +130,13 @@
               <label class="toggle-pill"><input id="hideKnownInput" type="checkbox" /> <span>Hide known</span></label>
               <label class="toggle-pill"><input id="randomizeInput" type="checkbox" checked /> <span>Random order</span></label>
             </div>
+            <button id="shuffleAllBtn" class="btn btn-secondary deck-shuffle-btn">Shuffle deck</button>
           </div>
           <ul id="wordList" class="word-list"></ul>
         </aside>
       </section>
     </main>
 
-    <script src="./app.js?v=20260329d" type="module"></script>
+    <script src="./app.js?v=20260331a" type="module"></script>
   </body>
 </html>
