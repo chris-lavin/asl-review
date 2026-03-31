@@ -167,7 +167,7 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .sign-video { width: 100%; min-height: 260px; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: 18px; background: rgba(0,0,0,0.24); }
 .sign-video.hidden { display: none; }
 .source-link { display: inline-flex; padding: 10px 14px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255,255,255,0.05); }
-.btn { border: 0; border-radius: 16px; padding: 14px 16px; font-weight: 700; cursor: pointer; transition: transform 0.12s ease, opacity 0.12s ease, background 0.12s ease; }
+.btn { border: 0; border-radius: 16px; padding: 14px 16px; font-weight: 700; cursor: pointer; transition: transform 0.12s ease, opacity 0.12s ease, background 0.12s ease; display: inline-flex; align-items: center; justify-content: center; }
 .btn:hover { transform: translateY(-1px); }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 .btn-small { padding: 10px 12px; border-radius: 12px; }
