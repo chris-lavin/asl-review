@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
     <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
-    <title>Lifeprint Vocab Review: Lessons 1-45</title>
+    <title>Lifeprint ASL Vocab Flash Cards</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260331f" />
+    <link rel="stylesheet" href="./styles.css?v=20260331h" />
   </head>
   <body>
     <div class="bg-orb orb-a"></div>
@@ -16,8 +16,8 @@
     <main class="app-shell">
       <section class="hero panel glass">
         <div class="hero-copy">
-          <span class="eyebrow">Lifeprint vocab review</span>
-          <h1>Lifeprint Vocab Review: Lessons 1-45</h1>
+          <span class="eyebrow">Lifeprint ASL vocab flash cards</span>
+          <h1>Lifeprint ASL Vocab Flash Cards</h1>
           <p>
             Review a single lesson or any lesson range, flip cards, watch sign videos, and keep track of what already feels solid.
           </p>
@@ -26,10 +26,10 @@
               <span class="stat-label">Lessons</span>
               <strong id="heroLessonCount">45</strong>
             </div>
-            <div class="stat-chip">
-              <span class="stat-label">Range</span>
+            <button id="rangeToggleBtn" class="stat-chip stat-chip-button" type="button" aria-expanded="true" aria-controls="heroRangeCard">
+              <span class="stat-label">Select Range:</span>
               <strong id="heroRangeLabel">1–18</strong>
-            </div>
+            </button>
             <div class="stat-chip">
               <span class="stat-label">Source</span>
               <strong>Lifeprint</strong>
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="hero-range-card">
+        <div id="heroRangeCard" class="hero-range-card">
           <div class="range-header">
             <div>
               <label>Lesson range</label>
@@ -136,6 +136,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260331g" type="module"></script>
+    <script src="./app.js?v=20260331h" type="module"></script>
   </body>
 </html>

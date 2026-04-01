@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'asl-review-progress-v1';
 const RANGE_STORAGE_KEY = 'asl-review-range-v1';
+const RANGE_VISIBILITY_STORAGE_KEY = 'asl-review-range-visibility-v1';
 const SHUFFLE_STORAGE_KEY = 'asl-review-shuffle-v1';
 const SELECTED_CARD_STORAGE_KEY = 'asl-review-selected-card-v1';
 
@@ -20,6 +21,8 @@ const els = {
   rangeEndNumber: document.querySelector('#rangeEndNumber'),
   rangeSummary: document.querySelector('#rangeSummary'),
   sliderTrack: document.querySelector('#sliderTrack'),
+  rangeToggleBtn: document.querySelector('#rangeToggleBtn'),
+  heroRangeCard: document.querySelector('#heroRangeCard'),
   allLessonsBtn: document.querySelector('#allLessonsBtn'),
   searchInput: document.querySelector('#searchInput'),
   clearSearchBtn: document.querySelector('#clearSearchBtn'),
@@ -56,6 +59,7 @@ async function init() {
     state.words = await response.json();
     state.maxLesson = Math.max(...state.words.flatMap((word) => word.lessons), 45);
     setupRangeSliders();
+    setupRangeVisibility();
     wireEvents();
     syncSearchClearButton();
     buildDeck();
@@ -101,6 +105,7 @@ function wireEvents() {
     els.rangeStartNumber.addEventListener(eventName, onRangeNumberInput);
     els.rangeEndNumber.addEventListener(eventName, onRangeNumberInput);
   });
+  els.rangeToggleBtn.addEventListener('click', toggleRangeVisibility);
 
   els.searchInput.addEventListener('input', () => {
     syncSearchClearButton();
@@ -202,6 +207,33 @@ function updateSliderUI() {
   syncRangeNumberInputs(start, end);
   els.sliderTrack.style.left = `${startPct}%`;
   els.sliderTrack.style.width = `${Math.max(endPct - startPct, 0)}%`;
+}
+
+function setupRangeVisibility() {
+  setRangeVisibility(loadRangeVisibility());
+}
+
+function toggleRangeVisibility() {
+  setRangeVisibility(els.heroRangeCard.classList.contains('hidden'));
+}
+
+function setRangeVisibility(visible) {
+  els.heroRangeCard.classList.toggle('hidden', !visible);
+  els.rangeToggleBtn.setAttribute('aria-expanded', String(visible));
+  saveRangeVisibility(visible);
+}
+
+function saveRangeVisibility(visible) {
+  localStorage.setItem(RANGE_VISIBILITY_STORAGE_KEY, JSON.stringify({ visible }));
+}
+
+function loadRangeVisibility() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(RANGE_VISIBILITY_STORAGE_KEY) || '{}');
+    return stored.visible !== false;
+  } catch {
+    return true;
+  }
 }
 
 function syncRangeNumberInputs(start, end) {
