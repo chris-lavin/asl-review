@@ -899,10 +899,10 @@
     "DRIVER": {
       "type": "image-sequence",
       "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver1.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver2.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver3.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver4.jpg"
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-1s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-2s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-3s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-4s.jpg"
       ],
       "quality": "sequence"
     },
@@ -978,6 +978,36 @@
     "WIFE": {
       "type": "video",
       "url": "https://www.youtube.com/embed/6lwaXQeF0FY?rel=0",
+      "quality": "demo"
+    },
+    "SAY": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fka6bGd2TX8?rel=0",
+      "quality": "demo"
+    },
+    "BLACK": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/O5_4x8p5t4U?rel=0",
+      "quality": "demo"
+    },
+    "LIST": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/LFubvvh2-sE?rel=0",
+      "quality": "demo"
+    },
+    "HARD-OF-HEARING": {
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/hard-of-hearing.gif",
+      "quality": "gif"
+    },
+    "DRIVE-back-there": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/_fYdWJp5-to?rel=0",
+      "quality": "demo"
+    },
+    "DRIVE-back-here": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/hgImSdRJwug?rel=0",
       "quality": "demo"
     }
   }

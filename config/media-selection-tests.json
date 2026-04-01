@@ -484,7 +484,7 @@
       "expect": {
         "type": "image-sequence"
       },
-      "note": "Use second set of pictures."
+      "note": "Use working driver image sequence from the drive page, not broken signjpegs URLs."
     },
     {
       "term": "drive-back-here",
@@ -609,6 +609,54 @@
         "url": "https://www.youtube.com/embed/6lwaXQeF0FY?rel=0"
       },
       "note": "Restore WIFE from the marriage page and use its demo video."
+    },
+    {
+      "term": "SAY",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/fka6bGd2TX8?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "BLACK",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/O5_4x8p5t4U?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "LIST",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/LFubvvh2-sE?rel=0"
+      },
+      "note": "Use the first YouTube video on the page."
+    },
+    {
+      "term": "HARD-OF-HEARING",
+      "expect": {
+        "type": "gif",
+        "url": "https://www.lifeprint.com/asl101/gifs-animated/hard-of-hearing.gif"
+      },
+      "note": "Use the first animated GIF on the page."
+    },
+    {
+      "term": "DRIVE-back-there",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/_fYdWJp5-to?rel=0"
+      },
+      "note": "Use the directional DRIVE-to video from the drive page."
+    },
+    {
+      "term": "DRIVE-back-here",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/hgImSdRJwug?rel=0"
+      },
+      "note": "Use the DRIVE-to-here video from the drive page."
     }
   ]
 }
