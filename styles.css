@@ -53,6 +53,15 @@ button, input, select { font: inherit; }
   border-color: rgba(124, 156, 255, 0.38);
   background: rgba(124,156,255,0.12);
 }
+.stat-chip-link {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stat-chip-link:hover {
+  border-color: rgba(124, 156, 255, 0.28);
+  background: rgba(255,255,255,0.08);
+}
 .hero-range-card {
   display: grid;
   gap: 16px;
