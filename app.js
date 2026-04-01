@@ -31,6 +31,7 @@ const els = {
   deckLabel: document.querySelector('#deckLabel'),
   progressLabel: document.querySelector('#progressLabel'),
   deckCount: document.querySelector('#deckCount'),
+  cardHint: document.querySelector('#cardHint'),
   termText: document.querySelector('#termText'),
   lessonText: document.querySelector('#lessonText'),
   sourceLink: document.querySelector('#sourceLink'),
@@ -315,6 +316,8 @@ function render() {
 
   const item = state.deck[state.index];
   els.deckLabel.textContent = `Card ${state.index + 1} of ${state.deck.length}`;
+  els.cardHint.textContent = state.revealed ? 'Tap to hide' : 'Tap to reveal';
+  els.flashcard.classList.toggle('flashcard-revealed', state.revealed);
   els.termText.textContent = item.term;
   els.lessonText.textContent = formatLessonList(item.lessons);
   els.sourceLink.href = item.sourceUrl;

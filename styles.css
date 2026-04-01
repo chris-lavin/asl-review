@@ -170,8 +170,9 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .progress-pill, .deck-count { border-radius: 999px; background: rgba(124, 156, 255, 0.14); border: 1px solid rgba(124, 156, 255, 0.2); color: #dce5ff; padding: 10px 14px; white-space: nowrap; }
 .deck-search-wrap { margin-bottom: 0; }
 .deck-search-label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 0.9rem; }
-.flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(150,190,255,0.18); background: linear-gradient(145deg, rgba(88, 130, 255, 0.26), rgba(149,124,255,0.12)), linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03)); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 40px rgba(63, 95, 209, 0.18); overflow: hidden; }
-.flashcard::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 35%); }
+.flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(120,170,255,0.34); background: linear-gradient(155deg, rgba(58, 98, 255, 0.48), rgba(138,108,255,0.28) 52%, rgba(27, 36, 76, 0.92) 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 24px 60px rgba(44, 72, 184, 0.34); overflow: hidden; }
+.flashcard::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(255,255,255,0.28), transparent 34%), radial-gradient(circle at bottom left, rgba(124,156,255,0.20), transparent 30%); }
+.flashcard.flashcard-revealed { background: linear-gradient(155deg, rgba(42, 84, 235, 0.58), rgba(124,96,240,0.34) 52%, rgba(23, 30, 66, 0.95) 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.10), 0 26px 65px rgba(52, 84, 210, 0.38); }
 .flashcard-inner { position: relative; z-index: 1; min-height: 360px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 72px 30px; }
 .card-corner-btn {
   position: absolute;
@@ -185,8 +186,8 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .card-corner-top-right { top: 14px; right: 14px; }
 .card-corner-bottom-left { bottom: 14px; left: 14px; }
 .card-corner-bottom-right { bottom: 14px; right: 14px; }
-.card-hint { margin: 0 0 10px; color: var(--muted); font-size: 0.92rem; }
-.flashcard h3 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1; letter-spacing: -0.03em; }
+.card-hint { margin: 0 0 10px; color: rgba(233, 239, 255, 0.82); font-size: 0.92rem; letter-spacing: 0.02em; }
+.flashcard h3 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1; letter-spacing: -0.03em; text-shadow: 0 6px 18px rgba(8, 14, 40, 0.35); }
 .answer.hidden { display: none; }
 .answer { margin-top: 18px; display: grid; gap: 12px; justify-items: center; width: min(100%, 720px); }
 .lesson-text { margin: 0; color: #d1dcff; font-size: 1rem; }
