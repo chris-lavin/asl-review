@@ -53,6 +53,10 @@ button, input, select { font: inherit; }
   border-color: rgba(124, 156, 255, 0.38);
   background: rgba(124,156,255,0.12);
 }
+.stat-chip-button.stat-chip-active {
+  border-color: rgba(124, 156, 255, 0.42);
+  background: rgba(124,156,255,0.16);
+}
 .stat-chip-link {
   display: inline-flex;
   flex-direction: column;

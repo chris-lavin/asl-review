@@ -214,12 +214,15 @@ function setupRangeVisibility() {
 }
 
 function toggleRangeVisibility() {
-  setRangeVisibility(els.heroRangeCard.classList.contains('hidden'));
+  const visible = els.rangeToggleBtn.getAttribute('aria-expanded') === 'true';
+  setRangeVisibility(!visible);
 }
 
 function setRangeVisibility(visible) {
+  els.heroRangeCard.hidden = !visible;
   els.heroRangeCard.classList.toggle('hidden', !visible);
   els.rangeToggleBtn.setAttribute('aria-expanded', String(visible));
+  els.rangeToggleBtn.classList.toggle('stat-chip-active', visible);
   saveRangeVisibility(visible);
 }
 
@@ -230,9 +233,9 @@ function saveRangeVisibility(visible) {
 function loadRangeVisibility() {
   try {
     const stored = JSON.parse(localStorage.getItem(RANGE_VISIBILITY_STORAGE_KEY) || '{}');
-    return stored.visible !== false;
+    return stored.visible === true;
   } catch {
-    return true;
+    return false;
   }
 }
 
