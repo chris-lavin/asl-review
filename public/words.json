@@ -2335,10 +2335,28 @@
     ],
     "media": {
       "type": "video",
+      "url": "https://www.youtube.com/embed/hgImSdRJwug?rel=0",
+      "quality": "demo",
+      "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm",
+      "selectedFrom": "override"
+    }
+  },
+  {
+    "id": "drive-back-there",
+    "term": "DRIVE-back-there",
+    "lessons": [
+      5
+    ],
+    "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm",
+    "sourceUrls": [
+      "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm"
+    ],
+    "media": {
+      "type": "video",
       "url": "https://www.youtube.com/embed/_fYdWJp5-to?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -2837,11 +2855,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/b/black.htm"
     ],
     "media": {
-      "type": "gif",
-      "url": "https://www.lifeprint.com/asl101/images-signs/black.gif",
-      "quality": "gif",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/O5_4x8p5t4U?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/b/black.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -4207,16 +4225,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/s/say.htm"
     ],
     "media": {
-      "type": "image-sequence",
-      "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/s/say-what-did-he-say1.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/s/say-what-did-he-say2.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/s/say-what-did-he-say3.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/s/say-what-did-he-say4.jpg"
-      ],
-      "quality": "sequence",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fka6bGd2TX8?rel=0",
+      "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/s/say.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -5747,11 +5760,11 @@
       "https://www.lifeprint.com/asl101/pages-signs/h/hard-of-hearing.htm"
     ],
     "media": {
-      "type": "video",
-      "url": "https://www.lifeprint.com/asl101/videos/you-think-hard-of-hearing-should-marry-deaf-or-hearing_player.mp4",
-      "quality": "demo",
+      "type": "gif",
+      "url": "https://www.lifeprint.com/asl101/gifs-animated/hard-of-hearing.gif",
+      "quality": "gif",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/h/hard-of-hearing.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -5802,10 +5815,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/hrrAOqfqe7k?rel=0",
+      "url": "https://www.youtube.com/embed/LFubvvh2-sE?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/l/list.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
@@ -6783,10 +6796,10 @@
     "media": {
       "type": "image-sequence",
       "urls": [
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver1.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver2.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver3.jpg",
-        "https://www.lifeprint.com/asl101/signjpegs/d/driver4.jpg"
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-1s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-2s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-3s.jpg",
+        "https://www.lifeprint.com/asl101/pages-signs/d/drivers-4s.jpg"
       ],
       "quality": "sequence",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/d/drive.htm",
