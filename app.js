@@ -27,7 +27,6 @@ const els = {
   searchInput: document.querySelector('#searchInput'),
   clearSearchBtn: document.querySelector('#clearSearchBtn'),
   hideKnownInput: document.querySelector('#hideKnownInput'),
-  heroLessonCount: document.querySelector('#heroLessonCount'),
   heroRangeLabel: document.querySelector('#heroRangeLabel'),
   deckLabel: document.querySelector('#deckLabel'),
   progressLabel: document.querySelector('#progressLabel'),
@@ -92,7 +91,6 @@ function setupRangeSliders() {
   els.rangeEndInput.value = String(end);
   els.rangeStartNumber.value = String(start);
   els.rangeEndNumber.value = String(end);
-  els.heroLessonCount.textContent = String(state.maxLesson);
   updateSliderUI();
 }
 
@@ -297,7 +295,6 @@ function updateRangeLabels(startLesson, endLesson) {
   const rangeText = startLesson === endLesson ? `Lesson ${startLesson}` : `Lessons ${startLesson}–${endLesson}`;
   els.rangeSummary.textContent = rangeText;
   els.heroRangeLabel.textContent = `${startLesson}–${endLesson}`;
-  els.heroLessonCount.textContent = String(lessonCount);
 }
 
 function render() {
