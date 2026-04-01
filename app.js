@@ -36,7 +36,6 @@ const els = {
   sourceLink: document.querySelector('#sourceLink'),
   answerArea: document.querySelector('#answerArea'),
   videoArea: document.querySelector('#videoArea'),
-  videoStatus: document.querySelector('#videoStatus'),
   signGif: document.querySelector('#signGif'),
   signSequence: document.querySelector('#signSequence'),
   signVideo: document.querySelector('#signVideo'),
@@ -400,7 +399,6 @@ function setNavDisabled(disabled) {
 
 function resetVideo({ preserveEmbedded = false } = {}) {
   els.videoArea.classList.add('hidden');
-  els.videoStatus.textContent = 'Loading sign media…';
   els.signGif.classList.add('hidden');
   els.signGif.removeAttribute('src');
   els.signSequence.classList.add('hidden');
@@ -417,13 +415,11 @@ function applyMedia(media) {
 
   if (!media?.url && !media?.urls?.length) {
     resetEmbeddedVideo();
-    els.videoStatus.textContent = 'No sign media found for this page. Use the Lifeprint link below.';
     return;
   }
 
   if (media.type === 'gif') {
     resetEmbeddedVideo();
-    els.videoStatus.textContent = 'Animated sign reference';
     els.signGif.src = media.url;
     els.signGif.classList.remove('hidden');
     return;
@@ -431,7 +427,6 @@ function applyMedia(media) {
 
   if (media.type === 'image-sequence') {
     resetEmbeddedVideo();
-    els.videoStatus.textContent = 'Step-by-step sign image sequence';
     els.signSequence.innerHTML = media.urls
       .map((url, index) => `<img src="${escapeHtml(url)}" alt="Sign step ${index + 1}" loading="lazy" />`)
       .join('');
@@ -441,7 +436,6 @@ function applyMedia(media) {
 
   const videoUrl = media.url;
   const isYouTubeEmbed = videoUrl.includes('youtube.com/embed/');
-  els.videoStatus.textContent = media.quality === 'fallback' ? 'Context example video' : 'Sign demo video';
 
   if (state.loadedVideoUrl !== videoUrl) {
     els.signVideo.src = isYouTubeEmbed ? buildAutoplayOnceUrl(videoUrl) : videoUrl;

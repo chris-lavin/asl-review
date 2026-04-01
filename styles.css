@@ -170,7 +170,7 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .progress-pill, .deck-count { border-radius: 999px; background: rgba(124, 156, 255, 0.14); border: 1px solid rgba(124, 156, 255, 0.2); color: #dce5ff; padding: 10px 14px; white-space: nowrap; }
 .deck-search-wrap { margin-bottom: 0; }
 .deck-search-label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 0.9rem; }
-.flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(255,255,255,0.09); background: linear-gradient(145deg, rgba(132, 158, 255, 0.16), rgba(255,255,255,0.05)), linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); overflow: hidden; }
+.flashcard { position: relative; min-height: 360px; border-radius: 28px; cursor: pointer; border: 1px solid rgba(150,190,255,0.18); background: linear-gradient(145deg, rgba(88, 130, 255, 0.26), rgba(149,124,255,0.12)), linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03)); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 40px rgba(63, 95, 209, 0.18); overflow: hidden; }
 .flashcard::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 35%); }
 .flashcard-inner { position: relative; z-index: 1; min-height: 360px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 72px 30px; }
 .card-corner-btn {
@@ -192,7 +192,6 @@ input[type="search"]:focus { border-color: rgba(124, 156, 255, 0.6); box-shadow:
 .lesson-text { margin: 0; color: #d1dcff; font-size: 1rem; }
 .video-area { width: 100%; display: grid; gap: 10px; justify-items: center; }
 .video-area.hidden { display: none; }
-.video-status { color: var(--muted); font-size: 0.92rem; text-align: center; }
 .sign-gif {
   width: auto; max-width: 100%; max-height: 280px; border: 1px solid var(--line); border-radius: 18px;
   background: rgba(255,255,255,0.03); padding: 8px;
