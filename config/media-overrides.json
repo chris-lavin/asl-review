@@ -1009,6 +1009,11 @@
       "type": "video",
       "url": "https://www.youtube.com/embed/hgImSdRJwug?rel=0",
       "quality": "demo"
+    },
+    "OUT": {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oz63G93uNGk?rel=0",
+      "quality": "demo"
     }
   }
 }

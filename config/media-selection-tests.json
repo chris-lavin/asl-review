@@ -657,6 +657,14 @@
         "url": "https://www.youtube.com/embed/hgImSdRJwug?rel=0"
       },
       "note": "Use the DRIVE-to-here video from the drive page."
+    },
+    {
+      "term": "OUT",
+      "expect": {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/oz63G93uNGk?rel=0"
+      },
+      "note": "Use the OUT video on the in/out page, not the first IN video."
     }
   ]
 }
