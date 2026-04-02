@@ -2558,10 +2558,10 @@
     ],
     "media": {
       "type": "video",
-      "url": "https://www.youtube.com/embed/YirRi12-zWo?rel=0",
+      "url": "https://www.youtube.com/embed/oz63G93uNGk?rel=0",
       "quality": "demo",
       "sourceUrl": "https://www.lifeprint.com/asl101/pages-signs/i/inout.htm",
-      "selectedFrom": "direct"
+      "selectedFrom": "override"
     }
   },
   {
